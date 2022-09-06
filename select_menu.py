@@ -1,5 +1,6 @@
-from tkinter import Toplevel
+import os
 import tkinter as tk
+from tkinter import Toplevel, messagebox as mbox
 from logger import debug_log, info_log
 import writer_and_reader as wr
 from table import Table
@@ -21,9 +22,10 @@ class SelectionWindow:
     def __menu_for_select(self) -> None:
         self.__window['background'] = self.__master['background']
         self.__window.title('Выборка файла')
-        self.__window.geometry('250x300+500+200')
-        self.__window.minsize(250, 300)
-        self.__window.maxsize(250, 350)
+        self.__window.geometry('350x250+500+200')
+        self.__window.minsize(350, 250)
+        self.__window.maxsize(350, 250)
+        self.__window.grab_set()
 
     def __elements(self) -> None:
         info = tk.Label(self.__window,
@@ -41,6 +43,7 @@ class SelectionWindow:
         scrollbar.configure(command=self.__filenames.yview)
         scrollbar.place(x=225, y=42, height=200)
         self.__filenames["yscrollcommand"] = scrollbar.set
+        self.__buttons()
 
     def __data_for_select(self) -> None:
         debug_log("The search function for Excel files in the directory has been launched",
@@ -48,24 +51,30 @@ class SelectionWindow:
         excel_files = wr.excel_finder()
         for excel_file in excel_files:
             self.__filenames.insert(tk.END, excel_file)
+
+    def __buttons(self):
         choose_button = tk.Button(self.__window, text="Выбрать",
-                                  background="#36fc45",
-                                  foreground="black",
-                                  padx="5",
-                                  pady="5",
-                                  font="12",
-                                  command=self.__check_button)
-        choose_button.place(x=20, y=250)
-        cancel_button = tk.Button(self.__window, text="Отмена",
+                                  background="#caffd3", foreground="black",
+                                  padx="3", pady="3",
+                                  font="12", height=1, width=8,
+                                  command=self.__open_files)
+        delete_button = tk.Button(self.__window, text="Удалить",
                                   background="#ff8c8f",
                                   foreground="black",
-                                  padx="5",
-                                  pady="5",
-                                  font="12",
-                                  command=self.cancel)
-        cancel_button.place(x=140, y=250)
+                                  padx="3", pady="3",
+                                  font="12", height=1, width=8,
+                                  command=self.__delete_file)
+        cancel_button = tk.Button(self.__window, text="Отмена",
+                                  background="#F0FFFF",
+                                  foreground="black",
+                                  padx="3", pady="3",
+                                  font="12", height=1, width=8,
+                                  command=self.__window.destroy)
+        choose_button.place(x=250, y=40)
+        delete_button.place(x=250, y=90)
+        cancel_button.place(x=250, y=140)
 
-    def __check_button(self) -> None:
+    def __open_files(self) -> None:
         debug_log("The function to initialize the table with data has been launched",
                   'select_menu.py', 'SelectionWindow', '__check_button')
         select = list(self.__filenames.curselection())
@@ -74,5 +83,21 @@ class SelectionWindow:
         info_log("Selection window destroyed", 'select_menu.py', 'SelectionWindow', '__check_button')
         Table(self.__master, filename_old, filename_new)
 
-    def cancel(self):
-        self.__window.destroy()
+    def __delete_file(self):
+        first_answer = mbox.askquestion('Удаление файла', 'Вы действительно хотите удалить данные с ценами?')
+        if first_answer == 'yes':
+            second_answer = mbox.askquestion('Внимание!', 'Если файл скачан позже нынешней даты,\n'
+                                                          'то его нельзя cнова скачать!\n'
+                                                          'Продолжить?')
+            if second_answer == 'yes':
+                select = self.__filenames.curselection()
+                file_name = 'xlsx_files/' + self.__filenames.get(select)
+                path = os.path.join(os.path.abspath(os.path.dirname(__file__)), file_name)
+                os.remove(path)
+                mbox.showinfo('Уведомление', f'Файл {file_name} удален!')
+                SelectionWindow(self.__master)
+            else:
+                pass
+        else:
+            pass
+

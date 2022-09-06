@@ -13,13 +13,12 @@ class GUI(tk.Tk):
         info_log("Main window initialized", 'app.py', 'GUI', '__init__')
         self.configs()
         self.protocol('<WM_DELETE_WINDOW>', self.exiting)
-        DateCheck(self)
 
     def configs(self):
         self.option_add("*Font", "TkTextFont")
         self.title('Отслеживание цен Карат-Маркет')
         self.geometry('1600x850')
-        self['background'] = '#caffd3'
+        self['background'] = '#FFFFE0'
         self.minsize(900, 100)
         self.maxsize(1920, 1080)
         self.config(menu=Menubar(self))
@@ -56,6 +55,10 @@ class Menubar(Menu):  # Меню для управления
     def menubar_filling(self):
         self.add_cascade(label="Выбрать цены...", command=self.child_init)
         self.add_cascade(label="Выбрать категории...", command='')
+        self.add_cascade(label="Загрузить новые цены...", command=self.data_update)
+
+    def data_update(self):
+        DateCheck(self.master)
 
     def child_init(self):
         debug_log("Select box initialization function started", 'app.py', 'Menubar', '__init__')
