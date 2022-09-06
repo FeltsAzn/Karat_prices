@@ -9,4 +9,4 @@ The application is divided into different files (blocks) that are easier to mana
 
 
 
-[Alt text]([https://github.com/FeltsAzn/Karat_prices/ScreenShots/master/ScreenShots/table_view.png]
+[Alt text](https://github.com/FeltsAzn/Karat_prices/ScreenShots/master/ScreenShots/gui_view.png)
