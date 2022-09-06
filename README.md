@@ -4,6 +4,7 @@ An asynchronous data parser from the site has been implemented.
 Also the output of the changed positions of goods
 
 The application is divided into different files (blocks) that are easier to manage.
+App Visual Style:                                                                                                        
 / Main application window                                                            
 ![Alt text](https://github.com/FeltsAzn/Karat_prices/blob/master/ScreenShots/img.png)
 
