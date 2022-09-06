@@ -51,10 +51,6 @@ class Menubar(Menu):  # Меню для управления
         self.master['background'] = master['background']
         self.configure(background=master['background'])
         self.option_add('*Font', "Arial 12 bold")
-        self.show_changed = tk.BooleanVar()
-        self.show_changed.set(False)
-        self.file_menu = Menu(self, tearoff=0, background=master['background'])
-        self.help_menu = Menu(self, tearoff=0, background=master['background'])
         self.menubar_filling()
 
     def menubar_filling(self):
