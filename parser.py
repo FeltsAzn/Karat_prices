@@ -2,7 +2,6 @@ import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
 from logger import debug_log, info_log, exception_log
-from download_logger import download_debug_log
 from writer_and_reader import writer
 from setting_for_parser import head_browser, url_site
 
@@ -54,13 +53,13 @@ class Parser:
     def __counter_requests(self, name: str) -> None:
         """Function output data to the terminal"""
         self.__counter += 1
-        download_debug_log(f'Request {self.__counter}. The data of the "{name}" section\n'
-                           f'has been written to the list of dictionaries!')
+        debug_log(f'Request {self.__counter}. The data of the "{name}" section\n'
+                  f'has been written to the list of dictionaries!', 'parser.py', 'Parser', '__counter_requests')
 
     async def __tasks_executor(self, session: aiohttp.client.ClientSession, url: str, name_section: str) -> None:
         """Async function to find the right data"""
-
-        async with session.get(url=url, headers=self.__head) as response:
+        async with session.get(url=url, headers=self.__head, ssl=False) as response:
+            #await asyncio.sleep(0.5)
             response_text = await response.text()
             soup = BeautifulSoup(response_text, 'lxml')
             names, prices = products_finder(soup)
@@ -68,10 +67,12 @@ class Parser:
             if data:
                 self.__data_list.append((data, name_section))
                 self.__counter_requests(name_section)
-                download_debug_log(f'Query {self.__counter} data added to record sheet')
+                debug_log(f'Query {self.__counter} data added to record sheet',
+                          'parser.py', 'Parser', '__tasks_executor')
 
             else:
-                download_debug_log('Data not found, looping over to find data in subdirectories')
+                debug_log('Data not found, looping over to find data in subdirectories',
+                          'parser.py', 'Parser', '__tasks_executor')
 
                 links_and_names = link_finder(soup)
                 for link_section, name_section in links_and_names:
@@ -80,11 +81,12 @@ class Parser:
     async def __tasks_manager(self) -> None:
         """Async function to set the request processing queue"""
         async with aiohttp.ClientSession() as session:
-            download_debug_log('Sending a request to the server')
-            download_debug_log(f'Connecting to {self.__url}\n')
+            debug_log('Sending a request to the server', 'parser.py', 'Parser', '__tasks_manager')
+            debug_log(f'Connecting to {self.__url}\n'
+                      f'with header {self.__head}\n', 'parser.py', 'Parser', '__tasks_manager')
             try:
                 response = await session.get(url=self.__url, headers=self.__head)
-                download_debug_log(f'Server response received {response.status}')
+                debug_log(f'Server response received {response.status}', 'parser.py', 'Parser', '__tasks_manager')
             except Exception as exc:
                 exception_log(f'Site connection error, response code {response.status}',
                               'parser.py', 'Parser', '__tasks_manager', f'{exc}')
@@ -95,13 +97,13 @@ class Parser:
             for link_section, name_section in links_and_names:
                 task = asyncio.create_task(self.__tasks_executor(session, link_section, name_section))
                 tasks.append(task)
-                download_debug_log('Task manager created successfully!')
             await asyncio.gather(*tasks)
 
             info_log('All data collected!', 'parser.py', 'Parser', '__tasks_manager')
             info_log('Data transferred for writing!', 'parser.py', 'Parser', '__tasks_manager')
 
-            download_debug_log('##### All data collected! #####\n##### Data transferred for writing! #####')
+            # print('##### All data collected! #####\n'
+            #       '##### Data transferred for writing! #####')
             writer(self.__data_list)
 
     def start_collecting(self) -> None:

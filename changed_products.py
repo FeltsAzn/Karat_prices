@@ -20,9 +20,9 @@ class ChangedData:
     def __menu_for_select(self) -> None:
         self.__root['background'] = self.master['background']
         self.__root.title('Выборка файла')
-        self.__root.geometry('1000x600+500+200')
+        self.__root.geometry('1000x588+500+200')
         self.__root.minsize(1000, 250)
-        self.__root.maxsize(1000, 600)
+        self.__root.maxsize(1000, 588)
 
     def __elements(self) -> None:
         debug_log("The function of initializing the table with the changed "

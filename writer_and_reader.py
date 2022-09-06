@@ -1,7 +1,6 @@
 import pandas
 import os
 from datetime import datetime
-from download_logger import download_debug_log
 from logger import exception_log, debug_log, info_log
 
 
@@ -53,9 +52,9 @@ def writer(list_tuples: [tuple]) -> None:
 
         debug_log('Information was been save to Backup_data.txt', 'writer_and_reader.py', '', 'writer')
     else:
-        download_debug_log(f'Information was been save to {date}.xlsx')
-        download_debug_log('Registration completed successfully!')
+
         debug_log(f'Information was been save to {date}.xlsx', 'writer_and_reader.py', '', 'writer')
+        debug_log('Registration completed successfully!', 'writer_and_reader.py', '', 'writer')
 
 
 def excel_finder() -> list:

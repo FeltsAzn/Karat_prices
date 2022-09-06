@@ -10,19 +10,19 @@ logger = logging.getLogger('Program_logger')
 
 
 def debug_log(message, filename='', classname='', funcname=''):
-    logger.info(f'[DEBUG][{filename}//{classname}//{funcname}] {message}.')
+    logger.debug(f'[DEBUG][{filename}\\{classname}\\{funcname}] {message}.')
 
 
 def info_log(message, filename='', classname='', funcname=''):
-    logger.info(f'[INFO][{filename}//{classname}//{funcname}] {message}.')
+    logger.info(f'[INFO][{filename}\\{classname}\\{funcname}] {message}.')
 
 
 def warning_log(message, filename='', classname='', funcname=''):
-    logger.info(f'[WARNING][{filename}//{classname}//{funcname}] {message}.')
+    logger.warning(f'[WARNING][{filename}\\{classname}\\{funcname}] {message}.')
 
 
 def exception_log(message, filename='', classname='', funcname='',  ex=''):
     if ex:
-        logger.exception(f'[EXCEPTION]{filename}//{classname}//{funcname}] {message}. Exception: {ex}')
+        logger.exception(f'[EXCEPTION]{filename}\\{classname}\\{funcname}] {message}. Exception: {ex}')
     else:
-        logger.exception(f'[EXCEPTION][{filename}//{classname}//{funcname}] {message}.')
+        logger.exception(f'[EXCEPTION][{filename}\\{classname}\\{funcname}] {message}.')
