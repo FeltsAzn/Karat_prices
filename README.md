@@ -5,5 +5,5 @@ Also the output of the changed positions of goods
 
 The application is divided into different files (blocks) that are easier to manage.
 
-[Alt text](https://github.com/FeltsAzn/Karat_prices/blob/master/ScreenShots/img.png)
+![Alt text](https://github.com/FeltsAzn/Karat_prices/blob/master/ScreenShots/img.png)
 
