@@ -1,4 +1,5 @@
 from fake_useragent import UserAgent
+"""User agent generator for website parsing"""
 
 user = UserAgent()
 

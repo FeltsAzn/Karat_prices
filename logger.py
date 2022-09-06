@@ -6,32 +6,23 @@ logging.basicConfig(filename='logs.txt',
                     format='%(asctime)s %(message)s',
                     encoding='utf-8',
                     level='DEBUG',)
-logger = logging.getLogger('Parser_logger')
+logger = logging.getLogger('Program_logger')
 
 
-def debug_log(message, ex=''):
+def debug_log(message, filename='', classname='', funcname=''):
+    logger.info(f'[DEBUG][{filename}//{classname}//{funcname}] {message}.')
+
+
+def info_log(message, filename='', classname='', funcname=''):
+    logger.info(f'[INFO][{filename}//{classname}//{funcname}] {message}.')
+
+
+def warning_log(message, filename='', classname='', funcname=''):
+    logger.info(f'[WARNING][{filename}//{classname}//{funcname}] {message}.')
+
+
+def exception_log(message, filename='', classname='', funcname='',  ex=''):
     if ex:
-        logger.debug(f'[DEBUG] *** {message} {ex} ***')
+        logger.exception(f'[EXCEPTION]{filename}//{classname}//{funcname}] {message}. Exception: {ex}')
     else:
-        logger.debug(f'[DEBUG] *** {message} ***')
-
-
-def info_log(message, ex=''):
-    if ex:
-        logger.info(f'[INFO] *** {message} {ex} ***')
-    else:
-        logger.info(f'[INFO] *** {message} ***')
-
-
-def warning_log(message, ex=''):
-    if ex:
-        logger.warning(f'[WARNING] *** {message} {ex} ***')
-    else:
-        logger.warning(f'[WARNING] *** {message} ***')
-
-
-def exception_log(message, ex=''):
-    if ex:
-        logger.exception(f'[EXCEPTION] *** {message} {ex} ***')
-    else:
-        logger.exception(f'[EXCEPTION] *** {message} ***')
+        logger.exception(f'[EXCEPTION][{filename}//{classname}//{funcname}] {message}.')

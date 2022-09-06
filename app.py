@@ -1,13 +1,16 @@
 import tkinter as tk
 from logger import info_log, debug_log
 from tkinter import Menu, messagebox as mbox
-from select_menu import SelectionMenu
-from datechecker import DateCheck
+from select_menu import SelectionWindow
+from date_checker import DateCheck
 
 
 class GUI(tk.Tk):
+    """Main window"""
+
     def __init__(self):
         super().__init__()
+        info_log("Main window initialized", 'app.py', 'GUI', '__init__')
         self.configs()
         self.protocol('<WM_DELETE_WINDOW>', self.exiting)
         DateCheck(self)
@@ -21,6 +24,16 @@ class GUI(tk.Tk):
         self.maxsize(1920, 1080)
         self.config(menu=Menubar(self))
 
+    def refresh_data(self):
+        info_log('The main window has been updated', 'app.py', 'GUI', '__init__')
+
+        all_widgets = [w for w in self.children]
+        for widget in all_widgets:
+            if widget == '!menubar':
+                pass
+            else:
+                self.nametowidget(widget).destroy()
+
     def exiting(self):
         answer = mbox.askquestion('Выход', 'Вы действительно хотите выйти?')
         if answer is True:
@@ -28,8 +41,12 @@ class GUI(tk.Tk):
 
 
 class Menubar(Menu):  # Меню для управления
+    """Menu for selecting actions"""
+
     def __init__(self, master):
         super().__init__(master)
+        info_log("Menu for main window initialized", 'app.py', 'Menubar', '__init__')
+
         self.master = master
         self.master['background'] = master['background']
         self.configure(background=master['background'])
@@ -41,27 +58,16 @@ class Menubar(Menu):  # Меню для управления
         self.menubar_filling()
 
     def menubar_filling(self):
-        self.file_menu.add_command(label="Выбрать цены...", command=self.child_init)
-        self.file_menu.add_separator()
-        self.file_menu.add_command(label="Обновить таблицу", command='')
-
-        self.help_menu.add_checkbutton(label="Вывести только изменившиеся позиции",
-                                       onvalue=1,
-                                       offvalue=0,
-                                       variable=self.show_changed,
-                                       command='self.filtered_data')
-
-        self.add_cascade(label="Цены", menu=self.file_menu)
-        self.add_cascade(label="Отображение", menu=self.help_menu)
+        self.add_cascade(label="Выбрать цены...", command=self.child_init)
+        self.add_cascade(label="Выбрать категории...", command='')
 
     def child_init(self):
-        SelectionMenu(self.master)
+        debug_log("Select box initialization function started", 'app.py', 'Menubar', '__init__')
+
+        SelectionWindow(self.master)
 
 
 if __name__ == '__main__':
+    info_log("Application start", 'app.py')
     run = GUI()
     run.mainloop()
-
-'''Подумать, как очищать таблицу, 
-реализовать фильтрацию по изменённым значениям, 
-разобраться с проверкой цен и наимнований'''

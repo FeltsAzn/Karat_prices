@@ -1,9 +1,15 @@
 from tkinter import ttk, Scrollbar, Toplevel
+from logger import info_log, debug_log
 import tkinter as tk
 
 
 class ChangedData:
-    def __init__(self, master, data):
+    """Changed data output window"""
+
+    def __init__(self, master, data: list):
+        info_log('Window table with changed positions initialized',
+                 'changed_products.py', 'ChangedData', '__init__')
+
         self.master = master
         self.changed_data = data
         self.__root = Toplevel(self.master)
@@ -11,18 +17,24 @@ class ChangedData:
         self.__elements()
         self.__root.mainloop()
 
-    def __menu_for_select(self):
+    def __menu_for_select(self) -> None:
         self.__root['background'] = self.master['background']
         self.__root.title('Выборка файла')
         self.__root.geometry('1000x600+500+200')
         self.__root.minsize(1000, 250)
         self.__root.maxsize(1000, 600)
 
-    def __elements(self):
+    def __elements(self) -> None:
+        debug_log("The function of initializing the table with the changed "
+                  "positions of the product has been launched",
+                  'changed_products.py', 'ChangedData', '__elements')
+
         ChangedTable(self.__root, self.changed_data)
 
 
 class MyTree(ttk.Treeview):
+    """Editing a class method to change the background color of an individual row"""
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         # Элементам с тегом green назначить зеленый фон, элементам с тегом red назначить красный фон
@@ -34,7 +46,7 @@ class MyTree(ttk.Treeview):
         self.tag_configure('white', background='white')
 
     def insert(self, parent_node, index, **kwargs):
-        '''Назначение тега при добавлении элемента в дерево'''
+        """Assigning a tag when adding an element to the tree"""
 
         item = super().insert(parent_node, index, **kwargs)
 
@@ -59,33 +71,38 @@ class MyTree(ttk.Treeview):
 
 
 class ChangedTable(MyTree):
-    def __init__(self, root, data, *args, **kwargs):
+    """Changed data table"""
+
+    def __init__(self, root, data: list, *args, **kwargs):
         super().__init__(root, *args, **kwargs)
+        info_log('Window changed table initialized', 'changed_products.py', 'ChangedTable', '__init__')
+
         self.__window = root
         self.__style = ttk.Style()
         self.__data = data
         self.__columns = ("№", "Наименование товара", "Старая цена", "Новая цена")
         self.__changed_table = MyTree(self.__window, columns=self.__columns[1:])
-        self.__style_tree()
         self.__table_view()
-        self.__scroll_view()
+
         self.__filling_fields(self.__data)
 
-    def __style_tree(self):
-        self.__style.map('Treeview', foreground=self.fixed_style('foreground'), background=self.fixed_style('background'))
+    def __style_tree(self) -> None:
+        self.__style.map('Treeview', foreground=self.fixed_style('foreground'),
+                         background=self.fixed_style('background'))
         self.__style.configure('Treeview', rowheight=20, font="Arial 10 bold")
 
-    # Устранение ошибки с отображением цветов
-    def fixed_style(self, option):
+    def fixed_style(self, option: str) -> list:  # Troubleshooting color display
         return [elm for elm in self.__style.map('Treeview', query_opt=option) if elm[:2] != ('!disabled', '!selected')]
 
-    def __scroll_view(self):
-        scroller = Scrollbar(self.__changed_table)
-        scroller.pack(side=tk.RIGHT, fill=tk.Y)
-        scroller.configure(command=self.__changed_table.yview)
-        self.__changed_table["yscrollcommand"] = scroller.set
+    def __scroll_view(self) -> None:
+        scroll = Scrollbar(self.__changed_table)
+        scroll.pack(side=tk.RIGHT, fill=tk.Y)
+        scroll.configure(command=self.__changed_table.yview)
+        self.__changed_table["yscrollcommand"] = scroll.set
 
-    def __table_view(self):
+    def __table_view(self) -> None:
+        self.__scroll_view()
+        self.__style_tree()
         self.__changed_table.pack(expand=tk.YES, side=tk.LEFT, fill=tk.BOTH)
         for i, heading in enumerate(self.__columns):
             self.__changed_table.heading('#' + str(i), text=heading)
@@ -96,6 +113,9 @@ class ChangedTable(MyTree):
             else:
                 self.__changed_table.column('#' + str(i), anchor='center', width=50, stretch=True, minwidth=30)
 
-    def __filling_fields(self, all_data):
+    def __filling_fields(self, all_data: list) -> None:
         for num, _, name, old_price, new_price in all_data:
             self.__changed_table.insert('', tk.END, text=num, values=(name, old_price, new_price))
+
+        debug_log('Table with changed product positions is full',
+                  'changed_products.py', 'ChangedTable', '__filling_fields')

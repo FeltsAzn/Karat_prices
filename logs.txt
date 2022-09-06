@@ -1,0 +1,25 @@
+2022-09-06 13:43:24,366 [INFO] *** Selection window created ***
+2022-09-06 13:43:24,808 [INFO] *** [!file:app] Application start ***
+2022-09-06 13:43:24,927 [INFO] *** [!file:app !class:GUI !func:__init__] Main window initialized ***
+2022-09-06 13:43:24,932 [INFO] *** [!file:app !class:Menubar !func:__init__] Menu for main window initialized ***
+2022-09-06 13:43:24,938 [INFO] *** [!file:datechecker !class:DateCheck !func:last_downloading] Last download date check initialized ***
+2022-09-06 13:43:24,938 [DEBUG] *** [!file: datechecker!func:last_downloading]Started searching for downloaded Excel file ***
+2022-09-06 13:43:25,112 [DEBUG] *** [!file:datechecker !func:last_downloading] List with downloaded files returned ***
+2022-09-06 13:43:25,112 [INFO] *** [!file:datechecker !class:DateCheck !func:__question] New file uploaded today ***
+2022-09-06 13:43:26,941 [DEBUG] *** [!file:app !class:Menubar !func:child_init] Select box initialization function started ***
+2022-09-06 13:43:26,942 [INFO] *** writer_and_reader(excel_finder): Entered the function to display Excel files in a directory ***
+2022-09-06 13:43:27,162 [DEBUG] *** writer_and_reader(excel_finder): Return a list of excel files in a directory ***
+2022-09-06 13:43:29,034 [INFO] *** Selection window destroyed ***
+2022-09-06 13:43:29,034 [INFO] *** New Table created ***
+2022-09-06 13:43:29,047 [DEBUG] *** Filling a table with values from an Excel file ***
+2022-09-06 13:43:29,047 [INFO] *** writer_and_reader(reader): The function was entered to read the excel file in the directory ***
+2022-09-06 13:43:29,948 [DEBUG] *** writer_and_reader(reader): Returning a dictionary with data from an excel
+ file and the name of the first section with data ***
+2022-09-06 13:43:29,949 [INFO] *** writer_and_reader(reader): The function was entered to read the excel file in the directory ***
+2022-09-06 13:43:30,761 [DEBUG] *** writer_and_reader(reader): Returning a dictionary with data from an excel
+ file and the name of the first section with data ***
+2022-09-06 13:43:30,999 [DEBUG] *** The table has been filled ***
+2022-09-06 13:43:30,999 [INFO] *** [!file:changed_products !class:ChangedData !func:__init__] Window table with changed positions initialized ***
+2022-09-06 13:43:30,999 [DEBUG] *** [!file:changed_products !class:ChangedData !func:__elements] The function of initializing the table with the changed positions of the product has been launched ***
+2022-09-06 13:43:31,002 [INFO] *** [!file:changed_products !class:ChangedTable !func:__init__] Window changed table initialized ***
+2022-09-06 13:43:31,005 [DEBUG] *** [!file:changed_products !class:ChangedTable !func:__filling_fields] Table with changed product positions is full ***

@@ -1,18 +1,22 @@
 import tkinter as tk
 from threading import Thread
 from tkinter import Toplevel, messagebox as mbox
-from logger import debug_log
-from async_parser_class_xlsx import Parser
+from logger import debug_log, info_log
+from parser import Parser
 
 
 def run_download():
+    """Thread for running in parallel in the background"""
+    debug_log('The function to start a new thread has been launched', 'download_viewer.py', '', 'run_download')
+
     data_downloader = Parser()
     data_downloader.start_collecting()
-    debug_log('Start parsing')
 
 
 class DownloadView:
+    """Window for displaying the download of new data from the website"""
     def __init__(self, master):
+        info_log('Load display window initialized', 'download_viewer.py', 'DownloadView', '__init__')
         self.master = master
         self.__window = Toplevel(self.master)
         self.__points_counter = 0
@@ -23,15 +27,15 @@ class DownloadView:
         self.__downloader_thread.start()
         self.__window.mainloop()
 
-    def __configuration(self):
-        self.infobox = tk.Text(self.__window, height=15, font="Arial 8", width=70, background='white')
+    def __configuration(self) -> None:
+        self.__infobox = tk.Text(self.__window, height=15, font="Arial 8", width=70, background='white')
         self.__window['background'] = '#caffd3'
         self.__window.title('Загрузка данных')
         self.__window.geometry('675x300+450+200')
         self.__window.minsize(675, 300)
         self.__window.maxsize(675, 300)
 
-    def __view(self):
+    def __view(self) -> None:
         text1 = tk.Label(self.__window,
                          text='Идёт загрузка данных,',
                          font="Arial 12 bold",
@@ -40,34 +44,37 @@ class DownloadView:
                          text='Пожалуйста подождите завершения',
                          font="Arial 12 bold",
                          bg='#caffd3')
-        self.points = tk.Label(self.__window, text='.', font="Arial 12 bold", bg='#caffd3')
+        self.__points = tk.Label(self.__window, text='.', font="Arial 12 bold", bg='#caffd3')
         text1.place(x=250, y=10)
         text2.place(x=195, y=30)
-        self.points.place(x=492, y=30)
+        self.__points.place(x=492, y=30)
         self.__info_box_view()
 
-    def __info_box_view(self):
-        with open('logs.txt', 'r', encoding='utf-8') as file:
+    def __info_box_view(self) -> None:
+        """Data from the logs to display loading"""
+        with open('download_logs.txt', 'r', encoding='utf-8') as file:
             data = file.read()
-        self.infobox = tk.Text(self.__window, height=15, font="Arial 8", width=110, background='white', pady=5)
-        self.infobox.insert('end', data)
-        self.infobox.configure(state='disabled')
-        self.infobox.place(x=5, y=70)
-        self.infobox.yview(tk.END)
+        self.__infobox = tk.Text(self.__window, height=15, font="Arial 8", width=110, background='white', pady=5)
+        self.__infobox.insert('end', data)
+        self.__infobox.configure(state='disabled')
+        self.__infobox.place(x=5, y=70)
+        self.__infobox.yview(tk.END)
 
-    def __loading_points(self, n):
-        self.infobox.destroy()
+    def __loading_points(self, n: int) -> None:
+        """Dynamic display of points to visualize data loading"""
+        self.__infobox.destroy()
         if self.__downloader_thread.is_alive() is True:
             if self.__points_counter % 4 == 0:
                 self.__points_counter = 0
             points = '.' * self.__points_counter
-            self.points['text'] = f'{points}'
+            self.__points['text'] = f'{points}'
             self.__points_counter += 1
             self.__info_box_view()
             self.__window.after(500, self.__loading_points, n + 1)
         else:
             self.__stop()
 
-    def __stop(self):
+    def __stop(self) -> None:
         self.__window.destroy()
         mbox.showinfo('Уведомление', 'Новая цена загружена!')
+        info_log("A new file has been uploaded to the directory", 'download_viewer.py', 'DownloadView', '__stop')
