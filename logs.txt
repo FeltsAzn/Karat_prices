@@ -1,4 +1,4 @@
-2022-09-06 23:46:11,581 [INFO][\\] Selection window created.
-2022-09-06 23:46:11,880 [INFO][app.py\\] Application start.
-2022-09-06 23:46:11,966 [INFO][app.py\GUI\__init__] Main window initialized.
-2022-09-06 23:46:11,966 [INFO][app.py\Menubar\__init__] Menu for main window initialized.
+2022-09-07 00:07:02,342 [INFO][\\] Selection window created.
+2022-09-07 00:07:02,683 [INFO][app.py\\] Application start.
+2022-09-07 00:07:02,769 [INFO][app.py\GUI\__init__] Main window initialized.
+2022-09-07 00:07:02,773 [INFO][app.py\Menubar\__init__] Menu for main window initialized.
