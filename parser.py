@@ -33,12 +33,12 @@ def products_cards(names: list, prices: list) -> dict:
     return products
 
 
-def link_finder(html_soup: BeautifulSoup) -> (str, str):
-    links_nest_catalogs = html_soup.find_all('a', class_="section-item")
-    for link_and_name in links_nest_catalogs:
-        name_section: str = link_and_name.text.strip()
-        link_section = 'https://www.karat-market.ru' + link_and_name['href']
-        yield link_section, name_section
+# def link_finder(html_soup: BeautifulSoup) -> (str, str):
+#     links_nest_catalogs = html_soup.find_all('a', class_="section-item")
+#     for link_and_name in links_nest_catalogs:
+#         name_section: str = link_and_name.text.strip()
+#         link_section = 'https://www.karat-market.ru' + link_and_name['href']
+#         yield link_section, name_section
 
 
 class Parser:
@@ -49,6 +49,7 @@ class Parser:
         self.__head = head_browser  # information for the site that we are not a bot
         self.__url = url_site  # site link for parsing
         self.__counter = 0  # counter for output to the console
+        self.semaphore = asyncio.Semaphore(50)
 
     def __counter_requests(self, name: str) -> None:
         """Function output data to the terminal"""
@@ -59,23 +60,25 @@ class Parser:
     async def __tasks_executor(self, session: aiohttp.client.ClientSession, url: str, name_section: str) -> None:
         """Async function to find the right data"""
         async with session.get(url=url, headers=self.__head, ssl=False) as response:
-            response_text = await response.text()
-            soup = BeautifulSoup(response_text, 'lxml')
-            names, prices = products_finder(soup)
-            data: dict = products_cards(names, prices)
-            if data:
-                self.__data_list.append((data, name_section))
-                self.__counter_requests(name_section)
-                debug_log(f'Query {self.__counter} data added to record sheet',
-                          'parser.py', 'Parser', '__tasks_executor')
+            async with self.semaphore:
+                response_text = await response.text()
+                soup = BeautifulSoup(response_text, 'lxml')
+                names, prices = products_finder(soup)
+                data: dict = products_cards(names, prices)
+                if data:
+                    self.__data_list.append((data, name_section))
+                    self.__counter_requests(name_section)
+                    debug_log(f'Query {self.__counter} data added to record sheet',
+                              'parser.py', 'Parser', '__tasks_executor')
 
-            else:
-                debug_log('Data not found, looping over to find data in subdirectories',
-                          'parser.py', 'Parser', '__tasks_executor')
-
-                links_and_names = link_finder(soup)
-                for link_section, name_section in links_and_names:
-                    await self.__tasks_executor(session, link_section, name_section)
+                else:
+                    debug_log('Data not found, looping over to find data in subdirectories',
+                              'parser.py', 'Parser', '__tasks_executor')
+                    links_nest_catalogs = soup.find_all('a', class_="section-item")
+                    for link_and_name in links_nest_catalogs:
+                        name_section: str = link_and_name.text.strip()
+                        link_section = 'https://www.karat-market.ru' + link_and_name['href']
+                        await self.__tasks_executor(session, link_section, name_section)
 
     async def __tasks_manager(self) -> None:
         """Async function to set the request processing queue"""
@@ -89,11 +92,12 @@ class Parser:
             except Exception as exc:
                 exception_log(f'Site connection error, response code {response.status}',
                               'parser.py', 'Parser', '__tasks_manager', f'{exc}')
-
-            soup = BeautifulSoup(await response.text(), 'lxml')
-            links_and_names = link_finder(soup)
             tasks = []
-            for link_section, name_section in links_and_names:
+            soup = BeautifulSoup(await response.text(), 'lxml')
+            links_nest_catalogs = soup.find_all('a', class_="section-item")
+            for link_and_name in links_nest_catalogs:
+                name_section: str = link_and_name.text.strip()
+                link_section = 'https://www.karat-market.ru' + link_and_name['href']
                 task = asyncio.create_task(self.__tasks_executor(session, link_section, name_section))
                 tasks.append(task)
             await asyncio.gather(*tasks)

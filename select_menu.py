@@ -49,7 +49,7 @@ class SelectionWindow:
         debug_log("The search function for Excel files in the directory has been launched",
                   'select_menu.py', 'SelectionWindow', '__data_for_select')
         excel_files = wr.excel_finder()
-        for excel_file in excel_files:
+        for excel_file in reversed(excel_files):
             self.__filenames.insert(tk.END, excel_file)
 
     def __buttons(self):
@@ -79,7 +79,7 @@ class SelectionWindow:
                   'select_menu.py', 'SelectionWindow', '__check_button')
         select = list(self.__filenames.curselection())
         try:
-            filename_old, filename_new = self.__filenames.get(select[0]), self.__filenames.get(select[1])
+            filename_old, filename_new = self.__filenames.get(select[1]), self.__filenames.get(select[0])
         except IndexError:
             f = mbox.showerror('Ошибка', "Нужно выбрать 2 файла для отображения!")
             print(f)

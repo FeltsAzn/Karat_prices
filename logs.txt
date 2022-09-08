@@ -1,29 +1,1890 @@
-2022-09-08 22:00:07,406 [INFO][\\] Selection window created.
-2022-09-08 22:00:07,840 [INFO][app.py\\] Application start.
-2022-09-08 22:00:07,964 [INFO][app.py\GUI\__init__] Main window initialized.
-2022-09-08 22:00:07,970 [INFO][app.py\Menubar\__init__] Menu for main window initialized.
-2022-09-08 22:00:10,418 [DEBUG][app.py\Menubar\__init__] Select box initialization function started.
-2022-09-08 22:00:10,419 [INFO][select_menu.py\SelectionWindow\__init__] Selection window initialized.
-2022-09-08 22:00:10,427 [DEBUG][select_menu.py\SelectionWindow\__data_for_select] The search function for Excel files in the directory has been launched.
-2022-09-08 22:00:10,428 [INFO][writer_and_reader.py\\excel_finder] Entered the function to display Excel files in a directory.
-2022-09-08 22:00:10,607 [DEBUG][writer_and_reader.py\\excel_finder] Return a list of excel files in a directory.
-2022-09-08 22:00:14,175 [DEBUG][select_menu.py\SelectionWindow\__check_button] The function to initialize the table with data has been launched.
-2022-09-08 22:00:14,201 [INFO][select_menu.py\SelectionWindow\__check_button] Selection window destroyed.
-2022-09-08 22:00:14,201 [INFO][table.py\Table\__new__] New Table created.
-2022-09-08 22:00:14,208 [DEBUG][table.py\Table\__filling_fields] Filling a table with values from an Excel file.
-2022-09-08 22:00:14,208 [INFO][data_converter.py\DataConvertor\__init__] Data validation class initialized.
-2022-09-08 22:00:14,208 [DEBUG][data_converter.py\DataConvertor\unpacker] Unpacking data from Excel file reading function.
-2022-09-08 22:00:14,208 [INFO][data_converter.py\DataConvertor\__file_reader] Started function initialization function to read data.
-2022-09-08 22:00:14,208 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
-2022-09-08 22:00:14,491 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
+2022-09-09 01:24:44,211 [INFO][\\] Selection window created.
+2022-09-09 01:24:44,790 [DEBUG][download_viewer.py\\run_download] The function to start a new thread has been launched.
+2022-09-09 01:24:44,790 [INFO][parser.py\Parser\__tasks_manager] Website Scraping initialized.
+2022-09-09 01:24:44,790 [DEBUG][parser.py\Parser\start_collecting] Parser launched.
+2022-09-09 01:24:44,790 Using proactor: IocpProactor
+2022-09-09 01:24:44,807 [DEBUG][parser.py\Parser\__tasks_manager] Sending a request to the server.
+2022-09-09 01:24:44,807 [DEBUG][parser.py\Parser\__tasks_manager] Connecting to https://www.karat-market.ru/catalog/
+with header {'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36'}
+.
+2022-09-09 01:24:45,403 [DEBUG][parser.py\Parser\__tasks_manager] Server response received 200.
+2022-09-09 01:24:46,422 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:46,493 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:46,718 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:46,789 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:46,862 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectori2022-09-09 01:27:00,287 [INFO][download_viewer.py\DownloadView\__stop] A new file has been uploaded to the directory.
+2022-09-09 01:27:02,862 [DEBUG][app.py\Menubar\__init__] Select box initialization function started.
+2022-09-09 01:27:02,862 [INFO][select_menu.py\SelectionWindow\__init__] Selection window initialized.
+2022-09-09 01:27:02,868 [DEBUG][select_menu.py\SelectionWindow\__data_for_select] The search function for Excel files in the directory has been launched.
+2022-09-09 01:27:02,868 [INFO][writer_and_reader.py\\excel_finder] Entered the function to display Excel files in a directory.
+2022-09-09 01:27:03,110 [DEBUG][writer_and_reader.py\\excel_finder] Return a list of excel files in a directory.
+2022-09-09 01:27:05,518 [DEBUG][select_menu.py\SelectionWindow\__check_button] The function to initialize the table with data has been launched.
+2022-09-09 01:27:05,563 [INFO][select_menu.py\SelectionWindow\__check_button] Selection window destroyed.
+2022-09-09 01:27:05,563 [INFO][table.py\Table\__new__] New Table created.
+2022-09-09 01:27:05,579 [DEBUG][table.py\Table\__filling_fields] Filling a table with values from an Excel file.
+2022-09-09 01:27:05,579 [INFO][data_converter.py\DataConvertor\__init__] Data validation class initialized.
+2022-09-09 01:27:05,579 [DEBUG][data_converter.py\DataConvertor\unpacker] Unpacking data from Excel file reading function.
+2022-09-09 01:27:05,579 [INFO][data_converter.py\DataConvertor\__file_reader] Started function initialization function to read data.
+2022-09-09 01:27:05,579 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
+2022-09-09 01:27:06,649 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
  file and the name of the first section with data.
-2022-09-08 22:00:14,491 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
-2022-09-08 22:00:14,587 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
+2022-09-09 01:27:06,650 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
+2022-09-09 01:27:07,541 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
  file and the name of the first section with data.
-2022-09-08 22:00:14,587 [DEBUG][data_converter.py\DataConvertor\unpacker] Returning Valid Data.
-2022-09-08 22:00:14,600 [DEBUG][table.py\Table\__filling_fields] The table has been filled.
-2022-09-08 22:00:14,600 [DEBUG][table.py\Table\__filling_fields] Started initialization of the window with changed positions.
-2022-09-08 22:00:14,600 [INFO][changed_products.py\ChangedData\__init__] Window table with changed positions initialized.
-2022-09-08 22:00:14,600 [DEBUG][changed_products.py\ChangedData\__elements] The function of initializing the table with the changed positions of the product has been launched.
-2022-09-08 22:00:14,606 [INFO][changed_products.py\ChangedTable\__init__] Window changed table initialized.
-2022-09-08 22:00:14,610 [DEBUG][changed_products.py\ChangedTable\__filling_fields] Table with changed product positions is full.
+2022-09-09 01:27:07,597 [DEBUG][data_converter.py\DataConvertor\unpacker] Returning Valid Data.
+2022-09-09 01:27:07,783 [DEBUG][table.py\Table\__filling_fields] The table has been filled.
+2022-09-09 01:27:07,783 [DEBUG][table.py\Table\__filling_fields] Started initialization of the window with changed positions.
+2022-09-09 01:27:07,783 [INFO][changed_products.py\ChangedData\__init__] Window table with changed positions initialized.
+2022-09-09 01:27:07,783 [DEBUG][changed_products.py\ChangedData\__elements] The function of initializing the table with the changed positions of the product has been launched.
+2022-09-09 01:27:07,787 [INFO][changed_products.py\ChangedTable\__init__] Window changed table initialized.
+2022-09-09 01:27:07,797 [DEBUG][changed_products.py\ChangedTable\__filling_fields] Table with changed product positions is full.
+as been written to the list of dictionaries!.
+2022-09-09 01:24:48,942 [DEBUG][parser.py\Parser\__tasks_executor] Query 5 data added to record sheet.
+2022-09-09 01:24:49,018 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:49,094 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:49,230 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:49,318 [DEBUG][parser.py\Parser\__counter_requests] Request 6. The data of the "Изолента" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:49,318 [DEBUG][parser.py\Parser\__tasks_executor] Query 6 data added to record sheet.
+2022-09-09 01:24:49,426 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:49,492 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:49,825 [DEBUG][parser.py\Parser\__counter_requests] Request 7. The data of the "Серия "Сигнал"" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:49,825 [DEBUG][parser.py\Parser\__tasks_executor] Query 7 data added to record sheet.
+2022-09-09 01:24:49,899 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:50,037 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:50,130 [DEBUG][parser.py\Parser\__counter_requests] Request 8. The data of the "Трубы, фитинги для внутренней канализации" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:50,130 [DEBUG][parser.py\Parser\__tasks_executor] Query 8 data added to record sheet.
+2022-09-09 01:24:50,247 [DEBUG][parser.py\Parser\__counter_requests] Request 9. The data of the "Анкерный болт" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:50,247 [DEBUG][parser.py\Parser\__tasks_executor] Query 9 data added to record sheet.
+2022-09-09 01:24:50,325 [DEBUG][parser.py\Parser\__counter_requests] Request 10. The data of the "Огнеупорные смеси" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:50,326 [DEBUG][parser.py\Parser\__tasks_executor] Query 10 data added to record sheet.
+2022-09-09 01:24:50,598 [DEBUG][parser.py\Parser\__counter_requests] Request 11. The data of the "Коммерческий" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:50,598 [DEBUG][parser.py\Parser\__tasks_executor] Query 11 data added to record sheet.
+2022-09-09 01:24:50,893 [DEBUG][parser.py\Parser\__counter_requests] Request 12. The data of the "Комплектующие к кабелю" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:50,893 [DEBUG][parser.py\Parser\__tasks_executor] Query 12 data added to record sheet.
+2022-09-09 01:24:51,096 [DEBUG][parser.py\Parser\__counter_requests] Request 13. The data of the "Вода, напитки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:51,096 [DEBUG][parser.py\Parser\__tasks_executor] Query 13 data added to record sheet.
+2022-09-09 01:24:51,179 [DEBUG][parser.py\Parser\__counter_requests] Request 14. The data of the "Акриловые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:51,179 [DEBUG][parser.py\Parser\__tasks_executor] Query 14 data added to record sheet.
+2022-09-09 01:24:51,244 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:51,341 [DEBUG][parser.py\Parser\__counter_requests] Request 15. The data of the "Ручной садово-огородный инструмент" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:51,341 [DEBUG][parser.py\Parser\__tasks_executor] Query 15 data added to record sheet.
+2022-09-09 01:24:51,409 [DEBUG][parser.py\Parser\__counter_requests] Request 16. The data of the "Уход за обувью" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:51,409 [DEBUG][parser.py\Parser\__tasks_executor] Query 16 data added to record sheet.
+2022-09-09 01:24:51,647 [DEBUG][parser.py\Parser\__counter_requests] Request 17. The data of the "Трубы, фитинги для наружной канализации" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:51,647 [DEBUG][parser.py\Parser\__tasks_executor] Query 17 data added to record sheet.
+2022-09-09 01:24:51,918 [DEBUG][parser.py\Parser\__counter_requests] Request 18. The data of the "Анкер забиваемый" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:51,918 [DEBUG][parser.py\Parser\__tasks_executor] Query 18 data added to record sheet.
+2022-09-09 01:24:51,992 [DEBUG][parser.py\Parser\__counter_requests] Request 19. The data of the "Сыпучие материалы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:51,993 [DEBUG][parser.py\Parser\__tasks_executor] Query 19 data added to record sheet.
+2022-09-09 01:24:52,161 [DEBUG][parser.py\Parser\__counter_requests] Request 20. The data of the "Бытовой" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:52,161 [DEBUG][parser.py\Parser\__tasks_executor] Query 20 data added to record sheet.
+2022-09-09 01:24:52,483 [DEBUG][parser.py\Parser\__counter_requests] Request 21. The data of the "Трубы ПВХ (гофра) и крепежные скобы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:52,483 [DEBUG][parser.py\Parser\__tasks_executor] Query 21 data added to record sheet.
+2022-09-09 01:24:52,549 [DEBUG][parser.py\Parser\__counter_requests] Request 22. The data of the "Чай, кофе" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:52,550 [DEBUG][parser.py\Parser\__tasks_executor] Query 22 data added to record sheet.
+2022-09-09 01:24:52,820 [DEBUG][parser.py\Parser\__counter_requests] Request 23. The data of the "Силиконовые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:52,821 [DEBUG][parser.py\Parser\__tasks_executor] Query 23 data added to record sheet.
+2022-09-09 01:24:53,110 [DEBUG][parser.py\Parser\__counter_requests] Request 24. The data of the "Трикотаж" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:53,110 [DEBUG][parser.py\Parser\__tasks_executor] Query 24 data added to record sheet.
+2022-09-09 01:24:53,200 [DEBUG][parser.py\Parser\__counter_requests] Request 25. The data of the "Малый ручной инструмент" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:53,200 [DEBUG][parser.py\Parser\__tasks_executor] Query 25 data added to record sheet.
+2022-09-09 01:24:53,385 [DEBUG][parser.py\Parser\__counter_requests] Request 26. The data of the "Средства защиты от насекомых и грызунов" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:53,386 [DEBUG][parser.py\Parser\__tasks_executor] Query 26 data added to record sheet.
+2022-09-09 01:24:53,455 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:53,682 [DEBUG][parser.py\Parser\__counter_requests] Request 27. The data of the "Анкерный болт с гайкой" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:53,682 [DEBUG][parser.py\Parser\__tasks_executor] Query 27 data added to record sheet.
+2022-09-09 01:24:53,761 [DEBUG][parser.py\Parser\__counter_requests] Request 28. The data of the "Гидроизоляция" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:53,761 [DEBUG][parser.py\Parser\__tasks_executor] Query 28 data added to record sheet.
+2022-09-09 01:24:54,178 [DEBUG][parser.py\Parser\__counter_requests] Request 29. The data of the "Полукоммерческий" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:54,179 [DEBUG][parser.py\Parser\__tasks_executor] Query 29 data added to record sheet.
+2022-09-09 01:24:54,247 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:54,356 [DEBUG][parser.py\Parser\__counter_requests] Request 30. The data of the "Шоколад, конфеты, печенье" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:54,356 [DEBUG][parser.py\Parser\__tasks_executor] Query 30 data added to record sheet.
+2022-09-09 01:24:54,440 [DEBUG][parser.py\Parser\__counter_requests] Request 31. The data of the "Специального назначения" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:54,441 [DEBUG][parser.py\Parser\__tasks_executor] Query 31 data added to record sheet.
+2022-09-09 01:24:54,761 [DEBUG][parser.py\Parser\__counter_requests] Request 32. The data of the "Серия "Зима"" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:54,761 [DEBUG][parser.py\Parser\__tasks_executor] Query 32 data added to record sheet.
+2022-09-09 01:24:55,202 [DEBUG][parser.py\Parser\__counter_requests] Request 33. The data of the "Садовые емкости, лейки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:55,202 [DEBUG][parser.py\Parser\__tasks_executor] Query 33 data added to record sheet.
+2022-09-09 01:24:55,304 [DEBUG][parser.py\Parser\__counter_requests] Request 34. The data of the "Чистящие, защитные средства" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:55,304 [DEBUG][parser.py\Parser\__tasks_executor] Query 34 data added to record sheet.
+2022-09-09 01:24:55,416 [DEBUG][parser.py\Parser\__counter_requests] Request 35. The data of the "Баки мембранные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:55,416 [DEBUG][parser.py\Parser\__tasks_executor] Query 35 data added to record sheet.
+2022-09-09 01:24:55,668 [DEBUG][parser.py\Parser\__counter_requests] Request 36. The data of the "Анкерный болт с крюком, кольцом" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:55,669 [DEBUG][parser.py\Parser\__tasks_executor] Query 36 data added to record sheet.
+2022-09-09 01:24:55,816 [DEBUG][parser.py\Parser\__counter_requests] Request 37. The data of the "Добавки и модификаторы сухих смесей" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:55,817 [DEBUG][parser.py\Parser\__tasks_executor] Query 37 data added to record sheet.
+2022-09-09 01:24:56,039 [DEBUG][parser.py\Parser\__counter_requests] Request 38. The data of the "Ламинат" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:56,039 [DEBUG][parser.py\Parser\__tasks_executor] Query 38 data added to record sheet.
+2022-09-09 01:24:56,396 [DEBUG][parser.py\Parser\__counter_requests] Request 39. The data of the "Бытовые удлинители" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:56,396 [DEBUG][parser.py\Parser\__tasks_executor] Query 39 data added to record sheet.
+2022-09-09 01:24:56,487 [DEBUG][parser.py\Parser\__counter_requests] Request 40. The data of the "Снеки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:56,487 [DEBUG][parser.py\Parser\__tasks_executor] Query 40 data added to record sheet.
+2022-09-09 01:24:56,567 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:56,705 [DEBUG][parser.py\Parser\__counter_requests] Request 41. The data of the "Серия "Специалист"" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:56,705 [DEBUG][parser.py\Parser\__tasks_executor] Query 41 data added to record sheet.
+2022-09-09 01:24:57,045 [DEBUG][parser.py\Parser\__counter_requests] Request 42. The data of the "Инвентарь для уборки снега" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:57,045 [DEBUG][parser.py\Parser\__tasks_executor] Query 42 data added to record sheet.
+2022-09-09 01:24:57,337 [DEBUG][parser.py\Parser\__counter_requests] Request 43. The data of the "Порошки, отбеливатели, кондиционеры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:57,337 [DEBUG][parser.py\Parser\__tasks_executor] Query 43 data added to record sheet.
+2022-09-09 01:24:57,564 [DEBUG][parser.py\Parser\__counter_requests] Request 44. The data of the "Запорно-регулирующая арматура" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:57,564 [DEBUG][parser.py\Parser\__tasks_executor] Query 44 data added to record sheet.
+2022-09-09 01:24:57,731 [DEBUG][parser.py\Parser\__counter_requests] Request 45. The data of the "Анкер-клин" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:57,731 [DEBUG][parser.py\Parser\__tasks_executor] Query 45 data added to record sheet.
+2022-09-09 01:24:57,963 [DEBUG][parser.py\Parser\__counter_requests] Request 46. The data of the "Кладочные и монтажные смеси" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:57,963 [DEBUG][parser.py\Parser\__tasks_executor] Query 46 data added to record sheet.
+2022-09-09 01:24:58,141 [DEBUG][parser.py\Parser\__counter_requests] Request 47. The data of the "Паркетная доска" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:58,141 [DEBUG][parser.py\Parser\__tasks_executor] Query 47 data added to record sheet.
+2022-09-09 01:24:58,219 [DEBUG][parser.py\Parser\__counter_requests] Request 48. The data of the "Сетевые фильтры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:58,219 [DEBUG][parser.py\Parser\__tasks_executor] Query 48 data added to record sheet.
+2022-09-09 01:24:58,434 [DEBUG][parser.py\Parser\__counter_requests] Request 49. The data of the "Клей Бустилат" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:58,434 [DEBUG][parser.py\Parser\__tasks_executor] Query 49 data added to record sheet.
+2022-09-09 01:24:58,530 [DEBUG][parser.py\Parser\__counter_requests] Request 50. The data of the "Серия "Водостоп"" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:58,530 [DEBUG][parser.py\Parser\__tasks_executor] Query 50 data added to record sheet.
+2022-09-09 01:24:58,605 [DEBUG][parser.py\Parser\__counter_requests] Request 51. The data of the "Тачки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:58,605 [DEBUG][parser.py\Parser\__tasks_executor] Query 51 data added to record sheet.
+2022-09-09 01:24:58,672 [DEBUG][parser.py\Parser\__counter_requests] Request 52. The data of the "Освежители" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:58,672 [DEBUG][parser.py\Parser\__tasks_executor] Query 52 data added to record sheet.
+2022-09-09 01:24:59,003 [DEBUG][parser.py\Parser\__counter_requests] Request 53. The data of the "Инструменты и аксессуары" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:59,003 [DEBUG][parser.py\Parser\__tasks_executor] Query 53 data added to record sheet.
+2022-09-09 01:24:59,086 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:24:59,388 [DEBUG][parser.py\Parser\__counter_requests] Request 54. The data of the "Шпаклевки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:59,389 [DEBUG][parser.py\Parser\__tasks_executor] Query 54 data added to record sheet.
+2022-09-09 01:24:59,560 [DEBUG][parser.py\Parser\__counter_requests] Request 55. The data of the "Ковролин" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:59,560 [DEBUG][parser.py\Parser\__tasks_executor] Query 55 data added to record sheet.
+2022-09-09 01:24:59,702 [DEBUG][parser.py\Parser\__counter_requests] Request 56. The data of the "Силовые удлинители" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:59,702 [DEBUG][parser.py\Parser\__tasks_executor] Query 56 data added to record sheet.
+2022-09-09 01:24:59,882 [DEBUG][parser.py\Parser\__counter_requests] Request 57. The data of the "Клей ПВА" section
+has been written to the list of dictionaries!.
+2022-09-09 01:24:59,882 [DEBUG][parser.py\Parser\__tasks_executor] Query 57 data added to record sheet.
+2022-09-09 01:24:59,961 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:00,155 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:00,236 [DEBUG][parser.py\Parser\__counter_requests] Request 58. The data of the "Насосы циркуляционные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:00,236 [DEBUG][parser.py\Parser\__tasks_executor] Query 58 data added to record sheet.
+2022-09-09 01:25:00,296 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:00,449 [DEBUG][parser.py\Parser\__counter_requests] Request 59. The data of the "Болт мебельный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:00,450 [DEBUG][parser.py\Parser\__tasks_executor] Query 59 data added to record sheet.
+2022-09-09 01:25:00,797 [DEBUG][parser.py\Parser\__counter_requests] Request 60. The data of the "Клей для плитки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:00,797 [DEBUG][parser.py\Parser\__tasks_executor] Query 60 data added to record sheet.
+2022-09-09 01:25:01,090 [DEBUG][parser.py\Parser\__counter_requests] Request 61. The data of the "Ковры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:01,090 [DEBUG][parser.py\Parser\__tasks_executor] Query 61 data added to record sheet.
+2022-09-09 01:25:01,237 [DEBUG][parser.py\Parser\__counter_requests] Request 62. The data of the "Клеммники" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:01,237 [DEBUG][parser.py\Parser\__tasks_executor] Query 62 data added to record sheet.
+2022-09-09 01:25:01,495 [DEBUG][parser.py\Parser\__counter_requests] Request 63. The data of the "Специального назначения" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:01,495 [DEBUG][parser.py\Parser\__tasks_executor] Query 63 data added to record sheet.
+2022-09-09 01:25:01,590 [DEBUG][parser.py\Parser\__counter_requests] Request 64. The data of the "Серия "Зима"" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:01,590 [DEBUG][parser.py\Parser\__tasks_executor] Query 64 data added to record sheet.
+2022-09-09 01:25:01,943 [DEBUG][parser.py\Parser\__counter_requests] Request 65. The data of the "Горшки и подставки для цветов" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:01,943 [DEBUG][parser.py\Parser\__tasks_executor] Query 65 data added to record sheet.
+2022-09-09 01:25:02,154 [DEBUG][parser.py\Parser\__counter_requests] Request 66. The data of the "Подводка для газа" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:02,154 [DEBUG][parser.py\Parser\__tasks_executor] Query 66 data added to record sheet.
+2022-09-09 01:25:02,224 [DEBUG][parser.py\Parser\__counter_requests] Request 67. The data of the "Бондарные изделия" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:02,224 [DEBUG][parser.py\Parser\__tasks_executor] Query 67 data added to record sheet.
+2022-09-09 01:25:02,482 [DEBUG][parser.py\Parser\__counter_requests] Request 68. The data of the "Болт" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:02,482 [DEBUG][parser.py\Parser\__tasks_executor] Query 68 data added to record sheet.
+2022-09-09 01:25:02,667 [DEBUG][parser.py\Parser\__counter_requests] Request 69. The data of the "Смеси для выравнивания пола" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:02,667 [DEBUG][parser.py\Parser\__tasks_executor] Query 69 data added to record sheet.
+2022-09-09 01:25:02,728 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:02,836 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:03,346 [DEBUG][parser.py\Parser\__counter_requests] Request 70. The data of the "Жидкие гвозди, пенопласт, резина" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:03,346 [DEBUG][parser.py\Parser\__tasks_executor] Query 70 data added to record sheet.
+2022-09-09 01:25:03,458 [DEBUG][parser.py\Parser\__counter_requests] Request 71. The data of the "Серия "Универсал"" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:03,458 [DEBUG][parser.py\Parser\__tasks_executor] Query 71 data added to record sheet.
+2022-09-09 01:25:03,699 [DEBUG][parser.py\Parser\__counter_requests] Request 72. The data of the "Семена и растения" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:03,699 [DEBUG][parser.py\Parser\__tasks_executor] Query 72 data added to record sheet.
+2022-09-09 01:25:03,819 [DEBUG][parser.py\Parser\__counter_requests] Request 73. The data of the "Подводка для воды" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:03,819 [DEBUG][parser.py\Parser\__tasks_executor] Query 73 data added to record sheet.
+2022-09-09 01:25:04,105 [DEBUG][parser.py\Parser\__counter_requests] Request 74. The data of the "Мыло для рук" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:04,105 [DEBUG][parser.py\Parser\__tasks_executor] Query 74 data added to record sheet.
+2022-09-09 01:25:04,171 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:04,681 [DEBUG][parser.py\Parser\__counter_requests] Request 75. The data of the "Штукатурки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:04,681 [DEBUG][parser.py\Parser\__tasks_executor] Query 75 data added to record sheet.
+2022-09-09 01:25:04,756 [DEBUG][parser.py\Parser\__counter_requests] Request 76. The data of the "Кабель алюминиевый" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:04,756 [DEBUG][parser.py\Parser\__tasks_executor] Query 76 data added to record sheet.
+2022-09-09 01:25:04,823 [DEBUG][parser.py\Parser\__counter_requests] Request 77. The data of the "Мастика" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:04,823 [DEBUG][parser.py\Parser\__tasks_executor] Query 77 data added to record sheet.
+2022-09-09 01:25:04,886 [DEBUG][parser.py\Parser\__counter_requests] Request 78. The data of the "Для ступеней" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:04,886 [DEBUG][parser.py\Parser\__tasks_executor] Query 78 data added to record sheet.
+2022-09-09 01:25:04,980 [DEBUG][parser.py\Parser\__counter_requests] Request 79. The data of the "Серия "Водостоп"" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:04,980 [DEBUG][parser.py\Parser\__tasks_executor] Query 79 data added to record sheet.
+2022-09-09 01:25:05,130 [DEBUG][parser.py\Parser\__counter_requests] Request 80. The data of the "Грунты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:05,131 [DEBUG][parser.py\Parser\__tasks_executor] Query 80 data added to record sheet.
+2022-09-09 01:25:05,343 [DEBUG][parser.py\Parser\__counter_requests] Request 81. The data of the "Приборы учета" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:05,344 [DEBUG][parser.py\Parser\__tasks_executor] Query 81 data added to record sheet.
+2022-09-09 01:25:05,419 [DEBUG][parser.py\Parser\__counter_requests] Request 82. The data of the "Стяжка эксцентриковая" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:05,419 [DEBUG][parser.py\Parser\__tasks_executor] Query 82 data added to record sheet.
+2022-09-09 01:25:05,506 [DEBUG][parser.py\Parser\__counter_requests] Request 83. The data of the "Изделия из войлока" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:05,506 [DEBUG][parser.py\Parser\__tasks_executor] Query 83 data added to record sheet.
+2022-09-09 01:25:05,575 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:05,954 [DEBUG][parser.py\Parser\__counter_requests] Request 84. The data of the "Кабель медный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:05,954 [DEBUG][parser.py\Parser\__tasks_executor] Query 84 data added to record sheet.
+2022-09-09 01:25:06,243 [DEBUG][parser.py\Parser\__counter_requests] Request 85. The data of the "Грунтовки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:06,243 [DEBUG][parser.py\Parser\__tasks_executor] Query 85 data added to record sheet.
+2022-09-09 01:25:06,444 [DEBUG][parser.py\Parser\__counter_requests] Request 86. The data of the "Для холла" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:06,444 [DEBUG][parser.py\Parser\__tasks_executor] Query 86 data added to record sheet.
+2022-09-09 01:25:06,523 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:06,837 [DEBUG][parser.py\Parser\__counter_requests] Request 87. The data of the "Удобрения, химические средства" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:06,837 [DEBUG][parser.py\Parser\__tasks_executor] Query 87 data added to record sheet.
+2022-09-09 01:25:07,017 [DEBUG][parser.py\Parser\__counter_requests] Request 88. The data of the "Резьбовые соединения" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:07,017 [DEBUG][parser.py\Parser\__tasks_executor] Query 88 data added to record sheet.
+2022-09-09 01:25:07,139 [DEBUG][parser.py\Parser\__counter_requests] Request 89. The data of the "Винт конфирмат" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:07,139 [DEBUG][parser.py\Parser\__tasks_executor] Query 89 data added to record sheet.
+2022-09-09 01:25:07,419 [DEBUG][parser.py\Parser\__counter_requests] Request 90. The data of the "Средства для бани и душа" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:07,420 [DEBUG][parser.py\Parser\__tasks_executor] Query 90 data added to record sheet.
+2022-09-09 01:25:07,508 [DEBUG][parser.py\Parser\__counter_requests] Request 91. The data of the "Кельмы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:07,509 [DEBUG][parser.py\Parser\__tasks_executor] Query 91 data added to record sheet.
+2022-09-09 01:25:07,673 [DEBUG][parser.py\Parser\__counter_requests] Request 92. The data of the "Кабель СИП" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:07,673 [DEBUG][parser.py\Parser\__tasks_executor] Query 92 data added to record sheet.
+2022-09-09 01:25:07,977 [DEBUG][parser.py\Parser\__counter_requests] Request 93. The data of the "Колеровочные краски" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:07,977 [DEBUG][parser.py\Parser\__tasks_executor] Query 93 data added to record sheet.
+2022-09-09 01:25:08,131 [DEBUG][parser.py\Parser\__counter_requests] Request 94. The data of the "Для тамбура" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:08,133 [DEBUG][parser.py\Parser\__tasks_executor] Query 94 data added to record sheet.
+2022-09-09 01:25:08,377 [DEBUG][parser.py\Parser\__counter_requests] Request 95. The data of the "Защита от падения с высоты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:08,377 [DEBUG][parser.py\Parser\__tasks_executor] Query 95 data added to record sheet.
+2022-09-09 01:25:08,542 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:08,626 [DEBUG][parser.py\Parser\__counter_requests] Request 96. The data of the "Система водяного пола" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:08,626 [DEBUG][parser.py\Parser\__tasks_executor] Query 96 data added to record sheet.
+2022-09-09 01:25:08,919 [DEBUG][parser.py\Parser\__counter_requests] Request 97. The data of the "Винт DIN965" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:08,919 [DEBUG][parser.py\Parser\__tasks_executor] Query 97 data added to record sheet.
+2022-09-09 01:25:08,993 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:09,157 [DEBUG][parser.py\Parser\__counter_requests] Request 98. The data of the "Кабель телевизионный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:09,157 [DEBUG][parser.py\Parser\__tasks_executor] Query 98 data added to record sheet.
+2022-09-09 01:25:09,264 [DEBUG][parser.py\Parser\__counter_requests] Request 99. The data of the "Шпатели" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:09,264 [DEBUG][parser.py\Parser\__tasks_executor] Query 99 data added to record sheet.
+2022-09-09 01:25:09,439 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:09,513 [DEBUG][parser.py\Parser\__counter_requests] Request 100. The data of the "Для улицы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:09,513 [DEBUG][parser.py\Parser\__tasks_executor] Query 100 data added to record sheet.
+2022-09-09 01:25:09,598 [DEBUG][parser.py\Parser\__counter_requests] Request 101. The data of the "Защита глаз и лица" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:09,598 [DEBUG][parser.py\Parser\__tasks_executor] Query 101 data added to record sheet.
+2022-09-09 01:25:09,740 [DEBUG][parser.py\Parser\__counter_requests] Request 102. The data of the "Укрытия для растений" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:09,740 [DEBUG][parser.py\Parser\__tasks_executor] Query 102 data added to record sheet.
+2022-09-09 01:25:09,948 [DEBUG][parser.py\Parser\__counter_requests] Request 103. The data of the "Теплоизоляция труб" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:09,948 [DEBUG][parser.py\Parser\__tasks_executor] Query 103 data added to record sheet.
+2022-09-09 01:25:10,104 [DEBUG][parser.py\Parser\__counter_requests] Request 104. The data of the "Винт DIN7985" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:10,104 [DEBUG][parser.py\Parser\__tasks_executor] Query 104 data added to record sheet.
+2022-09-09 01:25:10,256 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:10,542 [DEBUG][parser.py\Parser\__counter_requests] Request 105. The data of the "Провод связи" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:10,542 [DEBUG][parser.py\Parser\__tasks_executor] Query 105 data added to record sheet.
+2022-09-09 01:25:10,764 [DEBUG][parser.py\Parser\__counter_requests] Request 106. The data of the "Краски для фасада и крыш" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:10,764 [DEBUG][parser.py\Parser\__tasks_executor] Query 106 data added to record sheet.
+2022-09-09 01:25:10,912 [DEBUG][parser.py\Parser\__counter_requests] Request 107. The data of the "Миксеры для красок и смесей" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:10,912 [DEBUG][parser.py\Parser\__tasks_executor] Query 107 data added to record sheet.
+2022-09-09 01:25:10,992 [DEBUG][parser.py\Parser\__counter_requests] Request 108. The data of the "Лента противоскользящая" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:10,992 [DEBUG][parser.py\Parser\__tasks_executor] Query 108 data added to record sheet.
+2022-09-09 01:25:11,101 [DEBUG][parser.py\Parser\__counter_requests] Request 109. The data of the "Защита головы и слуха" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:11,102 [DEBUG][parser.py\Parser\__tasks_executor] Query 109 data added to record sheet.
+2022-09-09 01:25:11,409 [DEBUG][parser.py\Parser\__counter_requests] Request 110. The data of the "Парники, поликарбонат" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:11,409 [DEBUG][parser.py\Parser\__tasks_executor] Query 110 data added to record sheet.
+2022-09-09 01:25:11,584 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:11,656 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:11,767 [DEBUG][parser.py\Parser\__counter_requests] Request 111. The data of the "Салфетки сухие, влажные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:11,767 [DEBUG][parser.py\Parser\__tasks_executor] Query 111 data added to record sheet.
+2022-09-09 01:25:11,864 [DEBUG][parser.py\Parser\__counter_requests] Request 112. The data of the "Кабель силовой гибкий" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:11,864 [DEBUG][parser.py\Parser\__tasks_executor] Query 112 data added to record sheet.
+2022-09-09 01:25:12,241 [DEBUG][parser.py\Parser\__counter_requests] Request 113. The data of the "Краски для стен и потолков" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:12,241 [DEBUG][parser.py\Parser\__tasks_executor] Query 113 data added to record sheet.
+2022-09-09 01:25:12,405 [DEBUG][parser.py\Parser\__counter_requests] Request 114. The data of the "Вспомогательный инструмент" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:12,405 [DEBUG][parser.py\Parser\__tasks_executor] Query 114 data added to record sheet.
+2022-09-09 01:25:12,561 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:12,641 [DEBUG][parser.py\Parser\__counter_requests] Request 115. The data of the "Защита органов дыхания" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:12,641 [DEBUG][parser.py\Parser\__tasks_executor] Query 115 data added to record sheet.
+2022-09-09 01:25:12,784 [DEBUG][parser.py\Parser\__counter_requests] Request 116. The data of the "Пленки, укрывочные материалы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:12,784 [DEBUG][parser.py\Parser\__tasks_executor] Query 116 data added to record sheet.
+2022-09-09 01:25:12,943 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:13,153 [DEBUG][parser.py\Parser\__counter_requests] Request 117. The data of the "Гайка DIN934" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:13,153 [DEBUG][parser.py\Parser\__tasks_executor] Query 117 data added to record sheet.
+2022-09-09 01:25:13,289 [DEBUG][parser.py\Parser\__counter_requests] Request 118. The data of the "Ватные палочки, диски" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:13,289 [DEBUG][parser.py\Parser\__tasks_executor] Query 118 data added to record sheet.
+2022-09-09 01:25:13,626 [DEBUG][parser.py\Parser\__counter_requests] Request 119. The data of the "Провод медный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:13,626 [DEBUG][parser.py\Parser\__tasks_executor] Query 119 data added to record sheet.
+2022-09-09 01:25:13,818 [DEBUG][parser.py\Parser\__counter_requests] Request 120. The data of the "Краски для полов" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:13,818 [DEBUG][parser.py\Parser\__tasks_executor] Query 120 data added to record sheet.
+2022-09-09 01:25:13,893 [DEBUG][parser.py\Parser\__counter_requests] Request 121. The data of the "Правила" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:13,894 [DEBUG][parser.py\Parser\__tasks_executor] Query 121 data added to record sheet.
+2022-09-09 01:25:14,139 [DEBUG][parser.py\Parser\__counter_requests] Request 122. The data of the "Плинтус" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:14,139 [DEBUG][parser.py\Parser\__tasks_executor] Query 122 data added to record sheet.
+2022-09-09 01:25:14,392 [DEBUG][parser.py\Parser\__counter_requests] Request 123. The data of the "Защита рук" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:14,392 [DEBUG][parser.py\Parser\__tasks_executor] Query 123 data added to record sheet.
+2022-09-09 01:25:14,516 [DEBUG][parser.py\Parser\__counter_requests] Request 124. The data of the "Ограждения, уличные покрытия" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:14,516 [DEBUG][parser.py\Parser\__tasks_executor] Query 124 data added to record sheet.
+2022-09-09 01:25:14,807 [DEBUG][parser.py\Parser\__counter_requests] Request 125. The data of the "Металопластиковые трубы и фитинги" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:14,807 [DEBUG][parser.py\Parser\__tasks_executor] Query 125 data added to record sheet.
+2022-09-09 01:25:15,066 [DEBUG][parser.py\Parser\__counter_requests] Request 126. The data of the "Гайка крыльчатая" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:15,066 [DEBUG][parser.py\Parser\__tasks_executor] Query 126 data added to record sheet.
+2022-09-09 01:25:15,139 [DEBUG][parser.py\Parser\__counter_requests] Request 127. The data of the "Туалетная бумага" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:15,139 [DEBUG][parser.py\Parser\__tasks_executor] Query 127 data added to record sheet.
+2022-09-09 01:25:15,266 [DEBUG][parser.py\Parser\__counter_requests] Request 128. The data of the "Кабельные каналы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:15,266 [DEBUG][parser.py\Parser\__tasks_executor] Query 128 data added to record sheet.
+2022-09-09 01:25:15,354 [DEBUG][parser.py\Parser\__counter_requests] Request 129. The data of the "Краски для ванной и кухни" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:15,354 [DEBUG][parser.py\Parser\__tasks_executor] Query 129 data added to record sheet.
+2022-09-09 01:25:15,476 [DEBUG][parser.py\Parser\__counter_requests] Request 130. The data of the "Терки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:15,476 [DEBUG][parser.py\Parser\__tasks_executor] Query 130 data added to record sheet.
+2022-09-09 01:25:15,737 [DEBUG][parser.py\Parser\__counter_requests] Request 131. The data of the "Соединение для плинтуса" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:15,737 [DEBUG][parser.py\Parser\__tasks_executor] Query 131 data added to record sheet.
+2022-09-09 01:25:15,801 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:15,865 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:16,120 [DEBUG][parser.py\Parser\__counter_requests] Request 132. The data of the "Оцинкованные трубы и фитинги" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:16,120 [DEBUG][parser.py\Parser\__tasks_executor] Query 132 data added to record sheet.
+2022-09-09 01:25:16,409 [DEBUG][parser.py\Parser\__counter_requests] Request 133. The data of the "Гайка колпачковая" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:16,410 [DEBUG][parser.py\Parser\__tasks_executor] Query 133 data added to record sheet.
+2022-09-09 01:25:16,714 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:16,860 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:16,972 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:17,086 [DEBUG][parser.py\Parser\__counter_requests] Request 134. The data of the "Краски масляные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:17,086 [DEBUG][parser.py\Parser\__tasks_executor] Query 134 data added to record sheet.
+2022-09-09 01:25:17,425 [DEBUG][parser.py\Parser\__counter_requests] Request 135. The data of the "Угол внутренний для плинтуса" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:17,425 [DEBUG][parser.py\Parser\__tasks_executor] Query 135 data added to record sheet.
+2022-09-09 01:25:17,654 [DEBUG][parser.py\Parser\__counter_requests] Request 136. The data of the "Инструмент по кровле" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:17,655 [DEBUG][parser.py\Parser\__tasks_executor] Query 136 data added to record sheet.
+2022-09-09 01:25:18,095 [DEBUG][parser.py\Parser\__counter_requests] Request 137. The data of the "Полипропиленовые трубы и фитинги" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:18,095 [DEBUG][parser.py\Parser\__tasks_executor] Query 137 data added to record sheet.
+2022-09-09 01:25:18,201 [DEBUG][parser.py\Parser\__counter_requests] Request 138. The data of the "Система капельного полива" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:18,202 [DEBUG][parser.py\Parser\__tasks_executor] Query 138 data added to record sheet.
+2022-09-09 01:25:18,290 [DEBUG][parser.py\Parser\__counter_requests] Request 139. The data of the "Автоматические выключатели и УЗО" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:18,290 [DEBUG][parser.py\Parser\__tasks_executor] Query 139 data added to record sheet.
+2022-09-09 01:25:18,435 [DEBUG][parser.py\Parser\__counter_requests] Request 140. The data of the "Ведра, тазы, контейнеры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:18,435 [DEBUG][parser.py\Parser\__tasks_executor] Query 140 data added to record sheet.
+2022-09-09 01:25:18,658 [DEBUG][parser.py\Parser\__counter_requests] Request 141. The data of the "Краски интерьерные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:18,658 [DEBUG][parser.py\Parser\__tasks_executor] Query 141 data added to record sheet.
+2022-09-09 01:25:18,955 [DEBUG][parser.py\Parser\__counter_requests] Request 142. The data of the "Затирки готовые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:18,955 [DEBUG][parser.py\Parser\__tasks_executor] Query 142 data added to record sheet.
+2022-09-09 01:25:19,034 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:19,143 [DEBUG][parser.py\Parser\__counter_requests] Request 143. The data of the "Угол внешний для плинтуса" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:19,143 [DEBUG][parser.py\Parser\__tasks_executor] Query 143 data added to record sheet.
+2022-09-09 01:25:19,223 [DEBUG][parser.py\Parser\__counter_requests] Request 144. The data of the "Инструменты диэлектрические" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:19,223 [DEBUG][parser.py\Parser\__tasks_executor] Query 144 data added to record sheet.
+2022-09-09 01:25:19,315 [DEBUG][parser.py\Parser\__counter_requests] Request 145. The data of the "Трубы, фитинги  ПНД" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:19,315 [DEBUG][parser.py\Parser\__tasks_executor] Query 145 data added to record sheet.
+2022-09-09 01:25:19,561 [DEBUG][parser.py\Parser\__counter_requests] Request 146. The data of the "Распылители, фитинги для шлангов" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:19,561 [DEBUG][parser.py\Parser\__tasks_executor] Query 146 data added to record sheet.
+2022-09-09 01:25:19,657 [DEBUG][parser.py\Parser\__counter_requests] Request 147. The data of the "Батарейки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:19,657 [DEBUG][parser.py\Parser\__tasks_executor] Query 147 data added to record sheet.
+2022-09-09 01:25:19,761 [DEBUG][parser.py\Parser\__counter_requests] Request 148. The data of the "Губки, тряпки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:19,761 [DEBUG][parser.py\Parser\__tasks_executor] Query 148 data added to record sheet.
+2022-09-09 01:25:20,066 [DEBUG][parser.py\Parser\__counter_requests] Request 149. The data of the "Краски моющиеся" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:20,066 [DEBUG][parser.py\Parser\__tasks_executor] Query 149 data added to record sheet.
+2022-09-09 01:25:20,224 [DEBUG][parser.py\Parser\__counter_requests] Request 150. The data of the "Затирки сухие" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:20,224 [DEBUG][parser.py\Parser\__tasks_executor] Query 150 data added to record sheet.
+2022-09-09 01:25:20,413 [DEBUG][parser.py\Parser\__counter_requests] Request 151. The data of the "Гайка DIN985" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:20,413 [DEBUG][parser.py\Parser\__tasks_executor] Query 151 data added to record sheet.
+2022-09-09 01:25:20,687 [DEBUG][parser.py\Parser\__counter_requests] Request 152. The data of the "Заглушка левая + правая для плинтуса" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:20,687 [DEBUG][parser.py\Parser\__tasks_executor] Query 152 data added to record sheet.
+2022-09-09 01:25:20,766 [DEBUG][parser.py\Parser\__counter_requests] Request 153. The data of the "Инструменты для газосварочных работ" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:20,766 [DEBUG][parser.py\Parser\__tasks_executor] Query 153 data added to record sheet.
+2022-09-09 01:25:20,987 [DEBUG][parser.py\Parser\__counter_requests] Request 154. The data of the "Фитинги (черный метал)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:20,987 [DEBUG][parser.py\Parser\__tasks_executor] Query 154 data added to record sheet.
+2022-09-09 01:25:21,235 [DEBUG][parser.py\Parser\__counter_requests] Request 155. The data of the "Опрыскиватели" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:21,235 [DEBUG][parser.py\Parser\__tasks_executor] Query 155 data added to record sheet.
+2022-09-09 01:25:21,326 [DEBUG][parser.py\Parser\__counter_requests] Request 156. The data of the "Звонки, домофоны" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:21,326 [DEBUG][parser.py\Parser\__tasks_executor] Query 156 data added to record sheet.
+2022-09-09 01:25:21,675 [DEBUG][parser.py\Parser\__counter_requests] Request 157. The data of the "Мешки, пакеты, упаковочный материал" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:21,675 [DEBUG][parser.py\Parser\__tasks_executor] Query 157 data added to record sheet.
+2022-09-09 01:25:21,777 [DEBUG][parser.py\Parser\__counter_requests] Request 158. The data of the "Краски специальные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:21,777 [DEBUG][parser.py\Parser\__tasks_executor] Query 158 data added to record sheet.
+2022-09-09 01:25:21,951 [DEBUG][parser.py\Parser\__counter_requests] Request 159. The data of the "Листовой материал" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:21,951 [DEBUG][parser.py\Parser\__tasks_executor] Query 159 data added to record sheet.
+2022-09-09 01:25:22,022 [DEBUG][parser.py\Parser\__counter_requests] Request 160. The data of the "Гайка соединительная" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:22,022 [DEBUG][parser.py\Parser\__tasks_executor] Query 160 data added to record sheet.
+2022-09-09 01:25:22,255 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:22,324 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:22,469 [DEBUG][parser.py\Parser\__counter_requests] Request 161. The data of the "Уплотнители для сантехники" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:22,469 [DEBUG][parser.py\Parser\__tasks_executor] Query 161 data added to record sheet.
+2022-09-09 01:25:22,724 [DEBUG][parser.py\Parser\__counter_requests] Request 162. The data of the "Шланги" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:22,724 [DEBUG][parser.py\Parser\__tasks_executor] Query 162 data added to record sheet.
+2022-09-09 01:25:22,801 [DEBUG][parser.py\Parser\__counter_requests] Request 163. The data of the "Стабилизаторы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:22,801 [DEBUG][parser.py\Parser\__tasks_executor] Query 163 data added to record sheet.
+2022-09-09 01:25:23,180 [DEBUG][parser.py\Parser\__counter_requests] Request 164. The data of the "Швабры, щетки, совки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:23,180 [DEBUG][parser.py\Parser\__tasks_executor] Query 164 data added to record sheet.
+2022-09-09 01:25:23,342 [DEBUG][parser.py\Parser\__counter_requests] Request 165. The data of the "Краска-аэрозоль" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:23,343 [DEBUG][parser.py\Parser\__tasks_executor] Query 165 data added to record sheet.
+2022-09-09 01:25:23,526 [DEBUG][parser.py\Parser\__counter_requests] Request 166. The data of the "Профиль и комплектующие" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:23,527 [DEBUG][parser.py\Parser\__tasks_executor] Query 166 data added to record sheet.
+2022-09-09 01:25:23,622 [DEBUG][parser.py\Parser\__counter_requests] Request 167. The data of the "Гайка барашковая" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:23,622 [DEBUG][parser.py\Parser\__tasks_executor] Query 167 data added to record sheet.
+2022-09-09 01:25:23,761 [DEBUG][parser.py\Parser\__counter_requests] Request 168. The data of the "Гибкий профиль (порожек)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:23,762 [DEBUG][parser.py\Parser\__tasks_executor] Query 168 data added to record sheet.
+2022-09-09 01:25:23,969 [DEBUG][parser.py\Parser\__counter_requests] Request 169. The data of the "Ножи строительные и лезвия" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:23,969 [DEBUG][parser.py\Parser\__tasks_executor] Query 169 data added to record sheet.
+2022-09-09 01:25:24,168 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:24,283 [DEBUG][parser.py\Parser\__counter_requests] Request 170. The data of the "Трубы, фитинги  ПНД" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:24,284 [DEBUG][parser.py\Parser\__tasks_executor] Query 170 data added to record sheet.
+2022-09-09 01:25:24,373 [DEBUG][parser.py\Parser\__counter_requests] Request 171. The data of the "Счетчики" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:24,373 [DEBUG][parser.py\Parser\__tasks_executor] Query 171 data added to record sheet.
+2022-09-09 01:25:24,449 [DEBUG][parser.py\Parser\__counter_requests] Request 172. The data of the "Урны" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:24,450 [DEBUG][parser.py\Parser\__tasks_executor] Query 172 data added to record sheet.
+2022-09-09 01:25:24,745 [DEBUG][parser.py\Parser\__counter_requests] Request 173. The data of the "Эмали" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:24,745 [DEBUG][parser.py\Parser\__tasks_executor] Query 173 data added to record sheet.
+2022-09-09 01:25:25,025 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:25,143 [DEBUG][parser.py\Parser\__counter_requests] Request 174. The data of the "Крепежные элементы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:25,143 [DEBUG][parser.py\Parser\__tasks_executor] Query 174 data added to record sheet.
+2022-09-09 01:25:25,379 [DEBUG][parser.py\Parser\__counter_requests] Request 175. The data of the "Профиль разноуровневый (порожек)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:25,379 [DEBUG][parser.py\Parser\__tasks_executor] Query 175 data added to record sheet.
+2022-09-09 01:25:25,505 [DEBUG][parser.py\Parser\__counter_requests] Request 176. The data of the "Пистолеты для герметиков" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:25,505 [DEBUG][parser.py\Parser\__tasks_executor] Query 176 data added to record sheet.
+2022-09-09 01:25:25,592 [DEBUG][parser.py\Parser\__counter_requests] Request 177. The data of the "Проточные фильтры для воды" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:25,592 [DEBUG][parser.py\Parser\__tasks_executor] Query 177 data added to record sheet.
+2022-09-09 01:25:25,994 [DEBUG][parser.py\Parser\__counter_requests] Request 178. The data of the "Насосы бытовые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:25,994 [DEBUG][parser.py\Parser\__tasks_executor] Query 178 data added to record sheet.
+2022-09-09 01:25:26,105 [DEBUG][parser.py\Parser\__counter_requests] Request 179. The data of the "Щиты, боксы и аксессуары" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:26,105 [DEBUG][parser.py\Parser\__tasks_executor] Query 179 data added to record sheet.
+2022-09-09 01:25:26,179 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:26,249 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:26,329 [DEBUG][parser.py\Parser\__counter_requests] Request 180. The data of the "Серпянка, бинты, ленты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:26,329 [DEBUG][parser.py\Parser\__tasks_executor] Query 180 data added to record sheet.
+2022-09-09 01:25:26,548 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:26,773 [DEBUG][parser.py\Parser\__counter_requests] Request 181. The data of the "Профиль стыкоперекрывающий (порожек)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:26,773 [DEBUG][parser.py\Parser\__tasks_executor] Query 181 data added to record sheet.
+2022-09-09 01:25:26,870 [DEBUG][parser.py\Parser\__counter_requests] Request 182. The data of the "Пистолеты для монтажной пены" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:26,870 [DEBUG][parser.py\Parser\__tasks_executor] Query 182 data added to record sheet.
+2022-09-09 01:25:27,106 [DEBUG][parser.py\Parser\__counter_requests] Request 183. The data of the "Сменные элементы для фильтров" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:27,107 [DEBUG][parser.py\Parser\__tasks_executor] Query 183 data added to record sheet.
+2022-09-09 01:25:27,411 [DEBUG][parser.py\Parser\__counter_requests] Request 184. The data of the "Биотуалеты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:27,412 [DEBUG][parser.py\Parser\__tasks_executor] Query 184 data added to record sheet.
+2022-09-09 01:25:27,581 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:27,678 [DEBUG][parser.py\Parser\__counter_requests] Request 185. The data of the "Декоративные покрытия и пропитки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:27,679 [DEBUG][parser.py\Parser\__tasks_executor] Query 185 data added to record sheet.
+2022-09-09 01:25:27,944 [DEBUG][parser.py\Parser\__counter_requests] Request 186. The data of the "Посуда" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:27,944 [DEBUG][parser.py\Parser\__tasks_executor] Query 186 data added to record sheet.
+2022-09-09 01:25:28,074 [DEBUG][parser.py\Parser\__counter_requests] Request 187. The data of the "Сетки и углы штукатурные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:28,074 [DEBUG][parser.py\Parser\__tasks_executor] Query 187 data added to record sheet.
+2022-09-09 01:25:28,157 [DEBUG][parser.py\Parser\__counter_requests] Request 188. The data of the "Гвозди шиферные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:28,157 [DEBUG][parser.py\Parser\__tasks_executor] Query 188 data added to record sheet.
+2022-09-09 01:25:28,558 [DEBUG][parser.py\Parser\__counter_requests] Request 189. The data of the "Профиль угловой (порожек)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:28,558 [DEBUG][parser.py\Parser\__tasks_executor] Query 189 data added to record sheet.
+2022-09-09 01:25:28,632 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:28,715 [DEBUG][parser.py\Parser\__counter_requests] Request 190. The data of the "Фильтр для воды кувшин" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:28,716 [DEBUG][parser.py\Parser\__tasks_executor] Query 190 data added to record sheet.
+2022-09-09 01:25:28,931 [DEBUG][parser.py\Parser\__counter_requests] Request 191. The data of the "Садовая мебель" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:28,931 [DEBUG][parser.py\Parser\__tasks_executor] Query 191 data added to record sheet.
+2022-09-09 01:25:29,059 [DEBUG][parser.py\Parser\__counter_requests] Request 192. The data of the "Блоки комбинированные и переключатели" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:29,059 [DEBUG][parser.py\Parser\__tasks_executor] Query 192 data added to record sheet.
+2022-09-09 01:25:29,167 [DEBUG][parser.py\Parser\__counter_requests] Request 193. The data of the "Огнебиозащита и антисептики" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:29,167 [DEBUG][parser.py\Parser\__tasks_executor] Query 193 data added to record sheet.
+2022-09-09 01:25:29,388 [DEBUG][parser.py\Parser\__counter_requests] Request 194. The data of the "Клеенки, скатерти, салфетки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:29,388 [DEBUG][parser.py\Parser\__tasks_executor] Query 194 data added to record sheet.
+2022-09-09 01:25:29,493 [DEBUG][parser.py\Parser\__counter_requests] Request 195. The data of the "Сетки кладочные, сварные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:29,493 [DEBUG][parser.py\Parser\__tasks_executor] Query 195 data added to record sheet.
+2022-09-09 01:25:29,561 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:29,653 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:29,820 [DEBUG][parser.py\Parser\__counter_requests] Request 196. The data of the "Контрольно измерительный и лазерный инструмент" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:29,820 [DEBUG][parser.py\Parser\__tasks_executor] Query 196 data added to record sheet.
+2022-09-09 01:25:30,090 [DEBUG][parser.py\Parser\__counter_requests] Request 197. The data of the "Шланги для стиральных машин" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:30,090 [DEBUG][parser.py\Parser\__tasks_executor] Query 197 data added to record sheet.
+2022-09-09 01:25:30,152 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:30,242 [DEBUG][parser.py\Parser\__counter_requests] Request 198. The data of the "Вилки электрические" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:30,242 [DEBUG][parser.py\Parser\__tasks_executor] Query 198 data added to record sheet.
+2022-09-09 01:25:30,338 [DEBUG][parser.py\Parser\__counter_requests] Request 199. The data of the "Олифа" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:30,338 [DEBUG][parser.py\Parser\__tasks_executor] Query 199 data added to record sheet.
+2022-09-09 01:25:30,601 [DEBUG][parser.py\Parser\__counter_requests] Request 200. The data of the "Кухонные принадлежности" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:30,601 [DEBUG][parser.py\Parser\__tasks_executor] Query 200 data added to record sheet.
+2022-09-09 01:25:30,758 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:30,899 [DEBUG][parser.py\Parser\__counter_requests] Request 201. The data of the "Гвозди финишные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:30,900 [DEBUG][parser.py\Parser\__tasks_executor] Query 201 data added to record sheet.
+2022-09-09 01:25:30,979 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:31,127 [DEBUG][parser.py\Parser\__counter_requests] Request 202. The data of the "Мерные ленты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:31,127 [DEBUG][parser.py\Parser\__tasks_executor] Query 202 data added to record sheet.
+2022-09-09 01:25:31,191 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:31,356 [DEBUG][parser.py\Parser\__counter_requests] Request 203. The data of the "Велосипеды" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:31,356 [DEBUG][parser.py\Parser\__tasks_executor] Query 203 data added to record sheet.
+2022-09-09 01:25:31,705 [DEBUG][parser.py\Parser\__counter_requests] Request 204. The data of the "Выключатели" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:31,705 [DEBUG][parser.py\Parser\__tasks_executor] Query 204 data added to record sheet.
+2022-09-09 01:25:31,903 [DEBUG][parser.py\Parser\__counter_requests] Request 205. The data of the "Растворители" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:31,903 [DEBUG][parser.py\Parser\__tasks_executor] Query 205 data added to record sheet.
+2022-09-09 01:25:31,960 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:32,126 [DEBUG][parser.py\Parser\__counter_requests] Request 206. The data of the "Изоляционные пленки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:32,126 [DEBUG][parser.py\Parser\__tasks_executor] Query 206 data added to record sheet.
+2022-09-09 01:25:32,464 [DEBUG][parser.py\Parser\__counter_requests] Request 207. The data of the "Гвозди строительные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:32,464 [DEBUG][parser.py\Parser\__tasks_executor] Query 207 data added to record sheet.
+2022-09-09 01:25:32,535 [DEBUG][parser.py\Parser\__counter_requests] Request 208. The data of the "Герметик" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:32,536 [DEBUG][parser.py\Parser\__tasks_executor] Query 208 data added to record sheet.
+2022-09-09 01:25:32,720 [DEBUG][parser.py\Parser\__counter_requests] Request 209. The data of the "Рулетки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:32,720 [DEBUG][parser.py\Parser\__tasks_executor] Query 209 data added to record sheet.
+2022-09-09 01:25:32,784 [DEBUG][parser.py\Parser\__counter_requests] Request 210. The data of the "Котлы отопительные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:32,784 [DEBUG][parser.py\Parser\__tasks_executor] Query 210 data added to record sheet.
+2022-09-09 01:25:33,025 [DEBUG][parser.py\Parser\__counter_requests] Request 211. The data of the "Товары для пикника, палатки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:33,025 [DEBUG][parser.py\Parser\__tasks_executor] Query 211 data added to record sheet.
+2022-09-09 01:25:33,495 [DEBUG][parser.py\Parser\__counter_requests] Request 212. The data of the "Рамки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:33,495 [DEBUG][parser.py\Parser\__tasks_executor] Query 212 data added to record sheet.
+2022-09-09 01:25:33,604 [DEBUG][parser.py\Parser\__counter_requests] Request 213. The data of the "Лаки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:33,604 [DEBUG][parser.py\Parser\__tasks_executor] Query 213 data added to record sheet.
+2022-09-09 01:25:33,715 [DEBUG][parser.py\Parser\__counter_requests] Request 214. The data of the "Вешалки для одежды" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:33,715 [DEBUG][parser.py\Parser\__tasks_executor] Query 214 data added to record sheet.
+2022-09-09 01:25:33,837 [DEBUG][parser.py\Parser\__counter_requests] Request 215. The data of the "Межвенцовый утеплитель и декор" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:33,837 [DEBUG][parser.py\Parser\__tasks_executor] Query 215 data added to record sheet.
+2022-09-09 01:25:33,924 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:34,071 [DEBUG][parser.py\Parser\__counter_requests] Request 216. The data of the "Комплект для укладки ламината" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:34,071 [DEBUG][parser.py\Parser\__tasks_executor] Query 216 data added to record sheet.
+2022-09-09 01:25:34,475 [DEBUG][parser.py\Parser\__counter_requests] Request 217. The data of the "Уровни" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:34,475 [DEBUG][parser.py\Parser\__tasks_executor] Query 217 data added to record sheet.
+2022-09-09 01:25:34,535 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:34,643 [DEBUG][parser.py\Parser\__counter_requests] Request 218. The data of the "Товары для плавания" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:34,643 [DEBUG][parser.py\Parser\__tasks_executor] Query 218 data added to record sheet.
+2022-09-09 01:25:34,853 [DEBUG][parser.py\Parser\__counter_requests] Request 219. The data of the "Розетки для помещений" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:34,853 [DEBUG][parser.py\Parser\__tasks_executor] Query 219 data added to record sheet.
+2022-09-09 01:25:35,010 [DEBUG][parser.py\Parser\__counter_requests] Request 220. The data of the "Морилка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:35,010 [DEBUG][parser.py\Parser\__tasks_executor] Query 220 data added to record sheet.
+2022-09-09 01:25:35,492 [DEBUG][parser.py\Parser\__counter_requests] Request 221. The data of the "Кронштейны для аудио-видео и бытовой техники" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:35,492 [DEBUG][parser.py\Parser\__tasks_executor] Query 221 data added to record sheet.
+2022-09-09 01:25:35,620 [DEBUG][parser.py\Parser\__counter_requests] Request 222. The data of the "Минераловатный утеплитель" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:35,620 [DEBUG][parser.py\Parser\__tasks_executor] Query 222 data added to record sheet.
+2022-09-09 01:25:35,711 [DEBUG][parser.py\Parser\__counter_requests] Request 223. The data of the "Дюбель для пустотелых конструкций" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:35,711 [DEBUG][parser.py\Parser\__tasks_executor] Query 223 data added to record sheet.
+2022-09-09 01:25:35,867 [DEBUG][parser.py\Parser\__counter_requests] Request 224. The data of the "Кольца для труб" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:35,868 [DEBUG][parser.py\Parser\__tasks_executor] Query 224 data added to record sheet.
+2022-09-09 01:25:35,956 [DEBUG][parser.py\Parser\__counter_requests] Request 225. The data of the "Водонагреватель газовый" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:35,956 [DEBUG][parser.py\Parser\__tasks_executor] Query 225 data added to record sheet.
+2022-09-09 01:25:36,139 [DEBUG][parser.py\Parser\__counter_requests] Request 226. The data of the "Штангельциркули, линейки, угольники" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:36,139 [DEBUG][parser.py\Parser\__tasks_executor] Query 226 data added to record sheet.
+2022-09-09 01:25:36,329 [DEBUG][parser.py\Parser\__counter_requests] Request 227. The data of the "Санки, снегокаты, тюб..." section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:36,329 [DEBUG][parser.py\Parser\__tasks_executor] Query 227 data added to record sheet.
+2022-09-09 01:25:36,492 [DEBUG][parser.py\Parser\__counter_requests] Request 228. The data of the "Розетки ТВ, телефона, компьютера, аудио систем" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:36,492 [DEBUG][parser.py\Parser\__tasks_executor] Query 228 data added to record sheet.
+2022-09-09 01:25:36,566 [DEBUG][parser.py\Parser\__counter_requests] Request 229. The data of the "Пигменты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:36,566 [DEBUG][parser.py\Parser\__tasks_executor] Query 229 data added to record sheet.
+2022-09-09 01:25:36,846 [DEBUG][parser.py\Parser\__counter_requests] Request 230. The data of the "Мелкая бытовая техника" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:36,847 [DEBUG][parser.py\Parser\__tasks_executor] Query 230 data added to record sheet.
+2022-09-09 01:25:37,140 [DEBUG][parser.py\Parser\__counter_requests] Request 231. The data of the "Пенопласт" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:37,140 [DEBUG][parser.py\Parser\__tasks_executor] Query 231 data added to record sheet.
+2022-09-09 01:25:37,228 [DEBUG][parser.py\Parser\__counter_requests] Request 232. The data of the "Подложка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:37,228 [DEBUG][parser.py\Parser\__tasks_executor] Query 232 data added to record sheet.
+2022-09-09 01:25:37,311 [DEBUG][parser.py\Parser\__counter_requests] Request 233. The data of the "Дюбель для газобетона" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:37,311 [DEBUG][parser.py\Parser\__tasks_executor] Query 233 data added to record sheet.
+2022-09-09 01:25:37,407 [DEBUG][parser.py\Parser\__counter_requests] Request 234. The data of the "Водонагреватели электрические накопительные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:37,407 [DEBUG][parser.py\Parser\__tasks_executor] Query 234 data added to record sheet.
+2022-09-09 01:25:37,467 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:37,711 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:37,791 [DEBUG][parser.py\Parser\__counter_requests] Request 235. The data of the "Светорегуляторы (диммеры)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:37,791 [DEBUG][parser.py\Parser\__tasks_executor] Query 235 data added to record sheet.
+2022-09-09 01:25:37,900 [DEBUG][parser.py\Parser\__counter_requests] Request 236. The data of the "Полки, этажерки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:37,900 [DEBUG][parser.py\Parser\__tasks_executor] Query 236 data added to record sheet.
+2022-09-09 01:25:37,987 [DEBUG][parser.py\Parser\__counter_requests] Request 237. The data of the "Фольгоизолон" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:37,987 [DEBUG][parser.py\Parser\__tasks_executor] Query 237 data added to record sheet.
+2022-09-09 01:25:38,226 [DEBUG][parser.py\Parser\__counter_requests] Request 238. The data of the "Клей для напольных покрытий" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:38,226 [DEBUG][parser.py\Parser\__tasks_executor] Query 238 data added to record sheet.
+2022-09-09 01:25:38,544 [DEBUG][parser.py\Parser\__counter_requests] Request 239. The data of the "Дюбель распорный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:38,545 [DEBUG][parser.py\Parser\__tasks_executor] Query 239 data added to record sheet.
+2022-09-09 01:25:38,610 [DEBUG][parser.py\Parser\__counter_requests] Request 240. The data of the "Водонагреватель электрический проточный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:38,610 [DEBUG][parser.py\Parser\__tasks_executor] Query 240 data added to record sheet.
+2022-09-09 01:25:38,768 [DEBUG][parser.py\Parser\__counter_requests] Request 241. The data of the "Степлеры и заклепочники" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:38,768 [DEBUG][parser.py\Parser\__tasks_executor] Query 241 data added to record sheet.
+2022-09-09 01:25:39,023 [DEBUG][parser.py\Parser\__counter_requests] Request 242. The data of the "Валики" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:39,023 [DEBUG][parser.py\Parser\__tasks_executor] Query 242 data added to record sheet.
+2022-09-09 01:25:39,121 [DEBUG][parser.py\Parser\__counter_requests] Request 243. The data of the "Силовые вилки и розетки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:39,121 [DEBUG][parser.py\Parser\__tasks_executor] Query 243 data added to record sheet.
+2022-09-09 01:25:39,569 [DEBUG][parser.py\Parser\__counter_requests] Request 244. The data of the "Сушилки и гладильные доски" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:39,569 [DEBUG][parser.py\Parser\__tasks_executor] Query 244 data added to record sheet.
+2022-09-09 01:25:39,650 [DEBUG][parser.py\Parser\__counter_requests] Request 245. The data of the "Экструдированный пенополистирол" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:39,651 [DEBUG][parser.py\Parser\__tasks_executor] Query 245 data added to record sheet.
+2022-09-09 01:25:39,712 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:39,807 [DEBUG][parser.py\Parser\__counter_requests] Request 246. The data of the "Дюбель-гвоздь универсальный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:39,808 [DEBUG][parser.py\Parser\__tasks_executor] Query 246 data added to record sheet.
+2022-09-09 01:25:39,916 [DEBUG][parser.py\Parser\__counter_requests] Request 247. The data of the "Комплектующие для полотенцесушителей" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:39,917 [DEBUG][parser.py\Parser\__tasks_executor] Query 247 data added to record sheet.
+2022-09-09 01:25:40,197 [DEBUG][parser.py\Parser\__counter_requests] Request 248. The data of the "Тиски, струбцины" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:40,198 [DEBUG][parser.py\Parser\__tasks_executor] Query 248 data added to record sheet.
+2022-09-09 01:25:40,400 [DEBUG][parser.py\Parser\__counter_requests] Request 249. The data of the "Кисти" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:40,401 [DEBUG][parser.py\Parser\__tasks_executor] Query 249 data added to record sheet.
+2022-09-09 01:25:40,494 [DEBUG][parser.py\Parser\__counter_requests] Request 250. The data of the "Соединения ТВ, телефона, аудио систем" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:40,494 [DEBUG][parser.py\Parser\__tasks_executor] Query 250 data added to record sheet.
+2022-09-09 01:25:40,626 [DEBUG][parser.py\Parser\__counter_requests] Request 251. The data of the "Системы хранения" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:40,626 [DEBUG][parser.py\Parser\__tasks_executor] Query 251 data added to record sheet.
+2022-09-09 01:25:40,837 [DEBUG][parser.py\Parser\__counter_requests] Request 252. The data of the "Арки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:40,837 [DEBUG][parser.py\Parser\__tasks_executor] Query 252 data added to record sheet.
+2022-09-09 01:25:41,244 [DEBUG][parser.py\Parser\__counter_requests] Request 253. The data of the "Дюбель для изоляции" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:41,245 [DEBUG][parser.py\Parser\__tasks_executor] Query 253 data added to record sheet.
+2022-09-09 01:25:41,335 [DEBUG][parser.py\Parser\__counter_requests] Request 254. The data of the "Комплектующие для радиаторов" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:41,335 [DEBUG][parser.py\Parser\__tasks_executor] Query 254 data added to record sheet.
+2022-09-09 01:25:41,402 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:41,493 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:41,665 [DEBUG][parser.py\Parser\__counter_requests] Request 255. The data of the "Вспомогательный инструмент" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:41,665 [DEBUG][parser.py\Parser\__tasks_executor] Query 255 data added to record sheet.
+2022-09-09 01:25:41,822 [DEBUG][parser.py\Parser\__counter_requests] Request 256. The data of the "Монтажные коробки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:41,822 [DEBUG][parser.py\Parser\__tasks_executor] Query 256 data added to record sheet.
+2022-09-09 01:25:41,901 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:41,986 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:42,104 [DEBUG][parser.py\Parser\__counter_requests] Request 257. The data of the "Дюбель универсальный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:42,105 [DEBUG][parser.py\Parser\__tasks_executor] Query 257 data added to record sheet.
+2022-09-09 01:25:42,646 [DEBUG][parser.py\Parser\__counter_requests] Request 258. The data of the "Полотенцесушители" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:42,646 [DEBUG][parser.py\Parser\__tasks_executor] Query 258 data added to record sheet.
+2022-09-09 01:25:42,706 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:43,099 [DEBUG][parser.py\Parser\__counter_requests] Request 259. The data of the "Плиткорезы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:43,099 [DEBUG][parser.py\Parser\__tasks_executor] Query 259 data added to record sheet.
+2022-09-09 01:25:43,200 [DEBUG][parser.py\Parser\__counter_requests] Request 260. The data of the "Подушки, одеяла" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:43,200 [DEBUG][parser.py\Parser\__tasks_executor] Query 260 data added to record sheet.
+2022-09-09 01:25:43,295 [DEBUG][parser.py\Parser\__counter_requests] Request 261. The data of the "Радиаторные решетки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:43,295 [DEBUG][parser.py\Parser\__tasks_executor] Query 261 data added to record sheet.
+2022-09-09 01:25:43,357 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:43,545 [DEBUG][parser.py\Parser\__counter_requests] Request 262. The data of the "Дюбель-гвоздь монтажный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:43,545 [DEBUG][parser.py\Parser\__tasks_executor] Query 262 data added to record sheet.
+2022-09-09 01:25:43,617 [DEBUG][parser.py\Parser\__counter_requests] Request 263. The data of the "Ламинированные двери" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:43,617 [DEBUG][parser.py\Parser\__tasks_executor] Query 263 data added to record sheet.
+2022-09-09 01:25:43,683 [DEBUG][parser.py\Parser\__counter_requests] Request 264. The data of the "Стеклорезы и кусачки для плитки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:43,683 [DEBUG][parser.py\Parser\__tasks_executor] Query 264 data added to record sheet.
+2022-09-09 01:25:43,755 [DEBUG][parser.py\Parser\__counter_requests] Request 265. The data of the "Бра" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:43,755 [DEBUG][parser.py\Parser\__tasks_executor] Query 265 data added to record sheet.
+2022-09-09 01:25:43,839 [DEBUG][parser.py\Parser\__counter_requests] Request 266. The data of the "Покрывала, пледы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:43,839 [DEBUG][parser.py\Parser\__tasks_executor] Query 266 data added to record sheet.
+2022-09-09 01:25:44,010 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:44,155 [DEBUG][parser.py\Parser\__counter_requests] Request 267. The data of the "Водосточная система" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:44,155 [DEBUG][parser.py\Parser\__tasks_executor] Query 267 data added to record sheet.
+2022-09-09 01:25:44,244 [DEBUG][parser.py\Parser\__counter_requests] Request 268. The data of the "Дюбель крепежный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:44,245 [DEBUG][parser.py\Parser\__tasks_executor] Query 268 data added to record sheet.
+2022-09-09 01:25:44,329 [DEBUG][parser.py\Parser\__counter_requests] Request 269. The data of the "Окрашенные двери" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:44,329 [DEBUG][parser.py\Parser\__tasks_executor] Query 269 data added to record sheet.
+2022-09-09 01:25:44,400 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:44,740 [DEBUG][parser.py\Parser\__counter_requests] Request 270. The data of the "Датчики движения" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:44,740 [DEBUG][parser.py\Parser\__tasks_executor] Query 270 data added to record sheet.
+2022-09-09 01:25:44,966 [DEBUG][parser.py\Parser\__counter_requests] Request 271. The data of the "Полотенца, салфетки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:44,967 [DEBUG][parser.py\Parser\__tasks_executor] Query 271 data added to record sheet.
+2022-09-09 01:25:45,165 [DEBUG][parser.py\Parser\__counter_requests] Request 272. The data of the "Дренажная система" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:45,165 [DEBUG][parser.py\Parser\__tasks_executor] Query 272 data added to record sheet.
+2022-09-09 01:25:45,259 [DEBUG][parser.py\Parser\__counter_requests] Request 273. The data of the "Радиаторы алюминиевые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:45,259 [DEBUG][parser.py\Parser\__tasks_executor] Query 273 data added to record sheet.
+2022-09-09 01:25:45,459 [DEBUG][parser.py\Parser\__counter_requests] Request 274. The data of the "Рамный дюбель металлический" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:45,461 [DEBUG][parser.py\Parser\__tasks_executor] Query 274 data added to record sheet.
+2022-09-09 01:25:45,793 [DEBUG][parser.py\Parser\__counter_requests] Request 275. The data of the "ПВХ двери" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:45,793 [DEBUG][parser.py\Parser\__tasks_executor] Query 275 data added to record sheet.
+2022-09-09 01:25:45,858 [DEBUG][parser.py\Parser\__counter_requests] Request 276. The data of the "Отвесы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:45,858 [DEBUG][parser.py\Parser\__tasks_executor] Query 276 data added to record sheet.
+2022-09-09 01:25:45,998 [DEBUG][parser.py\Parser\__counter_requests] Request 277. The data of the "Люстры, подвесы, споты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:45,999 [DEBUG][parser.py\Parser\__tasks_executor] Query 277 data added to record sheet.
+2022-09-09 01:25:46,074 [DEBUG][parser.py\Parser\__counter_requests] Request 278. The data of the "Поролон, кожзаменитель" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:46,075 [DEBUG][parser.py\Parser\__tasks_executor] Query 278 data added to record sheet.
+2022-09-09 01:25:46,357 [DEBUG][parser.py\Parser\__counter_requests] Request 279. The data of the "Кровля" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:46,358 [DEBUG][parser.py\Parser\__tasks_executor] Query 279 data added to record sheet.
+2022-09-09 01:25:46,453 [DEBUG][parser.py\Parser\__counter_requests] Request 280. The data of the "Радиаторы биметаллические" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:46,453 [DEBUG][parser.py\Parser\__tasks_executor] Query 280 data added to record sheet.
+2022-09-09 01:25:46,563 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:46,762 [DEBUG][parser.py\Parser\__counter_requests] Request 281. The data of the "Металлические двери" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:46,762 [DEBUG][parser.py\Parser\__tasks_executor] Query 281 data added to record sheet.
+2022-09-09 01:25:46,873 [DEBUG][parser.py\Parser\__counter_requests] Request 282. The data of the "Шнуры и краски разметочные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:46,873 [DEBUG][parser.py\Parser\__tasks_executor] Query 282 data added to record sheet.
+2022-09-09 01:25:47,136 [DEBUG][parser.py\Parser\__counter_requests] Request 283. The data of the "Ночники" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:47,136 [DEBUG][parser.py\Parser\__tasks_executor] Query 283 data added to record sheet.
+2022-09-09 01:25:47,304 [DEBUG][parser.py\Parser\__counter_requests] Request 284. The data of the "Постельное белье" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:47,304 [DEBUG][parser.py\Parser\__tasks_executor] Query 284 data added to record sheet.
+2022-09-09 01:25:47,371 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:47,486 [DEBUG][parser.py\Parser\__counter_requests] Request 285. The data of the "Радиаторы чугунные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:47,486 [DEBUG][parser.py\Parser\__tasks_executor] Query 285 data added to record sheet.
+2022-09-09 01:25:47,719 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:47,898 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:48,192 [DEBUG][parser.py\Parser\__counter_requests] Request 286. The data of the "Прожекторы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:48,192 [DEBUG][parser.py\Parser\__tasks_executor] Query 286 data added to record sheet.
+2022-09-09 01:25:48,253 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:48,351 [DEBUG][parser.py\Parser\__counter_requests] Request 287. The data of the "Заклепки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:48,351 [DEBUG][parser.py\Parser\__tasks_executor] Query 287 data added to record sheet.
+2022-09-09 01:25:48,421 [DEBUG][parser.py\Parser\__counter_requests] Request 288. The data of the "Гидроизоляция самоклеющаяся" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:48,421 [DEBUG][parser.py\Parser\__tasks_executor] Query 288 data added to record sheet.
+2022-09-09 01:25:48,488 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:48,661 [DEBUG][parser.py\Parser\__counter_requests] Request 289. The data of the "Радиаторы стальные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:48,663 [DEBUG][parser.py\Parser\__tasks_executor] Query 289 data added to record sheet.
+2022-09-09 01:25:48,747 [DEBUG][parser.py\Parser\__counter_requests] Request 290. The data of the "Подсветки светодиодные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:48,747 [DEBUG][parser.py\Parser\__tasks_executor] Query 290 data added to record sheet.
+2022-09-09 01:25:48,812 [DEBUG][parser.py\Parser\__counter_requests] Request 291. The data of the "Болторезы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:48,812 [DEBUG][parser.py\Parser\__tasks_executor] Query 291 data added to record sheet.
+2022-09-09 01:25:48,871 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:48,947 [DEBUG][parser.py\Parser\__counter_requests] Request 292. The data of the "Кляймеры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:48,947 [DEBUG][parser.py\Parser\__tasks_executor] Query 292 data added to record sheet.
+2022-09-09 01:25:49,148 [DEBUG][parser.py\Parser\__counter_requests] Request 293. The data of the "Наплавляемая кровля" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:49,148 [DEBUG][parser.py\Parser\__tasks_executor] Query 293 data added to record sheet.
+2022-09-09 01:25:49,404 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:49,491 [DEBUG][parser.py\Parser\__counter_requests] Request 294. The data of the "Погонажные изделия Ламинированные двери" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:49,491 [DEBUG][parser.py\Parser\__tasks_executor] Query 294 data added to record sheet.
+2022-09-09 01:25:49,601 [DEBUG][parser.py\Parser\__counter_requests] Request 295. The data of the "Садово-парковое освещение" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:49,601 [DEBUG][parser.py\Parser\__tasks_executor] Query 295 data added to record sheet.
+2022-09-09 01:25:49,691 [DEBUG][parser.py\Parser\__counter_requests] Request 296. The data of the "Гвоздодеры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:49,691 [DEBUG][parser.py\Parser\__tasks_executor] Query 296 data added to record sheet.
+2022-09-09 01:25:50,029 [DEBUG][parser.py\Parser\__counter_requests] Request 297. The data of the "Пластиковые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:50,029 [DEBUG][parser.py\Parser\__tasks_executor] Query 297 data added to record sheet.
+2022-09-09 01:25:50,296 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:50,395 [DEBUG][parser.py\Parser\__counter_requests] Request 298. The data of the "Праймер, мастика" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:50,395 [DEBUG][parser.py\Parser\__tasks_executor] Query 298 data added to record sheet.
+2022-09-09 01:25:50,586 [DEBUG][parser.py\Parser\__counter_requests] Request 299. The data of the "Погонажные изделия Окрашенные двери" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:50,586 [DEBUG][parser.py\Parser\__tasks_executor] Query 299 data added to record sheet.
+2022-09-09 01:25:50,653 [DEBUG][parser.py\Parser\__counter_requests] Request 300. The data of the "Гарнитуры душевые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:50,653 [DEBUG][parser.py\Parser\__tasks_executor] Query 300 data added to record sheet.
+2022-09-09 01:25:50,807 [DEBUG][parser.py\Parser\__counter_requests] Request 301. The data of the "Светильники настенно-потолочные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:50,807 [DEBUG][parser.py\Parser\__tasks_executor] Query 301 data added to record sheet.
+2022-09-09 01:25:51,053 [DEBUG][parser.py\Parser\__counter_requests] Request 302. The data of the "Зубила, долота, стамески" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:51,053 [DEBUG][parser.py\Parser\__tasks_executor] Query 302 data added to record sheet.
+2022-09-09 01:25:51,143 [DEBUG][parser.py\Parser\__counter_requests] Request 303. The data of the "Кованные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:51,143 [DEBUG][parser.py\Parser\__tasks_executor] Query 303 data added to record sheet.
+2022-09-09 01:25:51,217 [DEBUG][parser.py\Parser\__counter_requests] Request 304. The data of the "Рубероид, битум" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:51,217 [DEBUG][parser.py\Parser\__tasks_executor] Query 304 data added to record sheet.
+2022-09-09 01:25:51,292 [DEBUG][parser.py\Parser\__counter_requests] Request 305. The data of the "Саморез для ГВЛ" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:51,292 [DEBUG][parser.py\Parser\__tasks_executor] Query 305 data added to record sheet.
+2022-09-09 01:25:51,629 [DEBUG][parser.py\Parser\__counter_requests] Request 306. The data of the "Погонажные изделия ПВХ двери" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:51,630 [DEBUG][parser.py\Parser\__tasks_executor] Query 306 data added to record sheet.
+2022-09-09 01:25:51,837 [DEBUG][parser.py\Parser\__counter_requests] Request 307. The data of the "Гигиенический душ" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:51,837 [DEBUG][parser.py\Parser\__tasks_executor] Query 307 data added to record sheet.
+2022-09-09 01:25:52,001 [DEBUG][parser.py\Parser\__counter_requests] Request 308. The data of the "Светильники точечные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:52,001 [DEBUG][parser.py\Parser\__tasks_executor] Query 308 data added to record sheet.
+2022-09-09 01:25:52,148 [DEBUG][parser.py\Parser\__counter_requests] Request 309. The data of the "Молотки, каянки, кувалды" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:52,149 [DEBUG][parser.py\Parser\__tasks_executor] Query 309 data added to record sheet.
+2022-09-09 01:25:52,374 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:52,478 [DEBUG][parser.py\Parser\__counter_requests] Request 310. The data of the "Металлопластиковые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:52,478 [DEBUG][parser.py\Parser\__tasks_executor] Query 310 data added to record sheet.
+2022-09-09 01:25:52,891 [DEBUG][parser.py\Parser\__counter_requests] Request 311. The data of the "Саморез универсальный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:52,891 [DEBUG][parser.py\Parser\__tasks_executor] Query 311 data added to record sheet.
+2022-09-09 01:25:52,969 [DEBUG][parser.py\Parser\__counter_requests] Request 312. The data of the "Погонажные изделия Шпонированные двери" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:52,969 [DEBUG][parser.py\Parser\__tasks_executor] Query 312 data added to record sheet.
+2022-09-09 01:25:53,090 [DEBUG][parser.py\Parser\__counter_requests] Request 313. The data of the "Комплектующие к смесителям" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:53,090 [DEBUG][parser.py\Parser\__tasks_executor] Query 313 data added to record sheet.
+2022-09-09 01:25:53,352 [DEBUG][parser.py\Parser\__counter_requests] Request 314. The data of the "Фонарики" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:53,352 [DEBUG][parser.py\Parser\__tasks_executor] Query 314 data added to record sheet.
+2022-09-09 01:25:53,528 [DEBUG][parser.py\Parser\__counter_requests] Request 315. The data of the "Напильники, надфили, рашпили" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:53,528 [DEBUG][parser.py\Parser\__tasks_executor] Query 315 data added to record sheet.
+2022-09-09 01:25:53,599 [DEBUG][parser.py\Parser\__counter_requests] Request 316. The data of the "ДВП (древесноволокнистая плита), ДСП (древесностружечная плита)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:53,599 [DEBUG][parser.py\Parser\__tasks_executor] Query 316 data added to record sheet.
+2022-09-09 01:25:53,938 [DEBUG][parser.py\Parser\__counter_requests] Request 317. The data of the "Картины" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:53,938 [DEBUG][parser.py\Parser\__tasks_executor] Query 317 data added to record sheet.
+2022-09-09 01:25:54,086 [DEBUG][parser.py\Parser\__counter_requests] Request 318. The data of the "Саморез гипсокартон-дерево" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:54,086 [DEBUG][parser.py\Parser\__tasks_executor] Query 318 data added to record sheet.
+2022-09-09 01:25:54,171 [DEBUG][parser.py\Parser\__counter_requests] Request 319. The data of the "Погонажные изделия Эко-шпон" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:54,171 [DEBUG][parser.py\Parser\__tasks_executor] Query 319 data added to record sheet.
+2022-09-09 01:25:54,455 [DEBUG][parser.py\Parser\__counter_requests] Request 320. The data of the "Лейки душевые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:54,455 [DEBUG][parser.py\Parser\__tasks_executor] Query 320 data added to record sheet.
+2022-09-09 01:25:54,541 [DEBUG][parser.py\Parser\__counter_requests] Request 321. The data of the "Торшеры, лампы настольные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:54,541 [DEBUG][parser.py\Parser\__tasks_executor] Query 321 data added to record sheet.
+2022-09-09 01:25:54,628 [DEBUG][parser.py\Parser\__counter_requests] Request 322. The data of the "Ножницы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:54,628 [DEBUG][parser.py\Parser\__tasks_executor] Query 322 data added to record sheet.
+2022-09-09 01:25:54,755 [DEBUG][parser.py\Parser\__counter_requests] Request 323. The data of the "ОСП-3 (ориентированно-стружечная плита)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:54,755 [DEBUG][parser.py\Parser\__tasks_executor] Query 323 data added to record sheet.
+2022-09-09 01:25:55,124 [DEBUG][parser.py\Parser\__counter_requests] Request 324. The data of the "Часы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:55,124 [DEBUG][parser.py\Parser\__tasks_executor] Query 324 data added to record sheet.
+2022-09-09 01:25:55,306 [DEBUG][parser.py\Parser\__counter_requests] Request 325. The data of the "Саморезы металл-металл с пресс-шайбой" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:55,307 [DEBUG][parser.py\Parser\__tasks_executor] Query 325 data added to record sheet.
+2022-09-09 01:25:55,403 [DEBUG][parser.py\Parser\__counter_requests] Request 326. The data of the "Уплотнители для дверей" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:55,403 [DEBUG][parser.py\Parser\__tasks_executor] Query 326 data added to record sheet.
+2022-09-09 01:25:55,487 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:55,557 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:55,873 [DEBUG][parser.py\Parser\__counter_requests] Request 327. The data of the "Ножовки и пилы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:55,873 [DEBUG][parser.py\Parser\__tasks_executor] Query 327 data added to record sheet.
+2022-09-09 01:25:55,956 [DEBUG][parser.py\Parser\__counter_requests] Request 328. The data of the "Фанера" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:55,956 [DEBUG][parser.py\Parser\__tasks_executor] Query 328 data added to record sheet.
+2022-09-09 01:25:56,119 [DEBUG][parser.py\Parser\__counter_requests] Request 329. The data of the "Шторы, жалюзи" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:56,119 [DEBUG][parser.py\Parser\__tasks_executor] Query 329 data added to record sheet.
+2022-09-09 01:25:56,281 [DEBUG][parser.py\Parser\__counter_requests] Request 330. The data of the "Саморез кровельный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:56,281 [DEBUG][parser.py\Parser\__tasks_executor] Query 330 data added to record sheet.
+2022-09-09 01:25:56,356 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:56,583 [DEBUG][parser.py\Parser\__counter_requests] Request 331. The data of the "Смесители для биде" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:56,583 [DEBUG][parser.py\Parser\__tasks_executor] Query 331 data added to record sheet.
+2022-09-09 01:25:56,684 [DEBUG][parser.py\Parser\__counter_requests] Request 332. The data of the "Стартера и патроны" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:56,684 [DEBUG][parser.py\Parser\__tasks_executor] Query 332 data added to record sheet.
+2022-09-09 01:25:56,831 [DEBUG][parser.py\Parser\__counter_requests] Request 333. The data of the "Отвертки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:56,831 [DEBUG][parser.py\Parser\__tasks_executor] Query 333 data added to record sheet.
+2022-09-09 01:25:57,033 [DEBUG][parser.py\Parser\__counter_requests] Request 334. The data of the "Брус" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:57,033 [DEBUG][parser.py\Parser\__tasks_executor] Query 334 data added to record sheet.
+2022-09-09 01:25:57,361 [DEBUG][parser.py\Parser\__counter_requests] Request 335. The data of the "Товары для праздника" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:57,361 [DEBUG][parser.py\Parser\__tasks_executor] Query 335 data added to record sheet.
+2022-09-09 01:25:57,428 [DEBUG][parser.py\Parser\__counter_requests] Request 336. The data of the "Саморез оконный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:57,429 [DEBUG][parser.py\Parser\__tasks_executor] Query 336 data added to record sheet.
+2022-09-09 01:25:57,847 [DEBUG][parser.py\Parser\__counter_requests] Request 337. The data of the "Смесители для ванны" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:57,847 [DEBUG][parser.py\Parser\__tasks_executor] Query 337 data added to record sheet.
+2022-09-09 01:25:57,914 [DEBUG][parser.py\Parser\__counter_requests] Request 338. The data of the "Глазки дверные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:57,914 [DEBUG][parser.py\Parser\__tasks_executor] Query 338 data added to record sheet.
+2022-09-09 01:25:58,084 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:58,281 [DEBUG][parser.py\Parser\__counter_requests] Request 339. The data of the "Рубанки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:58,281 [DEBUG][parser.py\Parser\__tasks_executor] Query 339 data added to record sheet.
+2022-09-09 01:25:58,358 [DEBUG][parser.py\Parser\__counter_requests] Request 340. The data of the "Коробочный брус, наличники" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:58,359 [DEBUG][parser.py\Parser\__tasks_executor] Query 340 data added to record sheet.
+2022-09-09 01:25:58,436 [DEBUG][parser.py\Parser\__counter_requests] Request 341. The data of the "Саморезы металл-металл" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:58,436 [DEBUG][parser.py\Parser\__tasks_executor] Query 341 data added to record sheet.
+2022-09-09 01:25:58,503 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:25:58,675 [DEBUG][parser.py\Parser\__counter_requests] Request 342. The data of the "Галогеновые лампы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:58,675 [DEBUG][parser.py\Parser\__tasks_executor] Query 342 data added to record sheet.
+2022-09-09 01:25:58,968 [DEBUG][parser.py\Parser\__counter_requests] Request 343. The data of the "Дверные петли и шарниры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:58,969 [DEBUG][parser.py\Parser\__tasks_executor] Query 343 data added to record sheet.
+2022-09-09 01:25:59,058 [DEBUG][parser.py\Parser\__counter_requests] Request 344. The data of the "Смесители для душа" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:59,058 [DEBUG][parser.py\Parser\__tasks_executor] Query 344 data added to record sheet.
+2022-09-09 01:25:59,127 [DEBUG][parser.py\Parser\__counter_requests] Request 345. The data of the "Стусла" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:59,127 [DEBUG][parser.py\Parser\__tasks_executor] Query 345 data added to record sheet.
+2022-09-09 01:25:59,199 [DEBUG][parser.py\Parser\__counter_requests] Request 346. The data of the "Евровагонка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:59,199 [DEBUG][parser.py\Parser\__tasks_executor] Query 346 data added to record sheet.
+2022-09-09 01:25:59,587 [DEBUG][parser.py\Parser\__counter_requests] Request 347. The data of the "Саморезы металл-металл с пресс-шайбой цветная" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:59,587 [DEBUG][parser.py\Parser\__tasks_executor] Query 347 data added to record sheet.
+2022-09-09 01:25:59,811 [DEBUG][parser.py\Parser\__counter_requests] Request 348. The data of the "Автоаксессуары" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:59,811 [DEBUG][parser.py\Parser\__tasks_executor] Query 348 data added to record sheet.
+2022-09-09 01:25:59,880 [DEBUG][parser.py\Parser\__counter_requests] Request 349. The data of the "Зеркальные лампы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:59,881 [DEBUG][parser.py\Parser\__tasks_executor] Query 349 data added to record sheet.
+2022-09-09 01:25:59,992 [DEBUG][parser.py\Parser\__counter_requests] Request 350. The data of the "Доводчики и пружины" section
+has been written to the list of dictionaries!.
+2022-09-09 01:25:59,992 [DEBUG][parser.py\Parser\__tasks_executor] Query 350 data added to record sheet.
+2022-09-09 01:26:00,313 [DEBUG][parser.py\Parser\__counter_requests] Request 351. The data of the "Смесители для кухни" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:00,313 [DEBUG][parser.py\Parser\__tasks_executor] Query 351 data added to record sheet.
+2022-09-09 01:26:00,537 [DEBUG][parser.py\Parser\__counter_requests] Request 352. The data of the "Топоры, колуны" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:00,537 [DEBUG][parser.py\Parser\__tasks_executor] Query 352 data added to record sheet.
+2022-09-09 01:26:00,630 [DEBUG][parser.py\Parser\__counter_requests] Request 353. The data of the "Плинтуса, уголки, декоративные рейки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:00,630 [DEBUG][parser.py\Parser\__tasks_executor] Query 353 data added to record sheet.
+2022-09-09 01:26:00,815 [DEBUG][parser.py\Parser\__counter_requests] Request 354. The data of the "Саморез универсальный потайной белый" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:00,815 [DEBUG][parser.py\Parser\__tasks_executor] Query 354 data added to record sheet.
+2022-09-09 01:26:01,018 [DEBUG][parser.py\Parser\__counter_requests] Request 355. The data of the "Автокосметика" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:01,018 [DEBUG][parser.py\Parser\__tasks_executor] Query 355 data added to record sheet.
+2022-09-09 01:26:01,202 [DEBUG][parser.py\Parser\__counter_requests] Request 356. The data of the "Лампы накаливания" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:01,203 [DEBUG][parser.py\Parser\__tasks_executor] Query 356 data added to record sheet.
+2022-09-09 01:26:01,274 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:01,616 [DEBUG][parser.py\Parser\__counter_requests] Request 357. The data of the "Смесители для раковины" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:01,616 [DEBUG][parser.py\Parser\__tasks_executor] Query 357 data added to record sheet.
+2022-09-09 01:26:01,744 [DEBUG][parser.py\Parser\__counter_requests] Request 358. The data of the "Инструменты шарнирно-губцевые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:01,744 [DEBUG][parser.py\Parser\__tasks_executor] Query 358 data added to record sheet.
+2022-09-09 01:26:01,910 [DEBUG][parser.py\Parser\__counter_requests] Request 359. The data of the "Столешницы, щит мебельный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:01,911 [DEBUG][parser.py\Parser\__tasks_executor] Query 359 data added to record sheet.
+2022-09-09 01:26:02,053 [DEBUG][parser.py\Parser\__counter_requests] Request 360. The data of the "Саморез гипсокартон-металл" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:02,053 [DEBUG][parser.py\Parser\__tasks_executor] Query 360 data added to record sheet.
+2022-09-09 01:26:02,536 [DEBUG][parser.py\Parser\__counter_requests] Request 361. The data of the "Ремонт и техобслуживание авто" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:02,536 [DEBUG][parser.py\Parser\__tasks_executor] Query 361 data added to record sheet.
+2022-09-09 01:26:02,708 [DEBUG][parser.py\Parser\__counter_requests] Request 362. The data of the "Люминисцентные лампы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:02,709 [DEBUG][parser.py\Parser\__tasks_executor] Query 362 data added to record sheet.
+2022-09-09 01:26:02,803 [DEBUG][parser.py\Parser\__counter_requests] Request 363. The data of the "Замки велосипедные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:02,803 [DEBUG][parser.py\Parser\__tasks_executor] Query 363 data added to record sheet.
+2022-09-09 01:26:02,879 [DEBUG][parser.py\Parser\__counter_requests] Request 364. The data of the "Смесители настольные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:02,879 [DEBUG][parser.py\Parser\__tasks_executor] Query 364 data added to record sheet.
+2022-09-09 01:26:02,963 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:03,181 [DEBUG][parser.py\Parser\__counter_requests] Request 365. The data of the "Доска пола" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:03,182 [DEBUG][parser.py\Parser\__tasks_executor] Query 365 data added to record sheet.
+2022-09-09 01:26:03,251 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:03,342 [DEBUG][parser.py\Parser\__counter_requests] Request 366. The data of the "Технические жидкости и масла, фильтра" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:03,342 [DEBUG][parser.py\Parser\__tasks_executor] Query 366 data added to record sheet.
+2022-09-09 01:26:03,439 [DEBUG][parser.py\Parser\__counter_requests] Request 367. The data of the "Светодиодные лампы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:03,441 [DEBUG][parser.py\Parser\__tasks_executor] Query 367 data added to record sheet.
+2022-09-09 01:26:03,607 [DEBUG][parser.py\Parser\__counter_requests] Request 368. The data of the "Замки накладные и врезные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:03,607 [DEBUG][parser.py\Parser\__tasks_executor] Query 368 data added to record sheet.
+2022-09-09 01:26:03,844 [DEBUG][parser.py\Parser\__counter_requests] Request 369. The data of the "Стойки душевые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:03,844 [DEBUG][parser.py\Parser\__tasks_executor] Query 369 data added to record sheet.
+2022-09-09 01:26:04,010 [DEBUG][parser.py\Parser\__counter_requests] Request 370. The data of the "Наждачные бруски и губки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:04,010 [DEBUG][parser.py\Parser\__tasks_executor] Query 370 data added to record sheet.
+2022-09-09 01:26:04,244 [DEBUG][parser.py\Parser\__counter_requests] Request 371. The data of the "Элементы лестницы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:04,244 [DEBUG][parser.py\Parser\__tasks_executor] Query 371 data added to record sheet.
+2022-09-09 01:26:04,372 [DEBUG][parser.py\Parser\__counter_requests] Request 372. The data of the "Шайбы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:04,372 [DEBUG][parser.py\Parser\__tasks_executor] Query 372 data added to record sheet.
+2022-09-09 01:26:04,510 [DEBUG][parser.py\Parser\__counter_requests] Request 373. The data of the "Детские товары" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:04,510 [DEBUG][parser.py\Parser\__tasks_executor] Query 373 data added to record sheet.
+2022-09-09 01:26:04,800 [DEBUG][parser.py\Parser\__counter_requests] Request 374. The data of the "Энергосберегающие лампы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:04,800 [DEBUG][parser.py\Parser\__tasks_executor] Query 374 data added to record sheet.
+2022-09-09 01:26:04,917 [DEBUG][parser.py\Parser\__counter_requests] Request 375. The data of the "Замки навесные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:04,918 [DEBUG][parser.py\Parser\__tasks_executor] Query 375 data added to record sheet.
+2022-09-09 01:26:04,999 [DEBUG][parser.py\Parser\__counter_requests] Request 376. The data of the "Шланги душевые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:04,999 [DEBUG][parser.py\Parser\__tasks_executor] Query 376 data added to record sheet.
+2022-09-09 01:26:05,159 [DEBUG][parser.py\Parser\__counter_requests] Request 377. The data of the "Щетки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:05,159 [DEBUG][parser.py\Parser\__tasks_executor] Query 377 data added to record sheet.
+2022-09-09 01:26:05,257 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:05,554 [DEBUG][parser.py\Parser\__counter_requests] Request 378. The data of the "Шпильки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:05,554 [DEBUG][parser.py\Parser\__tasks_executor] Query 378 data added to record sheet.
+2022-09-09 01:26:05,625 [DEBUG][parser.py\Parser\__counter_requests] Request 379. The data of the "Защита для галогеновых ламп, трансформаторы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:05,625 [DEBUG][parser.py\Parser\__tasks_executor] Query 379 data added to record sheet.
+2022-09-09 01:26:05,691 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:05,850 [DEBUG][parser.py\Parser\__counter_requests] Request 380. The data of the "Фурнитура для китайских дверей" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:05,850 [DEBUG][parser.py\Parser\__tasks_executor] Query 380 data added to record sheet.
+2022-09-09 01:26:06,077 [DEBUG][parser.py\Parser\__counter_requests] Request 381. The data of the "Подстолья, шкафы и мойки для кухни" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:06,077 [DEBUG][parser.py\Parser\__tasks_executor] Query 381 data added to record sheet.
+2022-09-09 01:26:06,250 [DEBUG][parser.py\Parser\__counter_requests] Request 382. The data of the "Ключи гаечные, головки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:06,250 [DEBUG][parser.py\Parser\__tasks_executor] Query 382 data added to record sheet.
+2022-09-09 01:26:06,397 [DEBUG][parser.py\Parser\__counter_requests] Request 383. The data of the "Панель фасадная" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:06,397 [DEBUG][parser.py\Parser\__tasks_executor] Query 383 data added to record sheet.
+2022-09-09 01:26:06,670 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:06,899 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:07,090 [DEBUG][parser.py\Parser\__counter_requests] Request 384. The data of the "Письменные принадлежности" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:07,091 [DEBUG][parser.py\Parser\__tasks_executor] Query 384 data added to record sheet.
+2022-09-09 01:26:07,387 [DEBUG][parser.py\Parser\__counter_requests] Request 385. The data of the "Защелки врезные межкомнатные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:07,387 [DEBUG][parser.py\Parser\__tasks_executor] Query 385 data added to record sheet.
+2022-09-09 01:26:07,452 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:07,663 [DEBUG][parser.py\Parser\__counter_requests] Request 386. The data of the "Лента малярная, сигнальная, скотч" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:07,663 [DEBUG][parser.py\Parser\__tasks_executor] Query 386 data added to record sheet.
+2022-09-09 01:26:07,859 [DEBUG][parser.py\Parser\__counter_requests] Request 387. The data of the "Сайдинг, софит" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:07,859 [DEBUG][parser.py\Parser\__tasks_executor] Query 387 data added to record sheet.
+2022-09-09 01:26:07,941 [DEBUG][parser.py\Parser\__counter_requests] Request 388. The data of the "Шуруп по бетону" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:07,941 [DEBUG][parser.py\Parser\__tasks_executor] Query 388 data added to record sheet.
+2022-09-09 01:26:08,241 [DEBUG][parser.py\Parser\__counter_requests] Request 389. The data of the "Гирлянды" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:08,241 [DEBUG][parser.py\Parser\__tasks_executor] Query 389 data added to record sheet.
+2022-09-09 01:26:08,479 [DEBUG][parser.py\Parser\__counter_requests] Request 390. The data of the "Папки и системы архивации" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:08,479 [DEBUG][parser.py\Parser\__tasks_executor] Query 390 data added to record sheet.
+2022-09-09 01:26:08,572 [DEBUG][parser.py\Parser\__counter_requests] Request 391. The data of the "Накладки и проушины" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:08,572 [DEBUG][parser.py\Parser\__tasks_executor] Query 391 data added to record sheet.
+2022-09-09 01:26:08,636 [DEBUG][parser.py\Parser\__counter_requests] Request 392. The data of the "Биде" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:08,636 [DEBUG][parser.py\Parser\__tasks_executor] Query 392 data added to record sheet.
+2022-09-09 01:26:08,778 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:08,861 [DEBUG][parser.py\Parser\__counter_requests] Request 393. The data of the "Наборы ручного инструмента" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:08,862 [DEBUG][parser.py\Parser\__tasks_executor] Query 393 data added to record sheet.
+2022-09-09 01:26:09,248 [DEBUG][parser.py\Parser\__counter_requests] Request 394. The data of the "Шуруп сантех. "глухарь" DIN571" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:09,248 [DEBUG][parser.py\Parser\__tasks_executor] Query 394 data added to record sheet.
+2022-09-09 01:26:09,323 [DEBUG][parser.py\Parser\__counter_requests] Request 395. The data of the "Дюралайт" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:09,323 [DEBUG][parser.py\Parser\__tasks_executor] Query 395 data added to record sheet.
+2022-09-09 01:26:09,406 [DEBUG][parser.py\Parser\__counter_requests] Request 396. The data of the "Бумага, тетради, бланки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:09,407 [DEBUG][parser.py\Parser\__tasks_executor] Query 396 data added to record sheet.
+2022-09-09 01:26:09,735 [DEBUG][parser.py\Parser\__counter_requests] Request 397. The data of the "Цилиндры для замков" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:09,735 [DEBUG][parser.py\Parser\__tasks_executor] Query 397 data added to record sheet.
+2022-09-09 01:26:09,802 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:09,980 [DEBUG][parser.py\Parser\__counter_requests] Request 398. The data of the "Пазогребневые плиты (ПГП)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:09,981 [DEBUG][parser.py\Parser\__tasks_executor] Query 398 data added to record sheet.
+2022-09-09 01:26:10,077 [DEBUG][parser.py\Parser\__counter_requests] Request 399. The data of the "Ящики, органайзеры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:10,077 [DEBUG][parser.py\Parser\__tasks_executor] Query 399 data added to record sheet.
+2022-09-09 01:26:10,144 [DEBUG][parser.py\Parser\__counter_requests] Request 400. The data of the "Шуруп с крюком, кольцом" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:10,145 [DEBUG][parser.py\Parser\__tasks_executor] Query 400 data added to record sheet.
+2022-09-09 01:26:10,281 [DEBUG][parser.py\Parser\__counter_requests] Request 401. The data of the "Неон" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:10,281 [DEBUG][parser.py\Parser\__tasks_executor] Query 401 data added to record sheet.
+2022-09-09 01:26:10,694 [DEBUG][parser.py\Parser\__counter_requests] Request 402. The data of the "Шпингалеты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:10,694 [DEBUG][parser.py\Parser\__tasks_executor] Query 402 data added to record sheet.
+2022-09-09 01:26:10,944 [DEBUG][parser.py\Parser\__counter_requests] Request 403. The data of the "Канцелярские принадлежности" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:10,944 [DEBUG][parser.py\Parser\__tasks_executor] Query 403 data added to record sheet.
+2022-09-09 01:26:11,035 [DEBUG][parser.py\Parser\__counter_requests] Request 404. The data of the "Комплектующие кухонным мойкам" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:11,036 [DEBUG][parser.py\Parser\__tasks_executor] Query 404 data added to record sheet.
+2022-09-09 01:26:11,121 [DEBUG][parser.py\Parser\__counter_requests] Request 405. The data of the "Кирпич" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:11,121 [DEBUG][parser.py\Parser\__tasks_executor] Query 405 data added to record sheet.
+2022-09-09 01:26:11,184 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:11,252 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:11,452 [DEBUG][parser.py\Parser\__counter_requests] Request 406. The data of the "Знаки и вывески, цифры, таблички" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:11,453 [DEBUG][parser.py\Parser\__tasks_executor] Query 406 data added to record sheet.
+2022-09-09 01:26:11,533 [DEBUG][parser.py\Parser\__counter_requests] Request 407. The data of the "Световые фигуры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:11,533 [DEBUG][parser.py\Parser\__tasks_executor] Query 407 data added to record sheet.
+2022-09-09 01:26:11,606 [DEBUG][parser.py\Parser\__counter_requests] Request 408. The data of the "Комплектующие к писсуарам" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:11,606 [DEBUG][parser.py\Parser\__tasks_executor] Query 408 data added to record sheet.
+2022-09-09 01:26:11,679 [DEBUG][parser.py\Parser\__counter_requests] Request 409. The data of the "Керамзитобетонные, газобетонные блоки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:11,679 [DEBUG][parser.py\Parser\__tasks_executor] Query 409 data added to record sheet.
+2022-09-09 01:26:11,985 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:12,117 [DEBUG][parser.py\Parser\__counter_requests] Request 410. The data of the "Абразивные сетки, круги, ленты, бумага шлифовальная" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:12,117 [DEBUG][parser.py\Parser\__tasks_executor] Query 410 data added to record sheet.
+2022-09-09 01:26:12,202 [DEBUG][parser.py\Parser\__counter_requests] Request 411. The data of the "Комплектующие для раздвижных дверей" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:12,202 [DEBUG][parser.py\Parser\__tasks_executor] Query 411 data added to record sheet.
+2022-09-09 01:26:12,339 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:12,517 [DEBUG][parser.py\Parser\__counter_requests] Request 412. The data of the "Комплектующие к раковинам" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:12,517 [DEBUG][parser.py\Parser\__tasks_executor] Query 412 data added to record sheet.
+2022-09-09 01:26:12,597 [DEBUG][parser.py\Parser\__counter_requests] Request 413. The data of the "Зажим троса плоский" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:12,597 [DEBUG][parser.py\Parser\__tasks_executor] Query 413 data added to record sheet.
+2022-09-09 01:26:12,864 [DEBUG][parser.py\Parser\__counter_requests] Request 414. The data of the "Биты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:12,864 [DEBUG][parser.py\Parser\__tasks_executor] Query 414 data added to record sheet.
+2022-09-09 01:26:12,943 [DEBUG][parser.py\Parser\__counter_requests] Request 415. The data of the "Забор" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:12,943 [DEBUG][parser.py\Parser\__tasks_executor] Query 415 data added to record sheet.
+2022-09-09 01:26:13,142 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:13,274 [DEBUG][parser.py\Parser\__counter_requests] Request 416. The data of the "Комплектующие к унитазам" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:13,274 [DEBUG][parser.py\Parser\__tasks_executor] Query 416 data added to record sheet.
+2022-09-09 01:26:13,491 [DEBUG][parser.py\Parser\__counter_requests] Request 417. The data of the "Зажим для стальных канатов DIN741" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:13,491 [DEBUG][parser.py\Parser\__tasks_executor] Query 417 data added to record sheet.
+2022-09-09 01:26:13,617 [DEBUG][parser.py\Parser\__counter_requests] Request 418. The data of the "Буры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:13,617 [DEBUG][parser.py\Parser\__tasks_executor] Query 418 data added to record sheet.
+2022-09-09 01:26:13,765 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:13,841 [DEBUG][parser.py\Parser\__counter_requests] Request 419. The data of the "Система инсталляции" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:13,841 [DEBUG][parser.py\Parser\__tasks_executor] Query 419 data added to record sheet.
+2022-09-09 01:26:13,962 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:14,036 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:14,115 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:14,353 [DEBUG][parser.py\Parser\__counter_requests] Request 420. The data of the "Писсуары" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:14,353 [DEBUG][parser.py\Parser\__tasks_executor] Query 420 data added to record sheet.
+2022-09-09 01:26:14,428 [DEBUG][parser.py\Parser\__counter_requests] Request 421. The data of the "Труба" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:14,428 [DEBUG][parser.py\Parser\__tasks_executor] Query 421 data added to record sheet.
+2022-09-09 01:26:14,600 [DEBUG][parser.py\Parser\__counter_requests] Request 422. The data of the "Ручки дверные на планке без механизма" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:14,600 [DEBUG][parser.py\Parser\__tasks_executor] Query 422 data added to record sheet.
+2022-09-09 01:26:14,739 [DEBUG][parser.py\Parser\__counter_requests] Request 423. The data of the "Карабин пожарный DIN5299" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:14,739 [DEBUG][parser.py\Parser\__tasks_executor] Query 423 data added to record sheet.
+2022-09-09 01:26:14,944 [DEBUG][parser.py\Parser\__counter_requests] Request 424. The data of the "Раковины, пьедесталы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:14,944 [DEBUG][parser.py\Parser\__tasks_executor] Query 424 data added to record sheet.
+2022-09-09 01:26:15,139 [DEBUG][parser.py\Parser\__counter_requests] Request 425. The data of the "Диски алмазные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:15,140 [DEBUG][parser.py\Parser\__tasks_executor] Query 425 data added to record sheet.
+2022-09-09 01:26:15,225 [DEBUG][parser.py\Parser\__counter_requests] Request 426. The data of the "Уголок" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:15,225 [DEBUG][parser.py\Parser\__tasks_executor] Query 426 data added to record sheet.
+2022-09-09 01:26:15,291 [DEBUG][parser.py\Parser\__counter_requests] Request 427. The data of the "Ручки дверные на планке с механизмом для входных дверей" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:15,292 [DEBUG][parser.py\Parser\__tasks_executor] Query 427 data added to record sheet.
+2022-09-09 01:26:15,497 [DEBUG][parser.py\Parser\__counter_requests] Request 428. The data of the "Вертлюг" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:15,497 [DEBUG][parser.py\Parser\__tasks_executor] Query 428 data added to record sheet.
+2022-09-09 01:26:15,699 [DEBUG][parser.py\Parser\__counter_requests] Request 429. The data of the "Унитазы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:15,699 [DEBUG][parser.py\Parser\__tasks_executor] Query 429 data added to record sheet.
+2022-09-09 01:26:15,782 [DEBUG][parser.py\Parser\__counter_requests] Request 430. The data of the "Диски для циркулярных пил" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:15,782 [DEBUG][parser.py\Parser\__tasks_executor] Query 430 data added to record sheet.
+2022-09-09 01:26:16,027 [DEBUG][parser.py\Parser\__counter_requests] Request 431. The data of the "Ручки дверные скобы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:16,027 [DEBUG][parser.py\Parser\__tasks_executor] Query 431 data added to record sheet.
+2022-09-09 01:26:16,133 [DEBUG][parser.py\Parser\__counter_requests] Request 432. The data of the "Карабин винтовой" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:16,133 [DEBUG][parser.py\Parser\__tasks_executor] Query 432 data added to record sheet.
+2022-09-09 01:26:16,203 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:16,526 [DEBUG][parser.py\Parser\__counter_requests] Request 433. The data of the "Диски отрезные, шлифовальные, лепестковые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:16,526 [DEBUG][parser.py\Parser\__tasks_executor] Query 433 data added to record sheet.
+2022-09-09 01:26:16,598 [DEBUG][parser.py\Parser\__counter_requests] Request 434. The data of the "Ручки кнобы без механизма" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:16,598 [DEBUG][parser.py\Parser\__tasks_executor] Query 434 data added to record sheet.
+2022-09-09 01:26:16,783 [DEBUG][parser.py\Parser\__counter_requests] Request 435. The data of the "Коуш для стальных канатов DIN6899" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:16,783 [DEBUG][parser.py\Parser\__tasks_executor] Query 435 data added to record sheet.
+2022-09-09 01:26:16,853 [DEBUG][parser.py\Parser\__counter_requests] Request 436. The data of the "Душевые поддоны" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:16,853 [DEBUG][parser.py\Parser\__tasks_executor] Query 436 data added to record sheet.
+2022-09-09 01:26:17,103 [DEBUG][parser.py\Parser\__counter_requests] Request 437. The data of the "Долото, пика, зубило" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:17,103 [DEBUG][parser.py\Parser\__tasks_executor] Query 437 data added to record sheet.
+2022-09-09 01:26:17,379 [DEBUG][parser.py\Parser\__counter_requests] Request 438. The data of the "Ручки кнобы с механизмом" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:17,380 [DEBUG][parser.py\Parser\__tasks_executor] Query 438 data added to record sheet.
+2022-09-09 01:26:17,443 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:17,523 [DEBUG][parser.py\Parser\__counter_requests] Request 439. The data of the "Крючок S-образный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:17,523 [DEBUG][parser.py\Parser\__tasks_executor] Query 439 data added to record sheet.
+2022-09-09 01:26:17,814 [DEBUG][parser.py\Parser\__counter_requests] Request 440. The data of the "Кольцевые пилы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:17,814 [DEBUG][parser.py\Parser\__tasks_executor] Query 440 data added to record sheet.
+2022-09-09 01:26:18,022 [DEBUG][parser.py\Parser\__counter_requests] Request 441. The data of the "Ручки на розетке нажимные без механизма" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:18,022 [DEBUG][parser.py\Parser\__tasks_executor] Query 441 data added to record sheet.
+2022-09-09 01:26:18,129 [DEBUG][parser.py\Parser\__counter_requests] Request 442. The data of the "Лента перфорированная" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:18,129 [DEBUG][parser.py\Parser\__tasks_executor] Query 442 data added to record sheet.
+2022-09-09 01:26:18,381 [DEBUG][parser.py\Parser\__counter_requests] Request 443. The data of the "Душевые кабины без гидромассажа" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:18,381 [DEBUG][parser.py\Parser\__tasks_executor] Query 443 data added to record sheet.
+2022-09-09 01:26:18,629 [DEBUG][parser.py\Parser\__counter_requests] Request 444. The data of the "Корщетки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:18,629 [DEBUG][parser.py\Parser\__tasks_executor] Query 444 data added to record sheet.
+2022-09-09 01:26:18,822 [DEBUG][parser.py\Parser\__counter_requests] Request 445. The data of the "Ручки нажимные с механизмом" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:18,822 [DEBUG][parser.py\Parser\__tasks_executor] Query 445 data added to record sheet.
+2022-09-09 01:26:18,916 [DEBUG][parser.py\Parser\__counter_requests] Request 446. The data of the "Пластины, опоры, уголки, скобы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:18,916 [DEBUG][parser.py\Parser\__tasks_executor] Query 446 data added to record sheet.
+2022-09-09 01:26:19,118 [DEBUG][parser.py\Parser\__counter_requests] Request 447. The data of the "Душевые кабины с гидромассажем" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:19,118 [DEBUG][parser.py\Parser\__tasks_executor] Query 447 data added to record sheet.
+2022-09-09 01:26:19,181 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:19,551 [DEBUG][parser.py\Parser\__counter_requests] Request 448. The data of the "Аксессуары для ручек на розетке" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:19,551 [DEBUG][parser.py\Parser\__tasks_executor] Query 448 data added to record sheet.
+2022-09-09 01:26:19,622 [DEBUG][parser.py\Parser\__counter_requests] Request 449. The data of the "Проволока" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:19,622 [DEBUG][parser.py\Parser\__tasks_executor] Query 449 data added to record sheet.
+2022-09-09 01:26:19,683 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:19,865 [DEBUG][parser.py\Parser\__counter_requests] Request 450. The data of the "Патроны и переходники" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:19,865 [DEBUG][parser.py\Parser\__tasks_executor] Query 450 data added to record sheet.
+2022-09-09 01:26:20,108 [DEBUG][parser.py\Parser\__counter_requests] Request 451. The data of the "Финская фурнитура" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:20,108 [DEBUG][parser.py\Parser\__tasks_executor] Query 451 data added to record sheet.
+2022-09-09 01:26:20,178 [DEBUG][parser.py\Parser\__counter_requests] Request 452. The data of the "Скоба такелажная" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:20,178 [DEBUG][parser.py\Parser\__tasks_executor] Query 452 data added to record sheet.
+2022-09-09 01:26:20,449 [DEBUG][parser.py\Parser\__counter_requests] Request 453. The data of the "Ванны акриловые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:20,449 [DEBUG][parser.py\Parser\__tasks_executor] Query 453 data added to record sheet.
+2022-09-09 01:26:20,593 [DEBUG][parser.py\Parser\__counter_requests] Request 454. The data of the "Пилки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:20,593 [DEBUG][parser.py\Parser\__tasks_executor] Query 454 data added to record sheet.
+2022-09-09 01:26:20,802 [DEBUG][parser.py\Parser\__counter_requests] Request 455. The data of the "Стопоры дверные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:20,802 [DEBUG][parser.py\Parser\__tasks_executor] Query 455 data added to record sheet.
+2022-09-09 01:26:20,883 [DEBUG][parser.py\Parser\__counter_requests] Request 456. The data of the "Талреп (крюк-кольцо)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:20,883 [DEBUG][parser.py\Parser\__tasks_executor] Query 456 data added to record sheet.
+2022-09-09 01:26:21,037 [DEBUG][parser.py\Parser\__counter_requests] Request 457. The data of the "Ванны стальные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:21,037 [DEBUG][parser.py\Parser\__tasks_executor] Query 457 data added to record sheet.
+2022-09-09 01:26:21,172 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:21,237 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:21,411 [DEBUG][parser.py\Parser\__counter_requests] Request 458. The data of the "Тросы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:21,412 [DEBUG][parser.py\Parser\__tasks_executor] Query 458 data added to record sheet.
+2022-09-09 01:26:21,477 [DEBUG][parser.py\Parser\__counter_requests] Request 459. The data of the "Ванны чугунные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:21,477 [DEBUG][parser.py\Parser\__tasks_executor] Query 459 data added to record sheet.
+2022-09-09 01:26:21,923 [DEBUG][parser.py\Parser\__counter_requests] Request 460. The data of the "Сверла по бетону" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:21,923 [DEBUG][parser.py\Parser\__tasks_executor] Query 460 data added to record sheet.
+2022-09-09 01:26:22,093 [DEBUG][parser.py\Parser\__counter_requests] Request 461. The data of the "Засовы и крючки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:22,093 [DEBUG][parser.py\Parser\__tasks_executor] Query 461 data added to record sheet.
+2022-09-09 01:26:22,164 [DEBUG][parser.py\Parser\__counter_requests] Request 462. The data of the "Рым-болт, рым-гайка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:22,164 [DEBUG][parser.py\Parser\__tasks_executor] Query 462 data added to record sheet.
+2022-09-09 01:26:22,269 [DEBUG][parser.py\Parser\__counter_requests] Request 463. The data of the "Душевые углы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:22,269 [DEBUG][parser.py\Parser\__tasks_executor] Query 463 data added to record sheet.
+2022-09-09 01:26:22,640 [DEBUG][parser.py\Parser\__counter_requests] Request 464. The data of the "Сверла по дереву" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:22,640 [DEBUG][parser.py\Parser\__tasks_executor] Query 464 data added to record sheet.
+2022-09-09 01:26:22,808 [DEBUG][parser.py\Parser\__counter_requests] Request 465. The data of the "Петли для ворот и гаражей" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:22,808 [DEBUG][parser.py\Parser\__tasks_executor] Query 465 data added to record sheet.
+2022-09-09 01:26:22,945 [DEBUG][parser.py\Parser\__counter_requests] Request 466. The data of the "Цепь сварная" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:22,946 [DEBUG][parser.py\Parser\__tasks_executor] Query 466 data added to record sheet.
+2022-09-09 01:26:23,378 [DEBUG][parser.py\Parser\__counter_requests] Request 467. The data of the "Комплектующие к душевым кабинам" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:23,378 [DEBUG][parser.py\Parser\__tasks_executor] Query 467 data added to record sheet.
+2022-09-09 01:26:23,510 [DEBUG][parser.py\Parser\__counter_requests] Request 468. The data of the "Сверла корончатые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:23,511 [DEBUG][parser.py\Parser\__tasks_executor] Query 468 data added to record sheet.
+2022-09-09 01:26:23,597 [DEBUG][parser.py\Parser\__counter_requests] Request 469. The data of the "Почтовые ящики, стеллажи" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:23,598 [DEBUG][parser.py\Parser\__tasks_executor] Query 469 data added to record sheet.
+2022-09-09 01:26:24,277 [DEBUG][parser.py\Parser\__counter_requests] Request 470. The data of the "Комплектующие к ваннам" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:24,277 [DEBUG][parser.py\Parser\__tasks_executor] Query 470 data added to record sheet.
+2022-09-09 01:26:24,371 [DEBUG][parser.py\Parser\__counter_requests] Request 471. The data of the "Шпагаты, веревки, канаты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:24,371 [DEBUG][parser.py\Parser\__tasks_executor] Query 471 data added to record sheet.
+2022-09-09 01:26:24,652 [DEBUG][parser.py\Parser\__counter_requests] Request 472. The data of the "Сверла по кафелю и стеклу" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:24,652 [DEBUG][parser.py\Parser\__tasks_executor] Query 472 data added to record sheet.
+2022-09-09 01:26:24,712 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:24,859 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:25,455 [DEBUG][parser.py\Parser\__counter_requests] Request 473. The data of the "Сверла по металлу" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:25,456 [DEBUG][parser.py\Parser\__tasks_executor] Query 473 data added to record sheet.
+2022-09-09 01:26:25,551 [DEBUG][parser.py\Parser\__counter_requests] Request 474. The data of the "Шкафы, пеналы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:25,551 [DEBUG][parser.py\Parser\__tasks_executor] Query 474 data added to record sheet.
+2022-09-09 01:26:25,641 [DEBUG][parser.py\Parser\__counter_requests] Request 475. The data of the "Рейлинговая система" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:25,641 [DEBUG][parser.py\Parser\__tasks_executor] Query 475 data added to record sheet.
+2022-09-09 01:26:26,029 [DEBUG][parser.py\Parser\__counter_requests] Request 476. The data of the "Фрезы, метчики и плашки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:26,029 [DEBUG][parser.py\Parser\__tasks_executor] Query 476 data added to record sheet.
+2022-09-09 01:26:26,179 [DEBUG][parser.py\Parser\__counter_requests] Request 477. The data of the "Зеркала, шкафы зеркальные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:26,179 [DEBUG][parser.py\Parser\__tasks_executor] Query 477 data added to record sheet.
+2022-09-09 01:26:26,256 [DEBUG][parser.py\Parser\__counter_requests] Request 478. The data of the "Замки и защелки мебельные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:26,256 [DEBUG][parser.py\Parser\__tasks_executor] Query 478 data added to record sheet.
+2022-09-09 01:26:26,465 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:26,838 [DEBUG][parser.py\Parser\__counter_requests] Request 479. The data of the "Раковины к мебели" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:26,839 [DEBUG][parser.py\Parser\__tasks_executor] Query 479 data added to record sheet.
+2022-09-09 01:26:26,929 [DEBUG][parser.py\Parser\__counter_requests] Request 480. The data of the "Мебельные колеса" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:26,929 [DEBUG][parser.py\Parser\__tasks_executor] Query 480 data added to record sheet.
+2022-09-09 01:26:27,303 [DEBUG][parser.py\Parser\__counter_requests] Request 481. The data of the "Аккумуляторные дрели - шуруповерты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:27,303 [DEBUG][parser.py\Parser\__tasks_executor] Query 481 data added to record sheet.
+2022-09-09 01:26:27,555 [DEBUG][parser.py\Parser\__counter_requests] Request 482. The data of the "Тумбы под раковину" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:27,555 [DEBUG][parser.py\Parser\__tasks_executor] Query 482 data added to record sheet.
+2022-09-09 01:26:27,663 [DEBUG][parser.py\Parser\__counter_requests] Request 483. The data of the "Мебельный крепеж" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:27,663 [DEBUG][parser.py\Parser\__tasks_executor] Query 483 data added to record sheet.
+2022-09-09 01:26:27,857 [DEBUG][parser.py\Parser\__counter_requests] Request 484. The data of the "Аккумуляторы и зарядные устройства" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:27,857 [DEBUG][parser.py\Parser\__tasks_executor] Query 484 data added to record sheet.
+2022-09-09 01:26:27,918 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:28,258 [DEBUG][parser.py\Parser\__counter_requests] Request 485. The data of the "Петли и направляющие" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:28,258 [DEBUG][parser.py\Parser\__tasks_executor] Query 485 data added to record sheet.
+2022-09-09 01:26:28,407 [DEBUG][parser.py\Parser\__counter_requests] Request 486. The data of the "Бензобуры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:28,407 [DEBUG][parser.py\Parser\__tasks_executor] Query 486 data added to record sheet.
+2022-09-09 01:26:28,575 [DEBUG][parser.py\Parser\__counter_requests] Request 487. The data of the "Диспенсеры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:28,575 [DEBUG][parser.py\Parser\__tasks_executor] Query 487 data added to record sheet.
+2022-09-09 01:26:28,781 [DEBUG][parser.py\Parser\__counter_requests] Request 488. The data of the "Мебельные ручки, крючки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:28,782 [DEBUG][parser.py\Parser\__tasks_executor] Query 488 data added to record sheet.
+2022-09-09 01:26:29,116 [DEBUG][parser.py\Parser\__counter_requests] Request 489. The data of the "Бензогенераторы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:29,117 [DEBUG][parser.py\Parser\__tasks_executor] Query 489 data added to record sheet.
+2022-09-09 01:26:29,213 [DEBUG][parser.py\Parser\__counter_requests] Request 490. The data of the "Зеркала" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:29,213 [DEBUG][parser.py\Parser\__tasks_executor] Query 490 data added to record sheet.
+2022-09-09 01:26:29,336 [DEBUG][parser.py\Parser\__counter_requests] Request 491. The data of the "Фурнитура для окон" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:29,336 [DEBUG][parser.py\Parser\__tasks_executor] Query 491 data added to record sheet.
+2022-09-09 01:26:29,969 [DEBUG][parser.py\Parser\__counter_requests] Request 492. The data of the "Дрели ударные, сетевые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:29,969 [DEBUG][parser.py\Parser\__tasks_executor] Query 492 data added to record sheet.
+2022-09-09 01:26:30,157 [DEBUG][parser.py\Parser\__counter_requests] Request 493. The data of the "Коврики для ванной" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:30,157 [DEBUG][parser.py\Parser\__tasks_executor] Query 493 data added to record sheet.
+2022-09-09 01:26:30,482 [DEBUG][parser.py\Parser\__counter_requests] Request 494. The data of the "Джокерная система" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:30,482 [DEBUG][parser.py\Parser\__tasks_executor] Query 494 data added to record sheet.
+2022-09-09 01:26:30,704 [DEBUG][parser.py\Parser\__counter_requests] Request 495. The data of the "Станки точильные, плиткорезные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:30,704 [DEBUG][parser.py\Parser\__tasks_executor] Query 495 data added to record sheet.
+2022-09-09 01:26:30,925 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:31,123 [DEBUG][parser.py\Parser\__counter_requests] Request 496. The data of the "Напольные аксессуары" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:31,124 [DEBUG][parser.py\Parser\__tasks_executor] Query 496 data added to record sheet.
+2022-09-09 01:26:31,197 [DEBUG][parser.py\Parser\__counter_requests] Request 497. The data of the "Краскопульты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:31,197 [DEBUG][parser.py\Parser\__tasks_executor] Query 497 data added to record sheet.
+2022-09-09 01:26:31,533 [DEBUG][parser.py\Parser\__counter_requests] Request 498. The data of the "Панели ПВХ" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:31,534 [DEBUG][parser.py\Parser\__tasks_executor] Query 498 data added to record sheet.
+2022-09-09 01:26:31,692 [DEBUG][parser.py\Parser\__counter_requests] Request 499. The data of the "Настольные аксессуары" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:31,692 [DEBUG][parser.py\Parser\__tasks_executor] Query 499 data added to record sheet.
+2022-09-09 01:26:32,105 [DEBUG][parser.py\Parser\__counter_requests] Request 500. The data of the "Компрессоры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:32,105 [DEBUG][parser.py\Parser\__tasks_executor] Query 500 data added to record sheet.
+2022-09-09 01:26:32,280 [DEBUG][parser.py\Parser\__counter_requests] Request 501. The data of the "Панели МДФ" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:32,280 [DEBUG][parser.py\Parser\__tasks_executor] Query 501 data added to record sheet.
+2022-09-09 01:26:32,541 [DEBUG][parser.py\Parser\__counter_requests] Request 502. The data of the "Подвесные аксессуары" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:32,541 [DEBUG][parser.py\Parser\__tasks_executor] Query 502 data added to record sheet.
+2022-09-09 01:26:32,796 [DEBUG][parser.py\Parser\__counter_requests] Request 503. The data of the "Лобзики" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:32,796 [DEBUG][parser.py\Parser\__tasks_executor] Query 503 data added to record sheet.
+2022-09-09 01:26:32,963 [DEBUG][parser.py\Parser\__counter_requests] Request 504. The data of the "Комплектующие к панелям" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:32,963 [DEBUG][parser.py\Parser\__tasks_executor] Query 504 data added to record sheet.
+2022-09-09 01:26:33,030 [DEBUG][parser.py\Parser\__counter_requests] Request 505. The data of the "Расходные материалы к диспенсерам" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:33,031 [DEBUG][parser.py\Parser\__tasks_executor] Query 505 data added to record sheet.
+2022-09-09 01:26:33,293 [DEBUG][parser.py\Parser\__counter_requests] Request 506. The data of the "Миксеры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:33,294 [DEBUG][parser.py\Parser\__tasks_executor] Query 506 data added to record sheet.
+2022-09-09 01:26:33,459 [DEBUG][parser.py\Parser\__counter_requests] Request 507. The data of the "Пластиковые уголки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:33,459 [DEBUG][parser.py\Parser\__tasks_executor] Query 507 data added to record sheet.
+2022-09-09 01:26:33,602 [DEBUG][parser.py\Parser\__counter_requests] Request 508. The data of the "Штанги для шторок" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:33,602 [DEBUG][parser.py\Parser\__tasks_executor] Query 508 data added to record sheet.
+2022-09-09 01:26:33,920 [DEBUG][parser.py\Parser\__counter_requests] Request 509. The data of the "Мойки высокого давления" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:33,920 [DEBUG][parser.py\Parser\__tasks_executor] Query 509 data added to record sheet.
+2022-09-09 01:26:34,001 [DEBUG][parser.py\Parser\__counter_requests] Request 510. The data of the "Сэндвич-панель" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:34,001 [DEBUG][parser.py\Parser\__tasks_executor] Query 510 data added to record sheet.
+2022-09-09 01:26:34,139 [DEBUG][parser.py\Parser\__counter_requests] Request 511. The data of the "Шторки для ванной" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:34,140 [DEBUG][parser.py\Parser\__tasks_executor] Query 511 data added to record sheet.
+2022-09-09 01:26:34,449 [DEBUG][parser.py\Parser\__counter_requests] Request 512. The data of the "Мотопомпы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:34,449 [DEBUG][parser.py\Parser\__tasks_executor] Query 512 data added to record sheet.
+2022-09-09 01:26:34,695 [DEBUG][parser.py\Parser\__counter_requests] Request 513. The data of the "Окна, подоконники" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:34,695 [DEBUG][parser.py\Parser\__tasks_executor] Query 513 data added to record sheet.
+2022-09-09 01:26:34,761 [DEBUG][parser.py\Parser\__counter_requests] Request 514. The data of the "Сушилки для рук" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:34,762 [DEBUG][parser.py\Parser\__tasks_executor] Query 514 data added to record sheet.
+2022-09-09 01:26:34,940 [DEBUG][parser.py\Parser\__counter_requests] Request 515. The data of the "Паяльные инструменты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:34,941 [DEBUG][parser.py\Parser\__tasks_executor] Query 515 data added to record sheet.
+2022-09-09 01:26:35,209 [DEBUG][parser.py\Parser\__counter_requests] Request 516. The data of the "Фартуки (стеновые) кухонные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:35,209 [DEBUG][parser.py\Parser\__tasks_executor] Query 516 data added to record sheet.
+2022-09-09 01:26:35,402 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:35,491 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:35,627 [DEBUG][parser.py\Parser\__counter_requests] Request 517. The data of the "Перфораторы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:35,627 [DEBUG][parser.py\Parser\__tasks_executor] Query 517 data added to record sheet.
+2022-09-09 01:26:35,918 [DEBUG][parser.py\Parser\__counter_requests] Request 518. The data of the "Завесы тепловые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:35,918 [DEBUG][parser.py\Parser\__tasks_executor] Query 518 data added to record sheet.
+2022-09-09 01:26:36,066 [DEBUG][parser.py\Parser\__counter_requests] Request 519. The data of the "Инструменты для поклейки обоев" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:36,067 [DEBUG][parser.py\Parser\__tasks_executor] Query 519 data added to record sheet.
+2022-09-09 01:26:36,319 [DEBUG][parser.py\Parser\__counter_requests] Request 520. The data of the "Пилы циркулярные, торцевые" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:36,319 [DEBUG][parser.py\Parser\__tasks_executor] Query 520 data added to record sheet.
+2022-09-09 01:26:36,558 [DEBUG][parser.py\Parser\__counter_requests] Request 521. The data of the "Кабельные системы обогрева" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:36,558 [DEBUG][parser.py\Parser\__tasks_executor] Query 521 data added to record sheet.
+2022-09-09 01:26:36,771 [DEBUG][parser.py\Parser\__counter_requests] Request 522. The data of the "Клей для обоев" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:36,772 [DEBUG][parser.py\Parser\__tasks_executor] Query 522 data added to record sheet.
+2022-09-09 01:26:37,011 [DEBUG][parser.py\Parser\__counter_requests] Request 523. The data of the "Пылесос" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:37,011 [DEBUG][parser.py\Parser\__tasks_executor] Query 523 data added to record sheet.
+2022-09-09 01:26:37,549 [DEBUG][parser.py\Parser\__counter_requests] Request 524. The data of the "Комплектущие для системы обогрева" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:37,549 [DEBUG][parser.py\Parser\__tasks_executor] Query 524 data added to record sheet.
+2022-09-09 01:26:37,643 [DEBUG][parser.py\Parser\__counter_requests] Request 525. The data of the "Самоклеющаяся пленка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:37,643 [DEBUG][parser.py\Parser\__tasks_executor] Query 525 data added to record sheet.
+2022-09-09 01:26:37,718 [DEBUG][parser.py\Parser\__counter_requests] Request 526. The data of the "Рубанки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:37,719 [DEBUG][parser.py\Parser\__tasks_executor] Query 526 data added to record sheet.
+2022-09-09 01:26:38,583 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:38,796 [DEBUG][parser.py\Parser\__counter_requests] Request 527. The data of the "Конвектора" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:38,796 [DEBUG][parser.py\Parser\__tasks_executor] Query 527 data added to record sheet.
+2022-09-09 01:26:38,887 [DEBUG][parser.py\Parser\__counter_requests] Request 528. The data of the "Сварочные аппараты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:38,887 [DEBUG][parser.py\Parser\__tasks_executor] Query 528 data added to record sheet.
+2022-09-09 01:26:39,058 [DEBUG][parser.py\Parser\__counter_requests] Request 529. The data of the "Бумажные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:39,058 [DEBUG][parser.py\Parser\__tasks_executor] Query 529 data added to record sheet.
+2022-09-09 01:26:39,633 [DEBUG][parser.py\Parser\__counter_requests] Request 530. The data of the "Термопистолеты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:39,633 [DEBUG][parser.py\Parser\__tasks_executor] Query 530 data added to record sheet.
+2022-09-09 01:26:39,783 [DEBUG][parser.py\Parser\__counter_requests] Request 531. The data of the "Виниловые на бумажной основе" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:39,783 [DEBUG][parser.py\Parser\__tasks_executor] Query 531 data added to record sheet.
+2022-09-09 01:26:39,882 [DEBUG][parser.py\Parser\__counter_requests] Request 532. The data of the "Тепловентиляторы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:39,882 [DEBUG][parser.py\Parser\__tasks_executor] Query 532 data added to record sheet.
+2022-09-09 01:26:40,390 [DEBUG][parser.py\Parser\__counter_requests] Request 533. The data of the "Машины уловые ленточные, вибрационные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:40,390 [DEBUG][parser.py\Parser\__tasks_executor] Query 533 data added to record sheet.
+2022-09-09 01:26:40,667 [DEBUG][parser.py\Parser\__counter_requests] Request 534. The data of the "Виниловые на флизелиновой основе" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:40,668 [DEBUG][parser.py\Parser\__tasks_executor] Query 534 data added to record sheet.
+2022-09-09 01:26:40,877 [DEBUG][parser.py\Parser\__counter_requests] Request 535. The data of the "Фен технический" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:40,878 [DEBUG][parser.py\Parser\__tasks_executor] Query 535 data added to record sheet.
+2022-09-09 01:26:40,980 [DEBUG][parser.py\Parser\__counter_requests] Request 536. The data of the "Тепловые пушки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:40,980 [DEBUG][parser.py\Parser\__tasks_executor] Query 536 data added to record sheet.
+2022-09-09 01:26:41,100 [DEBUG][parser.py\Parser\__counter_requests] Request 537. The data of the "Обои под покраску" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:41,100 [DEBUG][parser.py\Parser\__tasks_executor] Query 537 data added to record sheet.
+2022-09-09 01:26:41,599 [DEBUG][parser.py\Parser\__counter_requests] Request 538. The data of the "Обогреватели инфракрасные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:41,599 [DEBUG][parser.py\Parser\__tasks_executor] Query 538 data added to record sheet.
+2022-09-09 01:26:41,749 [DEBUG][parser.py\Parser\__counter_requests] Request 539. The data of the "Фрезерные машины" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:41,749 [DEBUG][parser.py\Parser\__tasks_executor] Query 539 data added to record sheet.
+2022-09-09 01:26:41,839 [DEBUG][parser.py\Parser\__counter_requests] Request 540. The data of the "Фотообои" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:41,839 [DEBUG][parser.py\Parser\__tasks_executor] Query 540 data added to record sheet.
+2022-09-09 01:26:42,189 [DEBUG][parser.py\Parser\__counter_requests] Request 541. The data of the "Стеклообои" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:42,190 [DEBUG][parser.py\Parser\__tasks_executor] Query 541 data added to record sheet.
+2022-09-09 01:26:42,260 [DEBUG][parser.py\Parser\__counter_requests] Request 542. The data of the "Обогреватели масляные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:42,260 [DEBUG][parser.py\Parser\__tasks_executor] Query 542 data added to record sheet.
+2022-09-09 01:26:42,438 [DEBUG][parser.py\Parser\__counter_requests] Request 543. The data of the "Штроборезы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:42,438 [DEBUG][parser.py\Parser\__tasks_executor] Query 543 data added to record sheet.
+2022-09-09 01:26:42,556 [DEBUG][parser.py\Parser\__counter_requests] Request 544. The data of the "Жидкие обои" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:42,556 [DEBUG][parser.py\Parser\__tasks_executor] Query 544 data added to record sheet.
+2022-09-09 01:26:42,751 [DEBUG][parser.py\Parser\__counter_requests] Request 545. The data of the "Терморегуляторы для системы обогрева" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:42,751 [DEBUG][parser.py\Parser\__tasks_executor] Query 545 data added to record sheet.
+2022-09-09 01:26:42,830 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:43,057 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:43,229 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:43,304 [DEBUG][parser.py\Parser\__counter_requests] Request 546. The data of the "Минеральные плиты" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:43,305 [DEBUG][parser.py\Parser\__tasks_executor] Query 546 data added to record sheet.
+2022-09-09 01:26:43,695 [DEBUG][parser.py\Parser\__counter_requests] Request 547. The data of the "Бетономешалки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:43,695 [DEBUG][parser.py\Parser\__tasks_executor] Query 547 data added to record sheet.
+2022-09-09 01:26:43,987 [DEBUG][parser.py\Parser\__counter_requests] Request 548. The data of the "Багет интерьерный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:43,987 [DEBUG][parser.py\Parser\__tasks_executor] Query 548 data added to record sheet.
+2022-09-09 01:26:44,148 [DEBUG][parser.py\Parser\__counter_requests] Request 549. The data of the "Дверцы вентиляционные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:44,148 [DEBUG][parser.py\Parser\__tasks_executor] Query 549 data added to record sheet.
+2022-09-09 01:26:44,314 [DEBUG][parser.py\Parser\__counter_requests] Request 550. The data of the "Виброоборудование" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:44,314 [DEBUG][parser.py\Parser\__tasks_executor] Query 550 data added to record sheet.
+2022-09-09 01:26:44,441 [DEBUG][parser.py\Parser\__counter_requests] Request 551. The data of the "Подвесная система" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:44,442 [DEBUG][parser.py\Parser\__tasks_executor] Query 551 data added to record sheet.
+2022-09-09 01:26:44,832 [DEBUG][parser.py\Parser\__counter_requests] Request 552. The data of the "Воздуховоды комплектующие" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:44,832 [DEBUG][parser.py\Parser\__tasks_executor] Query 552 data added to record sheet.
+2022-09-09 01:26:45,028 [DEBUG][parser.py\Parser\__counter_requests] Request 553. The data of the "Лебедка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:45,030 [DEBUG][parser.py\Parser\__tasks_executor] Query 553 data added to record sheet.
+2022-09-09 01:26:45,113 [DEBUG][parser.py\Parser\__counter_requests] Request 554. The data of the "Плита потолочная" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:45,113 [DEBUG][parser.py\Parser\__tasks_executor] Query 554 data added to record sheet.
+2022-09-09 01:26:45,383 [DEBUG][parser.py\Parser\__counter_requests] Request 555. The data of the "Система вентиляционных каналов" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:45,383 [DEBUG][parser.py\Parser\__tasks_executor] Query 555 data added to record sheet.
+2022-09-09 01:26:45,649 [DEBUG][parser.py\Parser\__counter_requests] Request 556. The data of the "Лестницы и стремянки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:45,649 [DEBUG][parser.py\Parser\__tasks_executor] Query 556 data added to record sheet.
+2022-09-09 01:26:45,815 [DEBUG][parser.py\Parser\__counter_requests] Request 557. The data of the "Реечный потолок" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:45,815 [DEBUG][parser.py\Parser\__tasks_executor] Query 557 data added to record sheet.
+2022-09-09 01:26:45,987 [DEBUG][parser.py\Parser\__counter_requests] Request 558. The data of the "Решётки вентиляционные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:45,988 [DEBUG][parser.py\Parser\__tasks_executor] Query 558 data added to record sheet.
+2022-09-09 01:26:46,048 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:46,238 [DEBUG][parser.py\Parser\__counter_requests] Request 559. The data of the "Розетка потолочная" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:46,239 [DEBUG][parser.py\Parser\__tasks_executor] Query 559 data added to record sheet.
+2022-09-09 01:26:46,581 [DEBUG][parser.py\Parser\__counter_requests] Request 560. The data of the "Вентиляторы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:46,581 [DEBUG][parser.py\Parser\__tasks_executor] Query 560 data added to record sheet.
+2022-09-09 01:26:46,941 [DEBUG][parser.py\Parser\__counter_requests] Request 561. The data of the "Плинтус (профиль) потолочный" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:46,941 [DEBUG][parser.py\Parser\__tasks_executor] Query 561 data added to record sheet.
+2022-09-09 01:26:47,034 [DEBUG][parser.py\Parser\__counter_requests] Request 562. The data of the "Газонокосилки, триммеры" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:47,034 [DEBUG][parser.py\Parser\__tasks_executor] Query 562 data added to record sheet.
+2022-09-09 01:26:47,094 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:47,511 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:47,675 [DEBUG][parser.py\Parser\__counter_requests] Request 563. The data of the "Культиваторы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:47,675 [DEBUG][parser.py\Parser\__tasks_executor] Query 563 data added to record sheet.
+2022-09-09 01:26:47,828 [DEBUG][parser.py\Parser\__counter_requests] Request 564. The data of the "Асбестовая продукция" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:47,829 [DEBUG][parser.py\Parser\__tasks_executor] Query 564 data added to record sheet.
+2022-09-09 01:26:47,919 [DEBUG][parser.py\Parser\__counter_requests] Request 565. The data of the "Заказная плитка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:47,919 [DEBUG][parser.py\Parser\__tasks_executor] Query 565 data added to record sheet.
+2022-09-09 01:26:48,413 [DEBUG][parser.py\Parser\__counter_requests] Request 566. The data of the "Дымоходы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:48,413 [DEBUG][parser.py\Parser\__tasks_executor] Query 566 data added to record sheet.
+2022-09-09 01:26:48,500 [DEBUG][parser.py\Parser\__counter_requests] Request 567. The data of the "Измельчители" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:48,500 [DEBUG][parser.py\Parser\__tasks_executor] Query 567 data added to record sheet.
+2022-09-09 01:26:48,999 [DEBUG][parser.py\Parser\__counter_requests] Request 568. The data of the "Коллекционная плитка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:48,999 [DEBUG][parser.py\Parser\__tasks_executor] Query 568 data added to record sheet.
+2022-09-09 01:26:49,209 [DEBUG][parser.py\Parser\__counter_requests] Request 569. The data of the "Печи и комплектующие для ..." section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:49,209 [DEBUG][parser.py\Parser\__tasks_executor] Query 569 data added to record sheet.
+2022-09-09 01:26:49,524 [DEBUG][parser.py\Parser\__counter_requests] Request 570. The data of the "Расходные материалы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:49,524 [DEBUG][parser.py\Parser\__tasks_executor] Query 570 data added to record sheet.
+2022-09-09 01:26:49,626 [DEBUG][parser.py\Parser\__counter_requests] Request 571. The data of the "Напольная плитка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:49,626 [DEBUG][parser.py\Parser\__tasks_executor] Query 571 data added to record sheet.
+2022-09-09 01:26:49,716 [DEBUG][parser.py\Parser\__counter_requests] Request 572. The data of the "Комплектующие для бани" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:49,716 [DEBUG][parser.py\Parser\__tasks_executor] Query 572 data added to record sheet.
+2022-09-09 01:26:50,098 [DEBUG][parser.py\Parser\__counter_requests] Request 573. The data of the "Снегоуборщики" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:50,099 [DEBUG][parser.py\Parser\__tasks_executor] Query 573 data added to record sheet.
+2022-09-09 01:26:50,198 [DEBUG][parser.py\Parser\__counter_requests] Request 574. The data of the "Фасадная плитка (керамогранит)" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:50,198 [DEBUG][parser.py\Parser\__tasks_executor] Query 574 data added to record sheet.
+2022-09-09 01:26:50,532 [DEBUG][parser.py\Parser\__tasks_executor] Data not found, looping over to find data in subdirectories.
+2022-09-09 01:26:50,764 [DEBUG][parser.py\Parser\__counter_requests] Request 575. The data of the "Комплектующие к плитке" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:50,764 [DEBUG][parser.py\Parser\__tasks_executor] Query 575 data added to record sheet.
+2022-09-09 01:26:51,181 [DEBUG][parser.py\Parser\__counter_requests] Request 576. The data of the "Бензопилы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:51,182 [DEBUG][parser.py\Parser\__tasks_executor] Query 576 data added to record sheet.
+2022-09-09 01:26:51,322 [DEBUG][parser.py\Parser\__counter_requests] Request 577. The data of the "Люки ревизионные" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:51,323 [DEBUG][parser.py\Parser\__tasks_executor] Query 577 data added to record sheet.
+2022-09-09 01:26:51,727 [DEBUG][parser.py\Parser\__counter_requests] Request 578. The data of the "Электропилы" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:51,728 [DEBUG][parser.py\Parser\__tasks_executor] Query 578 data added to record sheet.
+2022-09-09 01:26:51,836 [DEBUG][parser.py\Parser\__counter_requests] Request 579. The data of the "Тротуарная плитка" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:51,836 [DEBUG][parser.py\Parser\__tasks_executor] Query 579 data added to record sheet.
+2022-09-09 01:26:52,496 [DEBUG][parser.py\Parser\__counter_requests] Request 580. The data of the "Профиль для плитки" section
+has been written to the list of dictionaries!.
+2022-09-09 01:26:52,497 [DEBUG][parser.py\Parser\__tasks_executor] Query 580 data added to record sheet.
+2022-09-09 01:26:52,497 [INFO][parser.py\Parser\__tasks_manager] All data collected!.
+2022-09-09 01:26:52,497 [INFO][parser.py\Parser\__tasks_manager] Data transferred for writing!.
+2022-09-09 01:26:52,497 [INFO][writer_and_reader.py\\writer] Entered the function to write data Excel file.
+2022-09-09 01:26:54,703 [DEBUG][writer_and_reader.py\\writer] Information was been save to 2022-09-09.xlsx.
+2022-09-09 01:26:54,703 [DEBUG][writer_and_reader.py\\writer] Registration completed successfully!.
