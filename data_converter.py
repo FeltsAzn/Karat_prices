@@ -26,6 +26,8 @@ class DataConvertor:
 
         old_data, new_data, first_sector_name = self.__file_reader()
         if old_data == new_data:
+            for old in old_data:
+                old_data[old] = old_data.get(old, []) + [new_data.get(old, [])[2]]
             debug_log('Returning Valid Data', 'data_converter.py', 'DataConvertor', 'unpacker')
             return old_data, first_sector_name
         else:

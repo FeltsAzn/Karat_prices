@@ -7,4 +7,5 @@ head_browser = {
     'Accept': '*/*',
     'User-Agent': user.chrome
 }
-url_site = 'https://www.karat-market.ru/catalog/'
+# url_site = 'https://www.karat-market.ru/catalog/' # Full catalog of website
+url_site = 'https://www.karat-market.ru/catalog/stroymaterialy/'  # Required sector to get prices

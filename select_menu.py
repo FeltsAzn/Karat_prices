@@ -41,7 +41,7 @@ class SelectionWindow:
         self.__filenames.place(x=5, y=40, width=222, height=200)
         scrollbar = tk.Scrollbar(self.__window, background='#36fc45')
         scrollbar.configure(command=self.__filenames.yview)
-        scrollbar.place(x=225, y=42, height=200)
+        scrollbar.place(x=225, y=40, height=200)
         self.__filenames["yscrollcommand"] = scrollbar.set
         self.__buttons()
 
@@ -56,19 +56,19 @@ class SelectionWindow:
         choose_button = tk.Button(self.__window, text="Выбрать",
                                   background="#caffd3", foreground="black",
                                   padx="3", pady="3",
-                                  font="12", height=1, width=8,
+                                  font="Arial 12", height=1, width=8,
                                   command=self.__open_files)
         delete_button = tk.Button(self.__window, text="Удалить",
                                   background="#ff8c8f",
                                   foreground="black",
                                   padx="3", pady="3",
-                                  font="12", height=1, width=8,
+                                  font="Arial 12", height=1, width=8,
                                   command=self.__delete_file)
         cancel_button = tk.Button(self.__window, text="Отмена",
                                   background="#F0FFFF",
                                   foreground="black",
                                   padx="3", pady="3",
-                                  font="12", height=1, width=8,
+                                  font="Arial 12", height=1, width=8,
                                   command=self.__window.destroy)
         choose_button.place(x=250, y=40)
         delete_button.place(x=250, y=90)
@@ -78,10 +78,15 @@ class SelectionWindow:
         debug_log("The function to initialize the table with data has been launched",
                   'select_menu.py', 'SelectionWindow', '__check_button')
         select = list(self.__filenames.curselection())
-        filename_old, filename_new = self.__filenames.get(select[0]), self.__filenames.get(select[1])
-        self.__window.destroy()
-        info_log("Selection window destroyed", 'select_menu.py', 'SelectionWindow', '__check_button')
-        Table(self.__master, filename_old, filename_new)
+        try:
+            filename_old, filename_new = self.__filenames.get(select[0]), self.__filenames.get(select[1])
+        except IndexError:
+            f = mbox.showerror('Ошибка', "Нужно выбрать 2 файла для отображения!")
+            print(f)
+        else:
+            self.__window.destroy()
+            info_log("Selection window destroyed", 'select_menu.py', 'SelectionWindow', '__check_button')
+            Table(self.__master, filename_old, filename_new)
 
     def __delete_file(self):
         first_answer = mbox.askquestion('Удаление файла', 'Вы действительно хотите удалить данные с ценами?')
@@ -90,12 +95,26 @@ class SelectionWindow:
                                                           'то его нельзя cнова скачать!\n'
                                                           'Продолжить?')
             if second_answer == 'yes':
-                select = self.__filenames.curselection()
-                file_name = 'xlsx_files/' + self.__filenames.get(select)
-                path = os.path.join(os.path.abspath(os.path.dirname(__file__)), file_name)
-                os.remove(path)
-                mbox.showinfo('Уведомление', f'Файл {file_name} удален!')
-                SelectionWindow(self.__master)
+                delete_names = []
+                try:
+                    filenames = list(self.__filenames.curselection())
+                    for filename in filenames:
+                        delete_names.append(self.__filenames.get(filename))
+                        file = 'xlsx_files/' + self.__filenames.get(filename)
+                        path = os.path.join(os.path.abspath(os.path.dirname(__file__)), file)
+                        os.remove(path)
+                except Exception as ex:
+                    self.__window.destroy()
+                    mbox.showerror('Ошибка', "Нужно выбрать файл для удаления!")
+                    print(ex)
+                    SelectionWindow(self.__master)
+                else:
+                    self.__window.destroy()
+                    if len(delete_names) == 1:
+                        mbox.showinfo('Уведомление', f'Файл {delete_names[0]} удален!')
+                    else:
+                        mbox.showinfo('Уведомление', f'Файлы {", ".join(delete_names)} удалены!')
+                    SelectionWindow(self.__master)
             else:
                 pass
         else:

@@ -35,7 +35,7 @@ class GUI(tk.Tk):
 
     def exiting(self):
         answer = mbox.askquestion('Выход', 'Вы действительно хотите выйти?')
-        if answer is True:
+        if answer == 'yes':
             self.destroy()
 
 
@@ -53,9 +53,9 @@ class Menubar(Menu):  # Меню для управления
         self.menubar_filling()
 
     def menubar_filling(self):
-        self.add_cascade(label="Выбрать цены...", command=self.child_init)
-        self.add_cascade(label="Выбрать категории...", command='')
-        self.add_cascade(label="Загрузить новые цены...", command=self.data_update)
+        self.add_cascade(label="Выбрать цены", command=self.child_init)
+        self.add_cascade(label="Загрузить новые цены", command=self.data_update)
+        self.add_cascade(label="Отображение", command='')
 
     def data_update(self):
         DateCheck(self.master)

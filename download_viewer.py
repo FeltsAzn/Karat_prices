@@ -24,7 +24,7 @@ class DownloadView:
         self.__view()
         self.__configuration()
         self.__window.after_idle(self.__loading_points, 0)
-        self.__downloader_process = Process(target=run_download)
+        self.__downloader_process = Process(target=run_download, daemon=True)
         self.__downloader_process.start()
         self.__window.mainloop()
 
@@ -49,14 +49,13 @@ class DownloadView:
         cancel_button = Button(self.__window, text="Отмена загрузки",
                                background="#ff8c8f",
                                foreground="black",
-                               padx="4",
-                               pady="4",
-                               font="10",
+                               padx="1", pady="1",
+                               font="Arial 10", height=1, width=12,
                                command=self.download_cancel)
         self.__points = tk.Label(self.__window, text='.', font="Arial 12 bold", bg='#FFFFE0')
         text1.place(x=250, y=10)
         text2.place(x=195, y=30)
-        cancel_button.place(x=520, y=10)
+        cancel_button.place(x=525, y=15)
         self.__points.place(x=492, y=30)
         self.__info_box_view()
 

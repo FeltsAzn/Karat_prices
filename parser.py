@@ -59,7 +59,6 @@ class Parser:
     async def __tasks_executor(self, session: aiohttp.client.ClientSession, url: str, name_section: str) -> None:
         """Async function to find the right data"""
         async with session.get(url=url, headers=self.__head, ssl=False) as response:
-            #await asyncio.sleep(0.5)
             response_text = await response.text()
             soup = BeautifulSoup(response_text, 'lxml')
             names, prices = products_finder(soup)
@@ -102,8 +101,6 @@ class Parser:
             info_log('All data collected!', 'parser.py', 'Parser', '__tasks_manager')
             info_log('Data transferred for writing!', 'parser.py', 'Parser', '__tasks_manager')
 
-            # print('##### All data collected! #####\n'
-            #       '##### Data transferred for writing! #####')
             writer(self.__data_list)
 
     def start_collecting(self) -> None:
