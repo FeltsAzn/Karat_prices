@@ -64,13 +64,12 @@ class Parser:
                 response_text = await response.text()
                 soup = BeautifulSoup(response_text, 'lxml')
                 names, prices = products_finder(soup)
-                data: dict = products_cards(names, prices)
-                if data:
+                if names and prices:
+                    data: dict = products_cards(names, prices)
                     self.__data_list.append((data, name_section))
                     self.__counter_requests(name_section)
                     debug_log(f'Query {self.__counter} data added to record sheet',
                               'parser.py', 'Parser', '__tasks_executor')
-
                 else:
                     debug_log('Data not found, looping over to find data in subdirectories',
                               'parser.py', 'Parser', '__tasks_executor')
