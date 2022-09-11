@@ -55,7 +55,7 @@ class Menubar(Menu):  # Меню для управления
     def menubar_filling(self):
         self.add_cascade(label="Выбрать цены", command=self.child_init)
         self.add_cascade(label="Загрузить новые цены", command=self.data_update)
-        self.add_cascade(label="Отображение", command='')
+        #self.add_cascade(label="Отображение", command='') next function for customer, if he will need this
 
     def data_update(self):
         DateCheck(self.master)
