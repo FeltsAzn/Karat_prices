@@ -3,6 +3,16 @@ These are applications for tracking prices on a building materials website. Grap
 An asynchronous data parser from the site has been implemented.
 Also displaying changed items for easy tracking.
 
+
+To implement the tasks set, the following were used libraries:
+
+***Beatifulsoup4***, ***aiohttp***, ***fake-useragent***, ***lxml*** - to implement data scraping,
+
+***pandas*** - to save data in excel format, as well as to read them (data is saved in excel, because it is easier to edit and view for the customer),
+
+and another built-in libraries such as: ***asyncio***, ***multiprocessing***, ***logging***, ***tkinter***, ***datetime***.
+
+
 The application is divided into different files (blocks), which are easier to manage and implement new features.
 (In addition to the presented pictures, a logger and separate settings for scraping are also implemented)
 
@@ -37,6 +47,8 @@ To download fresh prices, you need to click on the menu item "Download new price
 ![Alt text](https://github.com/FeltsAzn/Karat_prices/blob/master/ScreenShots/download_view.png)
 
 This window displays the usual logs of the parser. It does not carry a semantic load, but it shows visually that the program is doing something. If desired, you can cancel the download of new data
+
+It is worth noting that the output of the download data and the download itself are in different processes so that you can run these tasks in parallel.
 
 
 
