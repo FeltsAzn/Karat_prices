@@ -1,9 +1,12 @@
 # Scraping site
 These are applications for tracking prices on a building materials website. Graphic cover - Tkinter.
 An asynchronous data parser from the site has been implemented.
-Also the output of the changed positions of goods
+Also displaying changed items for easy tracking.
 
-The application is divided into different files (blocks) that are easier to manage.
+The application is divided into different files (blocks), which are easier to manage and implement new features.
+(In addition to the presented pictures, a logger and separate settings for scraping are also implemented)
+
+
 App Visual Style:                                                                                                        
 # Main application window                                                            
 ![Alt text](https://github.com/FeltsAzn/Karat_prices/blob/master/ScreenShots/main_menu.png)
