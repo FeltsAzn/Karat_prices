@@ -19,7 +19,6 @@ def last_downloading() -> str or None:  # Today's date
         return sorted(all_xlsx, reverse=True)
     else:
         info_log('Data folder is empty', 'date_checker.py', '', 'last_downloading')
-        return None
 
 
 class DateCheck:
@@ -46,4 +45,3 @@ class DateCheck:
                 DownloadView(self.root)
             else:
                 debug_log("New file upload failure", 'date_checker.py', 'DateCheck', '__question')
-                pass

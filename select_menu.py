@@ -1,7 +1,7 @@
 import os
 import tkinter as tk
 from tkinter import Toplevel, messagebox as mbox
-from logger import debug_log, info_log
+from logger import debug_log, info_log, warning_log
 import writer_and_reader as wr
 from table import Table
 
@@ -100,13 +100,13 @@ class SelectionWindow:
                     filenames = list(self.__filenames.curselection())
                     for filename in filenames:
                         delete_names.append(self.__filenames.get(filename))
-                        file = 'xlsx_files/' + self.__filenames.get(filename)
+                        file = f'xlsx_files/{self.__filenames.get(filename)}'
                         path = os.path.join(os.path.abspath(os.path.dirname(__file__)), file)
                         os.remove(path)
                 except Exception as ex:
                     self.__window.destroy()
                     mbox.showerror('Ошибка', "Нужно выбрать файл для удаления!")
-                    print(ex)
+                    warning_log(f'{ex}', 'select_menu.py', 'SelectWindow', '__delete_file')
                     SelectionWindow(self.__master)
                 else:
                     self.__window.destroy()
@@ -115,8 +115,5 @@ class SelectionWindow:
                     else:
                         mbox.showinfo('Уведомление', f'Файлы {", ".join(delete_names)} удалены!')
                     SelectionWindow(self.__master)
-            else:
-                pass
-        else:
-            pass
+
 

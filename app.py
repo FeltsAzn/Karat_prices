@@ -28,9 +28,7 @@ class GUI(tk.Tk):
 
         all_widgets = [w for w in self.children]
         for widget in all_widgets:
-            if widget == '!menubar':
-                pass
-            else:
+            if widget != '!menubar':
                 self.nametowidget(widget).destroy()
 
     def exiting(self):
