@@ -12,6 +12,7 @@ To implement the tasks set, the following were used libraries:
 
 and another built-in libraries such as: ***asyncio***, ***multiprocessing***, ***logging***, ***tkinter***, ***datetime***.
 
+The auto-pu-to-exe library is used to deploy the application on the customer's computer
 
 The application is divided into different files (blocks), which are easier to manage and implement new features.
 (In addition to the presented pictures, a logger and separate settings for scraping are also implemented)
