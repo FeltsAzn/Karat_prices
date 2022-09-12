@@ -1,4 +1,4 @@
-from multiprocessing import Process
+from threading import Thread
 import tkinter as tk
 from tkinter import Toplevel, Button, messagebox as mbox
 from logger import debug_log, info_log
@@ -24,7 +24,7 @@ class DownloadView:
         self.__view()
         self.__configuration()
         self.__window.after_idle(self.__loading_points, 0)
-        self.__downloader_process = Process(target=run_download, daemon=True)
+        self.__downloader_process = Thread(target=run_download, daemon=True)
         self.__downloader_process.start()
         self.__window.mainloop()
 
@@ -46,16 +46,16 @@ class DownloadView:
                          text='Пожалуйста подождите завершения',
                          font="Arial 12 bold",
                          bg='#FFFFE0')
-        cancel_button = Button(self.__window, text="Отмена загрузки",
-                               background="#ff8c8f",
-                               foreground="black",
-                               padx="1", pady="1",
-                               font="Arial 10", height=1, width=12,
-                               command=self.download_cancel)
+        # cancel_button = Button(self.__window, text="Отмена загрузки",
+        #                        background="#ff8c8f",
+        #                        foreground="black",
+        #                        padx="1", pady="1",
+        #                        font="Arial 10", height=1, width=12,
+        #                        command=self.download_cancel)
         self.__points = tk.Label(self.__window, text='.', font="Arial 12 bold", bg='#FFFFE0')
         text1.place(x=250, y=10)
         text2.place(x=195, y=30)
-        cancel_button.place(x=525, y=15)
+        # cancel_button.place(x=525, y=15)
         self.__points.place(x=492, y=30)
         self.__info_box_view()
 
@@ -83,14 +83,12 @@ class DownloadView:
         else:
             self.__end_of_download()
 
-    def download_cancel(self):
-        answer = mbox.askquestion('Отмена загрузки файла', "Вы уверены, что хотите отменить загрузку новых цен?")
-        if answer == 'yes':
-            self.__window.destroy()
-            self.__downloader_process.terminate()
-            mbox.showinfo('Уведомление', 'Загрузка отменена.')
-        else:
-            pass
+    # def download_cancel(self):
+    #     answer = mbox.askquestion('Отмена загрузки файла', "Вы уверены, что хотите отменить загрузку новых цен?")
+    #     if answer == 'yes':
+    #         self.__window.destroy()
+    #         # self.__downloader_process.
+    #         mbox.showinfo('Уведомление', 'Загрузка отменена.')
 
     def __end_of_download(self) -> None:
         self.__window.destroy()
