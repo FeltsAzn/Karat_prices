@@ -1,8 +1,8 @@
 from threading import Thread
 import tkinter as tk
-from tkinter import Toplevel, Button, messagebox as mbox
-from logger import debug_log, info_log
-from parser import Parser
+from tkinter import Toplevel, messagebox as mbox
+from logs.logger import debug_log, info_log
+from parser.parser import Parser
 
 
 def run_download():
@@ -61,7 +61,7 @@ class DownloadView:
 
     def __info_box_view(self) -> None:
         """Data from the logs to display loading"""
-        with open('logs.txt', 'r', encoding='utf-8') as file:
+        with open('../logs.txt', 'r', encoding='utf-8') as file:
             data = file.read()
         self.__infobox = tk.Text(self.__window, height=15, font="Arial 8", width=110, background='white', pady=5)
         self.__infobox.insert('end', data)

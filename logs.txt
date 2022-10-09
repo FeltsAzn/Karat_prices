@@ -1,60 +1,29 @@
-2022-09-12 09:32:37,365 [INFO][\\] Selection window created.
-2022-09-12 09:32:38,181 [INFO][app.py\\] Application start.
-2022-09-12 09:32:38,863 [INFO][app.py\GUI\__init__] Main window initialized.
-2022-09-12 09:32:38,871 [INFO][app.py\Menubar\__init__] Menu for main window initialized.
-2022-09-12 09:32:40,783 [DEBUG][app.py\Menubar\__init__] Select box initialization function started.
-2022-09-12 09:32:40,784 [INFO][select_menu.py\SelectionWindow\__init__] Selection window initialized.
-2022-09-12 09:32:40,798 [DEBUG][select_menu.py\SelectionWindow\__data_for_select] The search function for Excel files in the directory has been launched.
-2022-09-12 09:32:40,798 [INFO][writer_and_reader.py\\excel_finder] Entered the function to display Excel files in a directory.
-2022-09-12 09:32:41,152 [DEBUG][writer_and_reader.py\\excel_finder] Return a list of excel files in a directory.
-2022-09-12 09:32:44,004 [DEBUG][select_menu.py\SelectionWindow\__check_button] The function to initialize the table with data has been launched.
-2022-09-12 09:32:44,067 [INFO][select_menu.py\SelectionWindow\__check_button] Selection window destroyed.
-2022-09-12 09:32:44,068 [INFO][table.py\Table\__new__] New Table created.
-2022-09-12 09:32:44,082 [DEBUG][table.py\Table\__filling_fields] Filling a table with values from an Excel file.
-2022-09-12 09:32:44,082 [INFO][data_converter.py\DataConvertor\__init__] Data validation class initialized.
-2022-09-12 09:32:44,082 [DEBUG][data_converter.py\DataConvertor\unpacker] Unpacking data from Excel file reading function.
-2022-09-12 09:32:44,082 [INFO][data_converter.py\DataConvertor\__file_reader] Started function initialization function to read data.
-2022-09-12 09:32:44,082 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
-2022-09-12 09:32:45,600 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
+2022-10-09 19:35:43,603 [INFO][\\] Selection window created.
+2022-10-09 19:35:43,899 [INFO][app.py\\] Application start.
+2022-10-09 19:35:43,972 [INFO][app.py\GUI\__init__] Main window initialized.
+2022-10-09 19:35:43,976 [INFO][app.py\Menubar\__init__] Menu for main window initialized.
+2022-10-09 19:35:45,156 [DEBUG][app.py\Menubar\__init__] Select box initialization function started.
+2022-10-09 19:35:45,156 [INFO][select_menu.py\SelectionWindow\__init__] Selection window initialized.
+2022-10-09 19:35:45,163 [DEBUG][select_menu.py\SelectionWindow\__data_for_select] The search function for Excel files in the directory has been launched.
+2022-10-09 19:35:45,163 [INFO][writer_and_reader.py\\excel_finder] Entered the function to display Excel files in a directory.
+2022-10-09 19:35:45,298 [DEBUG][writer_and_reader.py\\excel_finder] Return a list of excel files in a directory.
+2022-10-09 19:35:47,417 [DEBUG][select_menu.py\SelectionWindow\__check_button] The function to initialize the table with data has been launched.
+2022-10-09 19:35:47,451 [INFO][select_menu.py\SelectionWindow\__check_button] Selection window destroyed.
+2022-10-09 19:35:47,451 [INFO][table.py\Table\__new__] New Table created.
+2022-10-09 19:35:47,460 [DEBUG][table.py\Table\__filling_fields] Filling a table with values from an Excel file.
+2022-10-09 19:35:47,460 [INFO][data_converter.py\DataConvertor\__init__] Data validation class initialized.
+2022-10-09 19:35:47,460 [DEBUG][data_converter.py\DataConvertor\unpacker] Unpacking data from Excel file reading function.
+2022-10-09 19:35:47,460 [INFO][data_converter.py\DataConvertor\__file_reader] Started function initialization function to read data.
+2022-10-09 19:35:47,460 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
+2022-10-09 19:35:48,785 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
  file and the name of the first section with data.
-2022-09-12 09:32:45,600 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
-2022-09-12 09:32:46,399 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
+2022-10-09 19:35:48,786 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
+2022-10-09 19:35:48,873 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
  file and the name of the first section with data.
-2022-09-12 09:32:46,455 [DEBUG][data_converter.py\DataConvertor\unpacker] Returning Valid Data.
-2022-09-12 09:32:46,634 [DEBUG][table.py\Table\__filling_fields] The table has been filled.
-2022-09-12 09:32:46,635 [DEBUG][table.py\Table\__filling_fields] Started initialization of the window with changed positions.
-2022-09-12 09:32:46,635 [INFO][changed_products.py\ChangedData\__init__] Window table with changed positions initialized.
-2022-09-12 09:32:46,635 [DEBUG][changed_products.py\ChangedData\__elements] The function of initializing the table with the changed positions of the product has been launched.
-2022-09-12 09:32:46,639 [INFO][changed_products.py\ChangedTable\__init__] Window changed table initialized.
-2022-09-12 09:32:46,653 [DEBUG][changed_products.py\ChangedTable\__filling_fields] Table with changed product positions is full.
-2022-09-12 09:32:47,299 [DEBUG][app.py\Menubar\__init__] Select box initialization function started.
-2022-09-12 09:32:47,299 [INFO][select_menu.py\SelectionWindow\__init__] Selection window initialized.
-2022-09-12 09:32:47,306 [DEBUG][select_menu.py\SelectionWindow\__data_for_select] The search function for Excel files in the directory has been launched.
-2022-09-12 09:32:47,306 [INFO][writer_and_reader.py\\excel_finder] Entered the function to display Excel files in a directory.
-2022-09-12 09:32:47,493 [DEBUG][writer_and_reader.py\\excel_finder] Return a list of excel files in a directory.
-2022-09-12 09:32:53,048 [DEBUG][app.py\Menubar\__init__] Select box initialization function started.
-2022-09-12 09:32:53,050 [INFO][select_menu.py\SelectionWindow\__init__] Selection window initialized.
-2022-09-12 09:32:53,056 [DEBUG][select_menu.py\SelectionWindow\__data_for_select] The search function for Excel files in the directory has been launched.
-2022-09-12 09:32:53,057 [INFO][writer_and_reader.py\\excel_finder] Entered the function to display Excel files in a directory.
-2022-09-12 09:32:53,235 [DEBUG][writer_and_reader.py\\excel_finder] Return a list of excel files in a directory.
-2022-09-12 09:32:57,496 [DEBUG][select_menu.py\SelectionWindow\__check_button] The function to initialize the table with data has been launched.
-2022-09-12 09:32:57,551 [INFO][select_menu.py\SelectionWindow\__check_button] Selection window destroyed.
-2022-09-12 09:32:57,551 [INFO][app.py\GUI\__init__] The main window has been updated.
-2022-09-12 09:32:57,590 [INFO][table.py\Table\__new__] Table updated with new data.
-2022-09-12 09:32:57,602 [DEBUG][table.py\Table\__filling_fields] Filling a table with values from an Excel file.
-2022-09-12 09:32:57,602 [INFO][data_converter.py\DataConvertor\__init__] Data validation class initialized.
-2022-09-12 09:32:57,602 [DEBUG][data_converter.py\DataConvertor\unpacker] Unpacking data from Excel file reading function.
-2022-09-12 09:32:57,602 [INFO][data_converter.py\DataConvertor\__file_reader] Started function initialization function to read data.
-2022-09-12 09:32:57,602 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
-2022-09-12 09:32:57,695 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
- file and the name of the first section with data.
-2022-09-12 09:32:57,695 [INFO][writer_and_reader.py\\reader] The function was entered to read the excel file in the directory.
-2022-09-12 09:32:58,556 [DEBUG][writer_and_reader.py\\reader] Returning a dictionary with data from an excel
- file and the name of the first section with data.
-2022-09-12 09:32:58,589 [DEBUG][data_converter.py\DataConvertor\unpacker] Returning Valid Data.
-2022-09-12 09:32:58,784 [DEBUG][table.py\Table\__filling_fields] The table has been filled.
-2022-09-12 09:32:58,784 [DEBUG][table.py\Table\__filling_fields] Started initialization of the window with changed positions.
-2022-09-12 09:32:58,784 [INFO][changed_products.py\ChangedData\__init__] Window table with changed positions initialized.
-2022-09-12 09:32:58,784 [DEBUG][changed_products.py\ChangedData\__elements] The function of initializing the table with the changed positions of the product has been launched.
-2022-09-12 09:32:58,788 [INFO][changed_products.py\ChangedTable\__init__] Window changed table initialized.
-2022-09-12 09:32:58,926 [DEBUG][changed_products.py\ChangedTable\__filling_fields] Table with changed product positions is full.
+2022-10-09 19:35:48,914 [DEBUG][data_converter.py\DataConvertor\unpacker] Returning Valid Data.
+2022-10-09 19:35:49,169 [DEBUG][table.py\Table\__filling_fields] The table has been filled.
+2022-10-09 19:35:49,169 [DEBUG][table.py\Table\__filling_fields] Started initialization of the window with changed positions.
+2022-10-09 19:35:49,169 [INFO][changed_products.py\ChangedData\__init__] Window table with changed positions initialized.
+2022-10-09 19:35:49,169 [DEBUG][changed_products.py\ChangedData\__elements] The function of initializing the table with the changed positions of the product has been launched.
+2022-10-09 19:35:49,171 [INFO][changed_products.py\ChangedTable\__init__] Window changed table initialized.
+2022-10-09 19:35:49,349 [DEBUG][changed_products.py\ChangedTable\__filling_fields] Table with changed product positions is full.

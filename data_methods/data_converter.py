@@ -1,6 +1,6 @@
 import copy
-from logger import info_log, debug_log
-import writer_and_reader as wr
+from logs.logger import info_log, debug_log
+import data_methods.writer_and_reader as wr
 
 
 class DataConvertor:

@@ -1,5 +1,5 @@
 from tkinter import ttk, Scrollbar, Toplevel
-from logger import info_log, debug_log
+from logs.logger import info_log, debug_log
 import tkinter as tk
 
 

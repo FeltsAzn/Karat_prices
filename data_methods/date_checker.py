@@ -1,8 +1,8 @@
 import os
 from datetime import datetime
-from logger import info_log, debug_log
+from logs.logger import info_log, debug_log
 from tkinter import messagebox as mbox
-from download_viewer import DownloadView
+from gui.download_viewer import DownloadView
 
 
 def last_downloading() -> str or None:  # Today's date
@@ -10,7 +10,7 @@ def last_downloading() -> str or None:  # Today's date
     debug_log("Started searching for downloaded Excel file", 'date_checker.py', '', 'last_downloading')
 
     all_xlsx = []
-    for _, _, filenames in os.walk("."):
+    for _, _, filenames in os.walk(".."):
         for filename in filenames:
             if filename.endswith('.xlsx'):
                 all_xlsx.append(filename.replace('.xlsx', '').replace('~$', ''))

@@ -1,7 +1,9 @@
+from typing import Tuple
+
 import pandas
 import os
 from datetime import datetime
-from logger import exception_log, debug_log, info_log
+from logs.logger import exception_log, debug_log, info_log
 
 
 def sorter(data):
@@ -39,11 +41,14 @@ def writer(list_tuples: [tuple]) -> None:
     )
     date = datetime.now().date()
     try:
-        data.to_excel(f'xlsx_files/{date}.xlsx', encoding='utf-8')
+        data.to_excel(f'../xlsx_files/{date}.xlsx', encoding='utf-8')
     except Exception as ex:
         exception_log('Data has not been recorded', 'writer_and_reader.py', '', 'writer', ex)
-        path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'Backup_data.txt')
-        os.remove(path)
+        path = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../Backup_data.txt')
+        try:
+            os.remove(path)
+        except FileNotFoundError:
+            pass
         with open('Backup_data.txt', 'a', encoding='utf-8') as file:
             for line in backup_list:
                 for el in line:
@@ -63,7 +68,7 @@ def excel_finder() -> list:
              'writer_and_reader.py', '', 'excel_finder')
 
     filenames = []
-    for root, dirs, files in os.walk("."):
+    for root, dirs, files in os.walk(".."):
         for filename in files:
             if filename.endswith('.xlsx') and filename.startswith('20'):
                 filenames.append(filename)
@@ -74,7 +79,7 @@ def excel_finder() -> list:
     return filenames
 
 
-def reader(filename: str) -> (dict, str):
+def reader(filename: str) -> Tuple[dict, str]:
     """Excel file reading function"""
     info_log('The function was entered to read the excel file in the directory',
              'writer_and_reader.py', '', 'reader')

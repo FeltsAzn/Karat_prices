@@ -1,9 +1,9 @@
 import os
 import tkinter as tk
 from tkinter import Toplevel, messagebox as mbox
-from logger import debug_log, info_log, warning_log
-import writer_and_reader as wr
-from table import Table
+from logs.logger import debug_log, info_log, warning_log
+from data_methods import writer_and_reader as wr
+from gui.table import Table
 
 
 class SelectionWindow:

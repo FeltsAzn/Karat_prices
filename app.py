@@ -1,8 +1,8 @@
 import tkinter as tk
-from logger import info_log, debug_log
+from logs.logger import info_log, debug_log
 from tkinter import Menu, messagebox as mbox
-from select_menu import SelectionWindow
-from date_checker import DateCheck
+from gui.select_menu import SelectionWindow
+from data_methods.date_checker import DateCheck
 
 
 class GUI(tk.Tk):

@@ -1,9 +1,9 @@
 import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
-from logger import debug_log, info_log, exception_log
-from writer_and_reader import writer
-from setting_for_parser import head_browser, url_site
+from logs.logger import debug_log, info_log, exception_log
+from data_methods.writer_and_reader import writer
+from parser.setting_for_parser import head_browser, url_site
 
 
 def products_finder(soup_data: BeautifulSoup) -> (list, list):

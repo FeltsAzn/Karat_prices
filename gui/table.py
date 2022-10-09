@@ -1,8 +1,8 @@
 from tkinter import ttk, Scrollbar
 import tkinter as tk
-from logger import info_log, debug_log
-from changed_products import ChangedData, MyTree
-from data_converter import DataConvertor
+from logs.logger import info_log, debug_log
+from gui.changed_products import ChangedData, MyTree
+from data_methods.data_converter import DataConvertor
 
 
 def sorter(data: dict) -> tuple:
@@ -58,8 +58,8 @@ class Table(MyTree):
         """Table with data from an Excel file and its view"""
 
         columns = ("№", "Наименование товара", f"Цена на {self.old_filename}", f"Цена на {self.new_filename}")
-        filename_old = f'xlsx_files/{self.old_filename}'
-        filename_new = f'xlsx_files/{self.new_filename}'
+        filename_old = f'../xlsx_files/{self.old_filename}'
+        filename_new = f'../xlsx_files/{self.new_filename}'
         self.table.configure(columns=columns[1:])
         self.table.pack(expand=tk.YES, side=tk.LEFT, fill=tk.BOTH)
         for i, heading in enumerate(columns):
