@@ -183,4 +183,4 @@ This window displays the usual logs of the parser. It does not carry a semantic 
 It is worth noting that the output of the download data and the download itself are in different processes so that you can run these tasks in parallel.
 
 
-
+https://github.com/FeltsAzn/website-parser-with-gui
