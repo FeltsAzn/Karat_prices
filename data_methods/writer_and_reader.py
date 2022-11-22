@@ -79,7 +79,7 @@ def excel_finder() -> list:
     return filenames
 
 
-def reader(filename: str) -> Tuple[dict, str]:
+def reader(filename: str) -> tuple[dict, str]:
     """Excel file reading function"""
     info_log('The function was entered to read the excel file in the directory',
              'writer_and_reader.py', '', 'reader')

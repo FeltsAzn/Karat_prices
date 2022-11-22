@@ -33,14 +33,6 @@ def products_cards(names: list, prices: list) -> dict:
     return products
 
 
-# def link_finder(html_soup: BeautifulSoup) -> (str, str):
-#     links_nest_catalogs = html_soup.find_all('a', class_="section-item")
-#     for link_and_name in links_nest_catalogs:
-#         name_section: str = link_and_name.text.strip()
-#         link_section = 'https://www.karat-market.ru' + link_and_name['href']
-#         yield link_section, name_section
-
-
 class Parser:
     def __init__(self):
         info_log('Website Scraping initialized', 'parser.py', 'Parser', '__tasks_manager')
